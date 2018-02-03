@@ -1,0 +1,130 @@
+[{
+	"text": "Apply for Power Supply",
+	"ref": "sap-icon://attachment-audio",
+
+	"nodes": [{
+			"text": "New Connection",
+			"ref": "sap-icon://attachment-e-pub",
+			"nodes": [{
+					"text": "Procedure and Guidelines",
+					"ref": "sap-icon://attachment-html"
+
+				}, {
+					"text": "Estimation of Security Deposit",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Application Forms (3)",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "FAQs",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Standard Drawings",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Apply Online",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Apply Online - 100kW",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Check your online reference number",
+					"ref": "sap-icon://attachment-html"
+				}
+
+			]
+		}, {
+			"text": "Changeover Connection",
+			"ref": "sap-icon://attachment-e-pub",
+			"nodes": [{
+					"text": "Procedure and Guidelines ",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Estimation of Security Deposit",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Application Forms",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "FAQs ",
+					"ref": "sap-icon://attachment-html"
+				}
+
+			]
+		}, {
+			"text": "Switchover Connection",
+			"ref": "sap-icon://attachment-e-pub",
+			"nodes": [{
+					"text": "Procedure and Guidelines  ",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Application Forms ",
+					"ref": "sap-icon://attachment-html"
+				}
+
+			]
+		}, {
+			"text": "Ease of Doing Business",
+			"ref": "sap-icon://attachment-e-pub",
+			"nodes": [{
+					"text": "Application form  ",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Apply Online  ",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Model Connection Agreement",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Check Distribution Transformer Capacity",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Procedure and Guidelines   ",
+					"ref": "sap-icon://attachment-html"
+				}
+
+			]
+		}, {
+			"text": "Apply for Net Metering",
+			"ref": "sap-icon://attachment-e-pub",
+			"nodes": [{
+					"text": "Short Term  ",
+					"ref": "sap-icon://attachment-html"
+				}, {
+					"text": "Long/Medium Term  ",
+					"ref": "sap-icon://attachment-html"
+				}
+
+			]
+		}
+
+	]
+}, {
+	"text": "Apply for Open Access",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Track Request Status",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Online Applications",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Apply for Reconnection",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Apply for Advance Bill Payment",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Apply for Reconnection",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "Register Now and Get Rewarded",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}]

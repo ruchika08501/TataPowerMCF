@@ -1,0 +1,253 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.demo.nav.controller.MyAccount"
+	xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<tnt:ToolHeader class="topheader">
+						<Image src="images/tata_logo.png" alt="Example picture of speakers"/>
+						<Panel class="right">
+							<Image src="images/fb.png" alt="Example picture of speakers"/>
+							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
+							<Image src="images/gplus.png" alt="Example picture of speakers"/>
+							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
+							<Image src="images/twitter.png" alt="Example picture of speakers"/>
+							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
+							<Image src="images/ytube.png" alt="Example picture of speakers"/>
+							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
+							<Image src="images/linkdin.png" alt="Example picture of speakers"/>
+						</Panel>
+						<tnt:ToolHeaderUtilitySeparator/>
+						<ToolbarSpacer>
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px"/>
+							</layoutData>
+						</ToolbarSpacer>
+						<Image src="images/language.png" alt="Example picture of speakers"/>
+						<MenuButton text="English" type="Transparent">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow"/>
+							</layoutData>
+							<menu>
+								<Menu>
+									<items>
+										<MenuItem text="Hindi"/>
+										<MenuItem text="Marathi"/>
+									</items>
+								</Menu>
+							</menu>
+						</MenuButton>
+						<Button icon="sap-icon://search" type="Transparent" text="Search">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow"/>
+							</layoutData>
+						</Button>
+						<Image src="images/tata_emblem.png" alt="Example picture of speakers"/>
+					</tnt:ToolHeader>
+					<tnt:ToolHeader>
+						<Button icon="sap-icon://home" type="Transparent" press="onHomePress">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow"/>
+							</layoutData>
+						</Button>
+						<IconTabHeader id="iconTabHeader" selectedKey="invalidKey" select="onSelectTab" showOverflowSelectList="true" backgroundDesign="Transparent"
+							mode="Inline">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true"/>
+							</layoutData>
+							<items>
+								<IconTabFilter text="About Us"></IconTabFilter>
+								<IconTabFilter text="Contact Us"></IconTabFilter>
+								<IconTabFilter text="Regulatory"></IconTabFilter>
+							</items>
+						</IconTabHeader>
+						<ImageContent class="sapUiLarge" src="images/app_store.png" description="Icon" press="press"></ImageContent>
+						<ImageContent class="sapUiLargep" src="images/play_store.png" description="Icon" press="press"></ImageContent>
+						<ToolbarSpacer>
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="16px"/>
+							</layoutData>
+						</ToolbarSpacer>
+					</tnt:ToolHeader>
+					<html:div class="container">
+						<html:div class="row">
+							<html:div class="col-xs-12 col-sm-12 col-md-7 profile">
+								<html:div class="row">
+									<html:div class="col-xs-12 col-sm-8 col-md-8 profileblue">
+										<html:div class="profimg">
+											<html:image src="images/profile.png" alt="prof"></html:image>
+										</html:div>
+										<html:div class="proftext">
+											<html:h4>Siddhesh Mhapankar
+											</html:h4>
+											<html:h5>
+												Sec.13 Ghansoli Navi-mumbai
+											</html:h5>
+										</html:div>
+										<html:div class="row contacttext">
+											<html:div class=" col-md-6 proftext2">
+												<html:image src="images/email.png" alt="speakers"></html:image>
+												<html:h5 style="color:#fff;">Siddhesh.m1@gmail.com
+												</html:h5>
+											</html:div>
+											<html:div class=" col-md-6 proftext3">
+												<html:image src="images/mob.png" alt="speakers"></html:image>
+												<html:h5 style="color:#fff;">
+													+91 9000034564
+												</html:h5>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="col-xs-12 col-sm-4 col-md-4 profileblack">
+										<html:div class="row">
+											<html:div class="col-xs-3 col-sm-3 col-md-3 proftext4">
+												<html:image src="images/my_bill.png" alt="speakers"></html:image>
+											</html:div>
+											<html:div class="col-xs-9 col-sm-9 col-md-9 proftext5">
+												<html:h5>
+													My Bill</html:h5>
+												<html:h3>₹ 790.00</html:h3>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-12 col-md-5 profiletiles">
+								<html:div class="righttiles">
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+										<GenericTile class="tileLayout onept" press="press">
+											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+										<GenericTile class="tileLayout twopt" press="press">
+											<TileContent footer="Register for E-Bill" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+										<GenericTile class="tileLayout threept" press="press">
+											<TileContent footer="Change Password" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout fourpt" press="press">
+											<TileContent footer="My Account Statement" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout fivept" press="press">
+											<TileContent footer="Online Payment Receipt" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
+										<GenericTile class="tileLayout sixpt" press="press">
+											<TileContent footer="View/Pay Bill Online" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+											</TileContent>
+										</GenericTile>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="row middlebox">
+							<html:div class="content">
+								<html:div class="row">
+									<html:div class="col-sm-7 col-md-6">
+										<html:div class="row">
+											<html:div class="col-sm-6">
+												<html:div class="row bill_payment">
+													<html:div class="col-xs-12">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-3">
+																			<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-9">
+																			<html:span>quick bill payment</html:span>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+												<html:div class="row your_bill">
+													<html:div class="col-xs-12">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-3">
+																			<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-9">
+																			<html:span>pay your bill here</html:span>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-sm-6">
+												<html:div class="row share_feedback">
+													<html:div class="col-xs-12 col-sm-12 col-md-8">
+														<GenericTile class="tileLayout" press="press">
+															<TileContent>
+																<content>
+																	<html:div class="row">
+																		<html:div class="col-xs-4 col-sm-12 text-center">
+																			<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																		</html:div>
+																		<html:div class="col-xs-8 col-sm-12">
+																			<html:p>Please share your
+																				<html:span>feedback</html:span>
+																			</html:p>
+																		</html:div>
+																	</html:div>
+																</content>
+															</TileContent>
+														</GenericTile>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="col-sm-5 col-md-6 counters">
+										<html:div class="row">
+											<html:div class="col-xs-4 col-sm-4 text-center">
+												<html:span>Consumer Number</html:span>
+												<html:h4>1234</html:h4>
+											</html:div>
+											<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+												<html:span>Account Number</html:span>
+												<html:h4>1234</html:h4>
+											</html:div>
+											<html:div class="col-xs-4 col-sm-4 text-center">
+												<html:span>Meter Number</html:span>
+												<html:h4>1234</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
