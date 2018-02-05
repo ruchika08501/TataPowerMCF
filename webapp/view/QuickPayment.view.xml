@@ -4,6 +4,8 @@
 		<pages>
 			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
 				<content>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid">
 						<html:div class="row">
 							<html:div class="col-md-3">
@@ -20,7 +22,7 @@
 								</Tree>
 							</html:div>
 							<html:div class="col-md-9">
-								<Panel>
+								<Panel id="pnl_01">
 									<html:div>
 										<html:h4>FAQs</html:h4>
 										<html:h5 align="center" style="color:#208bda;font-weight:boldany">Frequently Ask Question On New Power Supply</html:h5>
@@ -56,7 +58,7 @@
 										</Panel>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_02">
 									<html:h5>Apply Online</html:h5>
 									<html:div class="apply">
 										<html:div class="row">
@@ -515,7 +517,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_03">
 									<html:div>
 										<html:div class=" col-md-8">
 											<html:h3>Aplication Forms</html:h3>
@@ -562,7 +564,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_04">
 									<html:div class="container-fluid">
 										<html:div class="go-green_intro">
 											<html:div class="intro_head">
@@ -610,7 +612,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_05">
 									<html:div>
 										<html:div class="container-fluid">
 											<html:div class="go-green_intro">
@@ -667,7 +669,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_06">
 									<html:div class="container-fluid">
 										<html:div class="go-green_intro">
 											<html:div class="intro_head">
@@ -725,7 +727,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_07">
 									<html:div class="container-fluid">
 										<html:div class="go-green_intro">
 											<html:div class="intro_head">
@@ -755,7 +757,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_08">
 									<html:div class="container-fluid">
 										<html:div class="go-green_intro">
 											<html:div class="intro_head">
@@ -947,7 +949,7 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
+								<Panel id="pnl_09">
 									<html:div>
 										<html:div class=" col-md-4">
 											<html:h3>Procedure And Guidelines</html:h3>
@@ -962,15 +964,11 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								<Panel>
-									<html:div>pdf10</html:div>
-								</Panel>
-								<Panel>
-									<html:div>pdf11</html:div>
-								</Panel>
+								
 							</html:div>
 						</html:div>
 					</html:div>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

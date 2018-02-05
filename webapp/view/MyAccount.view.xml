@@ -4,71 +4,8 @@
 		<pages>
 			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
 				<content>
-					<tnt:ToolHeader class="topheader">
-						<Image src="images/tata_logo.png" alt="Example picture of speakers"/>
-						<Panel class="right">
-							<Image src="images/fb.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/gplus.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/twitter.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/ytube.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/linkdin.png" alt="Example picture of speakers"/>
-						</Panel>
-						<tnt:ToolHeaderUtilitySeparator/>
-						<ToolbarSpacer>
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px"/>
-							</layoutData>
-						</ToolbarSpacer>
-						<Image src="images/language.png" alt="Example picture of speakers"/>
-						<MenuButton text="English" type="Transparent">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-							<menu>
-								<Menu>
-									<items>
-										<MenuItem text="Hindi"/>
-										<MenuItem text="Marathi"/>
-									</items>
-								</Menu>
-							</menu>
-						</MenuButton>
-						<Button icon="sap-icon://search" type="Transparent" text="Search">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-						</Button>
-						<Image src="images/tata_emblem.png" alt="Example picture of speakers"/>
-					</tnt:ToolHeader>
-					<tnt:ToolHeader>
-						<Button icon="sap-icon://home" type="Transparent" press="onHomePress">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-						</Button>
-						<IconTabHeader id="iconTabHeader" selectedKey="invalidKey" select="onSelectTab" showOverflowSelectList="true" backgroundDesign="Transparent"
-							mode="Inline">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true"/>
-							</layoutData>
-							<items>
-								<IconTabFilter text="About Us"></IconTabFilter>
-								<IconTabFilter text="Contact Us"></IconTabFilter>
-								<IconTabFilter text="Regulatory"></IconTabFilter>
-							</items>
-						</IconTabHeader>
-						<ImageContent class="sapUiLarge" src="images/app_store.png" description="Icon" press="press"></ImageContent>
-						<ImageContent class="sapUiLargep" src="images/play_store.png" description="Icon" press="press"></ImageContent>
-						<ToolbarSpacer>
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="16px"/>
-							</layoutData>
-						</ToolbarSpacer>
-					</tnt:ToolHeader>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMenu" type="XML"/>
 					<html:div class="container">
 						<html:div class="row">
 							<html:div class="col-xs-12 col-sm-12 col-md-7 profile">
@@ -246,6 +183,7 @@
 							</html:div>
 						</html:div>
 					</html:div>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

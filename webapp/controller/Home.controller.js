@@ -42,6 +42,9 @@ sap.ui.define([
 		  	$("#__panel0").hide();
 			},
         goDown : function (oEvent) {
+        	
+        		// var oFrame1 = this.getView().byId("toggletab");
+        		// alert(oFrame1);
         	$("#__panel0").slideToggle("slow");
         },
 

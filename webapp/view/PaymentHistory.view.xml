@@ -4,6 +4,8 @@
 		<pages>
 			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
 				<content>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid">
 						<html:div class="quick_bill_payment">
 							<html:div class="quick_bill_payment_head">
@@ -171,6 +173,7 @@
 							</html:div>
 						</html:div>
 					</html:div>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

@@ -19,267 +19,288 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			if ("Procedure and Guidelines" == evt.oSource.mProperties.text) {
 
-				$("#__panel0").show();
-				$("#__panel1").show();
-				$("#__panel2").show();
-				$("#__panel3").show();
-				$("#__panel4").show();
-				$("#__panel5").show();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+	var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+			
+				$("#"+oFrame1.sId+"").show();
+				$("#"+oFrame2.sId+"").hide();
+				$("#"+oFrame3.sId +"").hide();
+				$("#"+oFrame9.sId +"").hide();
+				$("#"+ oFrame4.sId+"").hide();
+				$("#"+ oFrame5.sId +"").hide();
+				$("#"+ oFrame6.sId +"").hide();
+				$("#"+ oFrame7.sId +"").hide();
+				$("#" + oFrame8.sId +"").hide();
 
 			}
 			if ("Estimation of Security Deposit" == evt.oSource.mProperties.text) {
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").show();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+			$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
+
+
 			}
 			if ("Application Forms (3)" == evt.oSource.mProperties.text) {
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").show();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
+
 			}
 			if ("FAQs" == evt.oSource.mProperties.text) {
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
 
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").show();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("Standard Drawings" == evt.oSource.mProperties.text) {
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
 
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").show();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
-
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 			}
 			if ("Apply Online" == evt.oSource.mProperties.text) {
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
 
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").show();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("Apply Online - 100kW" == evt.oSource.mProperties.text) {
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").show();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 			}
 			if ("Check your online reference number" == evt.oSource.mProperties.text) {
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").show();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("Changeover Connection" == evt.oSource.mProperties.text) {
-				$("#__panel0").show();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
 
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 			}
 			if ("Procedure and Guidelines " == evt.oSource.mProperties.text) {
-				$("#__panel0").show();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").show();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("Estimation of Security Deposit " == evt.oSource.mProperties.text) {
-
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+		$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("Application Forms" == evt.oSource.mProperties.text) {
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
+
+						$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 			if ("FAQs " == evt.oSource.mProperties.text) {
+				var oFrame1 = this.getView().byId("pnl_01");
+				var oFrame2 = this.getView().byId("pnl_02");
+				var oFrame3 = this.getView().byId("pnl_03");
+				var oFrame4 = this.getView().byId("pnl_04");
+				var oFrame5 = this.getView().byId("pnl_05");
+				var oFrame6 = this.getView().byId("pnl_06");
+				var oFrame7 = this.getView().byId("pnl_07");
+				var oFrame8 = this.getView().byId("pnl_08");
+				var oFrame9 = this.getView().byId("pnl_09");
 
-				$("#__panel0").hide();
-				$("#__panel1").hide();
-				$("#__panel2").hide();
-				$("#__panel3").hide();
-				$("#__panel4").hide();
-				$("#__panel5").hide();
-				$("#__panel6").hide();
-				$("#__panel7").hide();
-				$("#__panel8").hide();
-				$("#__panel9").hide();
-				$("#__panel10").hide();
-				$("#__panel11").hide();
-				$("#__panel12").hide();
-				$("#__panel13").hide();
-				$("#__panel14").hide();
-				$("#__panel15").hide();
-				$("#__panel16").hide();
+					$(""+oFrame1+"").hide();
+				$(""+oFrame2+"").hide();
+				$(""+oFrame3 +"").hide();
+				$(""+oFrame9 +"").hide();
+				$(""+ oFrame4 +"").hide();
+				$(""+ oFrame5 +"").hide();
+				$(""+ oFrame6 +"").hide();
+				$(""+ oFrame7 +"").hide();
+				$("" + oFrame8 +"").hide();
 
 			}
 
@@ -287,23 +308,25 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 		clear: function() {
 			//	alert();
-			$("#__panel0").hide();
-			$("#__panel1").hide();
-			$("#__panel2").hide();
-			$("#__panel3").hide();
-			$("#__panel4").hide();
-			$("#__panel5").hide();
-			$("#__panel6").hide();
-			$("#__panel7").hide();
-			$("#__panel8").hide();
-			$("#__panel9").hide();
-			$("#__panel10").hide();
-			$("#__panel11").hide();
-			$("#__panel12").hide();
-			$("#__panel13").hide();
-			$("#__panel14").hide();
-			$("#__panel15").hide();
-			$("#__panel16").hide();
+			var oFrame1 = this.getView().byId("pnl_01");
+			var oFrame2 = this.getView().byId("pnl_02");
+			var oFrame3 = this.getView().byId("pnl_03");
+			var oFrame4 = this.getView().byId("pnl_04");
+			var oFrame5 = this.getView().byId("pnl_05");
+			var oFrame6 = this.getView().byId("pnl_06");
+			var oFrame7 = this.getView().byId("pnl_07");
+			var oFrame8 = this.getView().byId("pnl_08");
+			var oFrame9 = this.getView().byId("pnl_09");
+
+				$("#"+oFrame1.sId+"").hide();
+				$("#"+oFrame2.sId+"").hide();
+				$("#"+oFrame3.sId +"").hide();
+				$("#"+oFrame9.sId +"").hide();
+				$("#"+ oFrame4.sId+"").hide();
+				$("#"+ oFrame5.sId +"").hide();
+				$("#"+ oFrame6.sId +"").hide();
+				$("#"+ oFrame7.sId +"").hide();
+				$("#" + oFrame8.sId +"").hide();
 
 		},
 		onBeforeRendering: function() {
