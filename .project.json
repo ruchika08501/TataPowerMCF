@@ -1,0 +1,14 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jan 2018 15:08:30 GMT"
+    }
+  ],
+  "hcpdeploy": {
+    "account": "p2000047465trial",
+    "name": "tatapower",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
