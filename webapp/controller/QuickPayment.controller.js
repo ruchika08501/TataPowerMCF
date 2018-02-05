@@ -17,290 +17,180 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		handleButtonPress: function(evt) {
 			alert(evt.oSource.mProperties.text);
 
+			var oFrame1 = this.getView().byId("pnl_01");
+			var oFrame2 = this.getView().byId("pnl_02");
+			var oFrame3 = this.getView().byId("pnl_03");
+			var oFrame4 = this.getView().byId("pnl_04");
+			var oFrame5 = this.getView().byId("pnl_05");
+			var oFrame6 = this.getView().byId("pnl_06");
+			var oFrame7 = this.getView().byId("pnl_07");
+			var oFrame8 = this.getView().byId("pnl_08");
+			var oFrame9 = this.getView().byId("pnl_09");
+
 			if ("Procedure and Guidelines" == evt.oSource.mProperties.text) {
 
-	var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
-
-			
-				$("#"+oFrame1.sId+"").show();
-				$("#"+oFrame2.sId+"").hide();
-				$("#"+oFrame3.sId +"").hide();
-				$("#"+oFrame9.sId +"").hide();
-				$("#"+ oFrame4.sId+"").hide();
-				$("#"+ oFrame5.sId +"").hide();
-				$("#"+ oFrame6.sId +"").hide();
-				$("#"+ oFrame7.sId +"").hide();
-				$("#" + oFrame8.sId +"").hide();
+				$("#" + oFrame1.sId + "").show();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 
 			}
 			if ("Estimation of Security Deposit" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-			$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
-
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").show();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 
 			}
 			if ("Application Forms (3)" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").show();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 
 			}
 			if ("FAQs" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").show();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 
 			}
 			if ("Standard Drawings" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").show();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 			}
 			if ("Apply Online" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").show();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 
 			}
 			if ("Apply Online - 100kW" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").show();
+				$("#" + oFrame8.sId + "").hide();
 			}
 			if ("Check your online reference number" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").show();
 
 			}
 			if ("Changeover Connection" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").show();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
 			}
 			if ("Procedure and Guidelines " == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("" + oFrame1 + "").hide();
+				$("" + oFrame2 + "").hide();
+				$("" + oFrame3 + "").hide();
+				$("" + oFrame9 + "").hide();
+				$("" + oFrame4 + "").hide();
+				$("" + oFrame5 + "").hide();
+				$("" + oFrame6 + "").hide();
+				$("" + oFrame7 + "").hide();
+				$("" + oFrame8 + "").hide();
 
 			}
 			if ("Estimation of Security Deposit " == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
-		$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+
+				$("" + oFrame1 + "").hide();
+				$("" + oFrame2 + "").hide();
+				$("" + oFrame3 + "").hide();
+				$("" + oFrame9 + "").hide();
+				$("" + oFrame4 + "").hide();
+				$("" + oFrame5 + "").hide();
+				$("" + oFrame6 + "").hide();
+				$("" + oFrame7 + "").hide();
+				$("" + oFrame8 + "").hide();
 
 			}
 			if ("Application Forms" == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-						$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("" + oFrame1 + "").hide();
+				$("" + oFrame2 + "").hide();
+				$("" + oFrame3 + "").hide();
+				$("" + oFrame9 + "").hide();
+				$("" + oFrame4 + "").hide();
+				$("" + oFrame5 + "").hide();
+				$("" + oFrame6 + "").hide();
+				$("" + oFrame7 + "").hide();
+				$("" + oFrame8 + "").hide();
 
 			}
 			if ("FAQs " == evt.oSource.mProperties.text) {
-				var oFrame1 = this.getView().byId("pnl_01");
-				var oFrame2 = this.getView().byId("pnl_02");
-				var oFrame3 = this.getView().byId("pnl_03");
-				var oFrame4 = this.getView().byId("pnl_04");
-				var oFrame5 = this.getView().byId("pnl_05");
-				var oFrame6 = this.getView().byId("pnl_06");
-				var oFrame7 = this.getView().byId("pnl_07");
-				var oFrame8 = this.getView().byId("pnl_08");
-				var oFrame9 = this.getView().byId("pnl_09");
 
-					$(""+oFrame1+"").hide();
-				$(""+oFrame2+"").hide();
-				$(""+oFrame3 +"").hide();
-				$(""+oFrame9 +"").hide();
-				$(""+ oFrame4 +"").hide();
-				$(""+ oFrame5 +"").hide();
-				$(""+ oFrame6 +"").hide();
-				$(""+ oFrame7 +"").hide();
-				$("" + oFrame8 +"").hide();
+				$("" + oFrame1 + "").hide();
+				$("" + oFrame2 + "").hide();
+				$("" + oFrame3 + "").hide();
+				$("" + oFrame9 + "").hide();
+				$("" + oFrame4 + "").hide();
+				$("" + oFrame5 + "").hide();
+				$("" + oFrame6 + "").hide();
+				$("" + oFrame7 + "").hide();
+				$("" + oFrame8 + "").hide();
 
 			}
 
@@ -318,15 +208,15 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 			var oFrame8 = this.getView().byId("pnl_08");
 			var oFrame9 = this.getView().byId("pnl_09");
 
-				$("#"+oFrame1.sId+"").hide();
-				$("#"+oFrame2.sId+"").hide();
-				$("#"+oFrame3.sId +"").hide();
-				$("#"+oFrame9.sId +"").hide();
-				$("#"+ oFrame4.sId+"").hide();
-				$("#"+ oFrame5.sId +"").hide();
-				$("#"+ oFrame6.sId +"").hide();
-				$("#"+ oFrame7.sId +"").hide();
-				$("#" + oFrame8.sId +"").hide();
+			$("#" + oFrame1.sId + "").hide();
+			$("#" + oFrame2.sId + "").hide();
+			$("#" + oFrame3.sId + "").hide();
+			$("#" + oFrame9.sId + "").hide();
+			$("#" + oFrame4.sId + "").hide();
+			$("#" + oFrame5.sId + "").hide();
+			$("#" + oFrame6.sId + "").hide();
+			$("#" + oFrame7.sId + "").hide();
+			$("#" + oFrame8.sId + "").hide();
 
 		},
 		onBeforeRendering: function() {
