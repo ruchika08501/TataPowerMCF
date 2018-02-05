@@ -6,7 +6,7 @@
 				<html:nav class="navbar navbar-default">
 					<html:div class="container-fluid">
 						<html:div class="navbar-header">
-							<html:image src="images/home.png" alt="home" class="img-responsive"></html:image>
+							<ImageContent class="img-responsive" src="images/home.png" description="Profile image" press="onHomePress"></ImageContent>
 						</html:div>
 						<html:ul class="nav navbar-nav main_nav sec_nav">
 							<html:li>
