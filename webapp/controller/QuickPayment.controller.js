@@ -1,12 +1,20 @@
-sap.ui.define(["sap/ui/core/mvc/Controller",
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/MessageToast"
 
-], function(Controller, MessageToast, JSONModel) {
+], function(Controller, MessageToast,BaseController, JSONModel) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.nav.controller.QuickPayment", {
-
+	onDisplayNotFound : function (oEvent) {
+			// display the "notFound" target without changing the hash
+			this.getRouter().getTargets().display("notFound", {
+				fromTarget : "home"
+			});
+		},
+	getRouter : function () {
+			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
 		onInit: function(evt) {
 			// set explored app's demo model on this sample
 			var oModel = new sap.ui.model.json.JSONModel("json/Tree.json");
@@ -222,7 +230,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		onBeforeRendering: function() {
 			this.clear();
 		},
-
+       onHomePress : function (oEvent){
+			this.getRouter().navTo("home");
+		}
+,
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
