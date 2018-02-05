@@ -54,7 +54,7 @@
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout onept" press="press">
 											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/reg_e_services.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>

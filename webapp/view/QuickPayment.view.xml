@@ -23,7 +23,128 @@
 							</html:div>
 							<html:div class="col-md-9">
 								<Panel id="pnl_01">
-									<html:div>
+					               <html:div>
+										<html:div class=" col-md-4">
+											<html:h3>Procedure And Guidelines</html:h3>
+											<html:div class="panel panel-default">
+												<html:div class="panel-body pdfviewer">
+													<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+														<html:image src="images/pdf_icn.png" alt="tata_logo" ></html:image>
+													</html:a>
+												</html:div>
+												<html:div class="panel-footer">Procedure and Guidelines</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_02">
+							<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Contact</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Reach to us !</html:h5>
+											</html:div>
+											<html:div class="be_green_contact">
+												<html:div class="cont_num">
+													<html:h6 class="text-center">Tata Power Call Centre Number</html:h6>
+													<html:div class="row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<html:p class="text-center">
+																<html:strong>1800-209-5161</html:strong>
+															</html:p>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="cont_address">
+													<html:h6 class="text-center">Address</html:h6>
+													<html:div class="row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<html:p class="text-center">
+																<html:strong>DSM Cell, The Tata Power Company Limited, Dharavi Receiving Station, Near Shalimar Industrial Estate, Matunga, Mumbai 400 019,
+																	Maharashtra, India</html:strong>
+															</html:p>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="cont_web">
+													<html:h6 class="text-center">Website</html:h6>
+													<html:div class="row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<html:p class="text-center">
+																<html:strong>Tata Power - Be Green</html:strong>
+															</html:p>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="cont_email">
+													<html:h6 class="text-center">Email ID</html:h6>
+													<html:div class="row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<html:p class="text-center">
+																<html:strong>dsmcell@tatapower.com</html:strong>
+															</html:p>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+										
+								</Panel>
+								<Panel id="pnl_03">
+								<html:div>
+										<html:div class=" col-md-8">
+											<html:h3>Aplication Forms</html:h3>
+											<html:div class="panel panel-default">
+												<html:div class="panel-body">
+													<html:div class="app">
+														<html:div class=" col-md-10">
+															<html:a href="#">
+																<html:h4>Power Supply Application form</html:h4>
+															</html:a>
+														</html:div>
+														<html:div class=" col-md-2">
+															<html:i class="fa fa-angle-right" style="font-size:38px;color:#333333"></html:i>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class=" col-md-6">
+													<html:div class="panel panel-default">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.01-Application form 04.pdf" target="_blank">
+																<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h4>Power Supply Agreement</html:h4>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class=" col-md-6">
+													<html:div class="panel panel-default">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.01-Application form 04.pdf" target="_blank">
+															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h4>Lease Deed</html:h4>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_04">
+								<html:div>
 										<html:h4>FAQs</html:h4>
 										<html:h5 align="center" style="color:#208bda;font-weight:boldany">Frequently Ask Question On New Power Supply</html:h5>
 										<Panel expandable="true" expanded="false" headerText="Panel with a header text" width="auto" class="sapUiResponsiveMargin">
@@ -58,8 +179,66 @@
 										</Panel>
 									</html:div>
 								</Panel>
-								<Panel id="pnl_02">
-									<html:h5>Apply Online</html:h5>
+								<Panel id="pnl_05">
+									<html:div>
+										<html:div class="container-fluid">
+											<html:div class="go-green_intro">
+												<html:div class="intro_head">
+													<html:h4>DSM Programms</html:h4>
+												</html:div>
+												<html:div class="intro_img">
+													<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+												</html:div>
+												<html:div class="prog_consumers">
+													<html:div class="row">
+														<html:div class="col-sm-10 col-sm-offset-1">
+															<html:div class="row">
+																<html:div class="col-sm-6">
+																	<html:h5>Programmes for Residential Consumers</html:h5>
+																	<html:div class="row cons_opt">
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/ceil_fan.png" description="Ceiling Fan" press="press"></ImageContent>
+																		</html:div>
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+																		</html:div>
+																	</html:div>
+																	<html:div class="row cons_opt">
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/refridg.png" description="Refrigerator" press="press"></ImageContent>
+																		</html:div>
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+																		</html:div>
+																	</html:div>
+																</html:div>
+																<html:div class="col-sm-6">
+																	<html:h5>Programmes for Industrial/Commercial Consumers</html:h5>
+																	<html:div class="row cons_opt">
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="press"></ImageContent>
+																		</html:div>
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
+																		</html:div>
+																	</html:div>
+																	<html:div class="row cons_opt">
+																		<html:div class="col-xs-6">
+																			<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
+																		</html:div>
+																	</html:div>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_06">
+								
+										<html:h5>Apply Online</html:h5>
 									<html:div class="apply">
 										<html:div class="row">
 											<html:div class=" col-md-2 tata1">
@@ -516,216 +695,7 @@
 											</html:div>
 										</html:div>
 									</html:div>
-								</Panel>
-								<Panel id="pnl_03">
-									<html:div>
-										<html:div class=" col-md-8">
-											<html:h3>Aplication Forms</html:h3>
-											<html:div class="panel panel-default">
-												<html:div class="panel-body">
-													<html:div class="app">
-														<html:div class=" col-md-10">
-															<html:a href="#">
-																<html:h4>Power Supply Application form</html:h4>
-															</html:a>
-														</html:div>
-														<html:div class=" col-md-2">
-															<html:i class="fa fa-angle-right" style="font-size:38px;color:#333333"></html:i>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-											<html:div class="row">
-												<html:div class=" col-md-6">
-													<html:div class="panel panel-default">
-														<html:div class="panel-body pdfviewer">
-															<html:a href="pdf/LN.03.01-Application form 04.pdf" target="_blank">
-																<html:i class="fa fa-file-pdf-o" style=" font-size:50px; color:red; text-align:center"></html:i>
-															</html:a>
-														</html:div>
-														<html:div class="panel-footer">
-															<html:h4>Power Supply Agreement</html:h4>
-														</html:div>
-													</html:div>
-												</html:div>
-												<html:div class=" col-md-6">
-													<html:div class="panel panel-default">
-														<html:div class="panel-body pdfviewer">
-															<html:a href="pdf/LN.03.01-Application form 04.pdf" target="_blank">
-																<html:i class="fa fa-file-pdf-o" style=" font-size:50px; color:red; text-align:center"></html:i>
-															</html:a>
-														</html:div>
-														<html:div class="panel-footer">
-															<html:h4>Lease Deed</html:h4>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-										</html:div>
-									</html:div>
-								</Panel>
-								<Panel id="pnl_04">
-									<html:div class="container-fluid">
-										<html:div class="go-green_intro">
-											<html:div class="intro_head">
-												<html:h4>Introduction</html:h4>
-											</html:div>
-											<html:div class="intro_img">
-												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
-											</html:div>
-											<html:div class="intro_desc">
-												<html:p class="text-center">
-													Tata Power is highly committed to sustainability and has always made consistent efforts in extending this commitment to all our consumers.
-													We have undertaken various initiatives in line with our belief towards ensuring a greener and sustainable planet. The nature of 'BE GREEN'
-													is collaborative and participative and shall include all our consumer initiatives that infuse the aim of sustainability.
-												</html:p>
-												<html:h5 class="text-center">Under our unique initiative, we bring you a whole range of exchange offers!</html:h5>
-												<html:p>
-													Now you can avail energy efficient appliances at large discounts and save on your electricity bills by participating in this energy saving
-													initiative:
-												</html:p>
-												<html:div class="row">
-													<html:div class="col-sm-8 col-sm-offset-2">
-														<html:ul class="inti_list">
-															<html:li>You can reduce your energy costs by 30% to 50% without compromising on your comfort and convenience</html:li>
-															<html:li>Get new energy efficient appliances at large discounts</html:li>
-															<html:li>Exchange your old inefficient appliances with energy efficient appliances</html:li>
-														</html:ul>
-													</html:div>
-												</html:div>
-												<html:p class="text-center">
-													We have partnered with leading Customer appliance manufacturers to offer you energy efficient appliances. We offer Energy Audits at
-													discounted rates for our Industrial and Commercial customers. Energy Audit will identify energy saving potential at your premises by
-													monitoring and analyzing your energy consumption. Tata Power offers a heavy discount of 75% on the Energy Audit Cost.
-												</html:p>
-												<html:h5 class="text-center">
-													<html:span class="br_green_bold">be breen</html:span>
-													by enrolling for our energy efficiency programme.</html:h5>
-											</html:div>
-											<html:div class="dear_consumer">
-												<html:h5 class="text-center">Dear Consumer</html:h5>
-												<html:p class="text-center">
-													Thank you for visiting the Be Green site. Register for the DSM programmes of your choice on this site Alternatively, you might also wish to
-													call our 24X7 Toll Free Number (1800-209-5161) to get information and register for the Tata Power DSM Programmes.
-												</html:p>
-											</html:div>
-										</html:div>
-									</html:div>
-								</Panel>
-								<Panel id="pnl_05">
-									<html:div>
-										<html:div class="container-fluid">
-											<html:div class="go-green_intro">
-												<html:div class="intro_head">
-													<html:h4>DSM Programms</html:h4>
-												</html:div>
-												<html:div class="intro_img">
-													<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
-												</html:div>
-												<html:div class="prog_consumers">
-													<html:div class="row">
-														<html:div class="col-sm-10 col-sm-offset-1">
-															<html:div class="row">
-																<html:div class="col-sm-6">
-																	<html:h5>Programmes for Residential Consumers</html:h5>
-																	<html:div class="row cons_opt">
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/ceil_fan.png" description="Ceiling Fan" press="press"></ImageContent>
-																		</html:div>
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
-																		</html:div>
-																	</html:div>
-																	<html:div class="row cons_opt">
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/refridg.png" description="Refrigerator" press="press"></ImageContent>
-																		</html:div>
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
-																		</html:div>
-																	</html:div>
-																</html:div>
-																<html:div class="col-sm-6">
-																	<html:h5>Programmes for Industrial/Commercial Consumers</html:h5>
-																	<html:div class="row cons_opt">
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="press"></ImageContent>
-																		</html:div>
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="press"></ImageContent>
-																		</html:div>
-																	</html:div>
-																	<html:div class="row cons_opt">
-																		<html:div class="col-xs-6">
-																			<ImageContent class="pro_img_cont" src="images/ac.png" description="AC" press="press"></ImageContent>
-																		</html:div>
-																	</html:div>
-																</html:div>
-															</html:div>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-										</html:div>
-									</html:div>
-								</Panel>
-								<Panel id="pnl_06">
-									<html:div class="container-fluid">
-										<html:div class="go-green_intro">
-											<html:div class="intro_head">
-												<html:h4>Contact</html:h4>
-											</html:div>
-											<html:div class="intro_img">
-												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
-											</html:div>
-											<html:div class="intro_desc">
-												<html:h5 class="text-center">Reach to us !</html:h5>
-											</html:div>
-											<html:div class="be_green_contact">
-												<html:div class="cont_num">
-													<html:h6 class="text-center">Tata Power Call Centre Number</html:h6>
-													<html:div class="row">
-														<html:div class="col-sm-4 col-sm-offset-4">
-															<html:p class="text-center">
-																<html:strong>1800-209-5161</html:strong>
-															</html:p>
-														</html:div>
-													</html:div>
-												</html:div>
-												<html:div class="cont_address">
-													<html:h6 class="text-center">Address</html:h6>
-													<html:div class="row">
-														<html:div class="col-sm-4 col-sm-offset-4">
-															<html:p class="text-center">
-																<html:strong>DSM Cell, The Tata Power Company Limited, Dharavi Receiving Station, Near Shalimar Industrial Estate, Matunga, Mumbai 400 019,
-																	Maharashtra, India</html:strong>
-															</html:p>
-														</html:div>
-													</html:div>
-												</html:div>
-												<html:div class="cont_web">
-													<html:h6 class="text-center">Website</html:h6>
-													<html:div class="row">
-														<html:div class="col-sm-4 col-sm-offset-4">
-															<html:p class="text-center">
-																<html:strong>Tata Power - Be Green</html:strong>
-															</html:p>
-														</html:div>
-													</html:div>
-												</html:div>
-												<html:div class="cont_email">
-													<html:h6 class="text-center">Email ID</html:h6>
-													<html:div class="row">
-														<html:div class="col-sm-4 col-sm-offset-4">
-															<html:p class="text-center">
-																<html:strong>dsmcell@tatapower.com</html:strong>
-															</html:p>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-										</html:div>
-									</html:div>
+									
 								</Panel>
 								<Panel id="pnl_07">
 									<html:div class="container-fluid">
@@ -950,16 +920,31 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_09">
-									<html:div>
-										<html:div class=" col-md-4">
-											<html:h3>Procedure And Guidelines</html:h3>
-											<html:div class="panel panel-default">
-												<html:div class="panel-body pdfviewer">
-													<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-														<html:i class="fa fa-file-pdf-o" style=" font-size:50px; color:red; text-align:center"></html:i>
-													</html:a>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Energy Conversion</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Let us follow these simple tips &amp; a power greener world !</html:h5>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/kitchen_app.png" alt="kitchen_app" class="img-responsive"></html:image>
 												</html:div>
-												<html:div class="panel-footer">Procedure and Guidelines</html:div>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/home_app.png" alt="home_app" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/conserve.png" alt="conserve" class="img-responsive"></html:image>
+												</html:div>
 											</html:div>
 										</html:div>
 									</html:div>
