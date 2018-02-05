@@ -113,16 +113,16 @@
 													<Label text="Email ID" labelFor="input-a"/>
 													<Input id="mailInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Last Name"/>
 												</html:div>
-												<html:div class="col-md-12">
-													<html:div class="emailmobile">
-														<html:h6>Email ID and Mobile No. are required for Speedy Communication</html:h6>
-													</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-xs-12 emailmobile">
+													<html:h6>Email ID and Mobile No. are required for Speedy Communication</html:h6>
 												</html:div>
-												<html:div class="col-md-12">
-													<html:div class="addresspremises">
-														<html:h5>Address Premises at Which Supply is required
-														</html:h5>
-													</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-xs-12 addresspremises">
+													<html:h5>Address Premises at Which Supply is required
+													</html:h5>
 												</html:div>
 											</html:div>
 											<html:div class="row buildflat">
@@ -165,9 +165,10 @@
 													<Input id="landInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
-											<html:div class="typepremises">
-												<html:h5>type of premises
-												</html:h5>
+											<html:div class="row typepremises">
+												<html:div class="col-xs-12">
+													<html:h5>type of premises</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-2">
@@ -183,18 +184,24 @@
 													<RadioButton groupName="GroupA" text="Other (Specify)"/>
 												</html:div>
 											</html:div>
-											<html:div class="premises">
-												<html:h5>In Case of Not Owned by Applicant(s)
-												</html:h5>
+											<html:div class="row premises">
+												<html:div class="col-xs-12">
+													<html:h5>In Case of Not Owned by Applicant(s)
+													</html:h5>
+												</html:div>
 											</html:div>
-											<html:div class="largebox">
-												<Label text="Name of the Owner and full Address " labelFor="input-a" width="100%"/>
-												<TextArea placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
-												<CheckBox text="Same as above" selected="false"/>
+											<html:div class="row largebox">
+												<html:div class="col-xs-12">
+													<Label text="Name of the Owner and full Address " labelFor="input-a" width="100%"/>
+													<TextArea placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
+													<CheckBox text="Same as above" selected="false"/>
+												</html:div>
 											</html:div>
-											<html:div class="coresponding">
-												<html:h5>Coresponding Address
-												</html:h5>
+											<html:div class="row coresponding">
+												<html:div class="col-xs-12">
+													<html:h5>Coresponding Address
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row buildflat">
 												<html:div class="col-md-4">
@@ -236,9 +243,11 @@
 													<Input id="alandInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
-											<html:div class="ebilling">
-												<html:h5>E-Billing
-												</html:h5>
+											<html:div class="row ebilling">
+												<html:div class="col-xs-12">
+													<html:h5>E-Billing
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-3">
@@ -251,13 +260,17 @@
 													<html:h6>We promote granulation to avoid waste of papers</html:h6>
 												</html:div>
 											</html:div>
-											<html:div class="powerreq">
-												<html:h5>POWER SUPPLY REQUIREMENT
-												</html:h5>
+											<html:div class="row powerreq">
+												<html:div class="col-xs-12">
+													<html:h5>POWER SUPPLY REQUIREMENT
+													</html:h5>
+												</html:div>
 											</html:div>
-											<html:div class="supplyvol">
-												<html:h5>Supply voltage and No.of Meters
-												</html:h5>
+											<html:div class="row supplyvol">
+												<html:div class="col-xs-12">
+													<html:h5>Supply voltage and No.of Meters
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-3">
@@ -291,9 +304,11 @@
 													<DatePicker id="DP1" change="handleChange" class="sapUiSmallMarginBottom"/>
 												</html:div>
 											</html:div>
-											<html:div class="choosemtr">
-												<html:h5>I Choose Meter*
-												</html:h5>
+											<html:div class="row choosemtr">
+												<html:div class="col-xs-12">
+													<html:h5>I Choose Meter*
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-3">
@@ -303,9 +318,11 @@
 													<RadioButton groupName="GroupB" text="Purchase Own Meter"/>
 												</html:div>
 											</html:div>
-											<html:div class="supcategory">
-												<html:h5>Supply Category*
-												</html:h5>
+											<html:div class="row supcategory">
+												<html:div class="col-xs-12">
+													<html:h5>Supply Category*
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-2">
@@ -321,9 +338,11 @@
 													<RadioButton groupName="GroupB" text="Others"/>
 												</html:div>
 											</html:div>
-											<html:div class="loaddetails">
-												<html:h5>D.LOAD DETAILS
-												</html:h5>
+											<html:div class="row loaddetails">
+												<html:div class="col-xs-12">
+													<html:h5>D.LOAD DETAILS
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-4">
@@ -389,9 +408,11 @@
 													<Input id="demandInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
-											<html:div class="above">
-												<html:h5>Above Flood Level
-												</html:h5>
+											<html:div class="row above">
+												<html:div class="col-xs-12">
+													<html:h5>Above Flood Level
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-3">
@@ -401,13 +422,17 @@
 													<RadioButton groupName="GroupB" text="No"/>
 												</html:div>
 											</html:div>
-											<html:div class="licence">
-												<html:h5>LICENCED ELECTRICAL CONTRACTOR DETAILS
-												</html:h5>
+											<html:div class="row licence">
+												<html:div class="col-xs-12">
+													<html:h5>LICENCED ELECTRICAL CONTRACTOR DETAILS
+													</html:h5>
+												</html:div>
 											</html:div>
-											<html:div class="lec">
-												<html:h5>LEC Address Details
-												</html:h5>
+											<html:div class="row lec">
+												<html:div class="col-xs-12">
+													<html:h5>LEC Address Details
+													</html:h5>
+												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">

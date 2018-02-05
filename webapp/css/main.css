@@ -5,7 +5,7 @@
 }
 
 .headerMenu {
-	display: block !important;
+    display: block !important;
 }
 
 .headerMenu .sapMPanelContent,
@@ -718,35 +718,36 @@
     font-size: 15px;
 }
 
+
 /*br green about*/
 
 .load_shape {
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .load_shape h6 {
-	padding: 15px;
-	margin: 0;
-	background: #3b9def21;
-	color: #1c7a1a;
-	font-size: 14px;
+    padding: 15px;
+    margin: 0;
+    background: #3b9def21;
+    color: #1c7a1a;
+    font-size: 14px;
 }
 
-.load_shape .box { 
-	padding: 10px 15px; 
-	font-size: 12px;
+.load_shape .box {
+    padding: 10px 15px;
+    font-size: 12px;
 }
 
 .ben_initiatives .row {
-	display: flex;
+    display: flex;
 }
 
 .ben_initiatives .row .load_shape {
-	height: 100%;
+    height: 100%;
 }
 
-.ben_initiatives .row .load_shape p { 
-	padding: 15px;
+.ben_initiatives .row .load_shape p {
+    padding: 15px;
 }
 
 .sapMTreeItemBase {
@@ -755,8 +756,8 @@
     font-size: 20px;
     padding-left: 0;
     color: #f5f0f0!important;
-   padding-top: 0.95rem!important;
-    padding-bottom:0.95rem!important;
+    padding-top: 0.95rem!important;
+    padding-bottom: 0.95rem!important;
     background: linear-gradient(to right, #1470cc 0%, #42a5f6 100%)!important;
 }
 
@@ -766,8 +767,8 @@
     font-size: 20px;
     padding-left: 0;
     color: #f5f0f0!important;
-    padding-top:  0.95rem!important;
-    padding-bottom:  0.95rem!important;
+    padding-top: 0.95rem!important;
+    padding-bottom: 0.95rem!important;
     background: linear-gradient(to bottom, #80cbc4 0%, #009788 100%) !important;
 }
 
@@ -792,6 +793,7 @@
     font-size: 1.375rem !important;
     cursor: pointer;
 }
+
 .sapMPanelHdr {
     box-sizing: border-box;
     white-space: nowrap;
@@ -805,7 +807,7 @@
     -webkit-text-size-adjust: none;
     font-weight: normal;
     font-size: 1.325rem !important;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     background-color: transparent;
 }
@@ -813,6 +815,7 @@
 .sapMPanelContent:not(.sapMPanelBGTransparent) {
     border-bottom: 0px solid #ebebeb00!important;
 }
+
 .sapMText {
     display: inline-block;
     box-sizing: border-box;
@@ -820,94 +823,109 @@
     word-wrap: break-word;
     cursor: text;
     font-size: 1.300rem!important;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
     color: #333333;
 }
 
 .sapMPanelWrappingDiv.sapMPanelWrappingDivExpanded {
     border-bottom-width: 0;
-     background: linear-gradient(to right, #1470cc 0%, #42a5f6 100%)!important;
-   
+    background: linear-gradient(to right, #1470cc 0%, #42a5f6 100%)!important;
 }
 
-.pdfviewer{
-	background:#ffe3ec;
-	text-align:center;
+.sapMPanelExpandableIconExpanded,
+.sapMPanelExpandableIconExpanded + .sapMPanelHdr {
+    color: #fff !important;
 }
-.apply{
-   background:#269cf3!important;
-   padding:20px 10px;
-   margin:0;
-   border:none;
+
+html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIcon:focus { outline: none !important; }
+
+.pdfviewer {
+    background: #ffe3ec;
+    text-align: center;
 }
-.tata1{
-	padding:10px;
+
+.apply {
+    background: #269cf3!important;
+    padding: 20px 10px;
+    margin: 0;
+    border: none;
 }
-.indicate{
-	color:red;
-	text-align:center;
-	font-style: italic;
+
+.tata1 {
+    padding: 10px;
 }
-.indicate2{
-	color:#269cf3;
-   text-align:center;
-   font-size:bold;
-   
-  
+
+.indicate {
+    color: red;
+    text-align: center;
+    font-style: italic;
 }
+
+.indicate2 {
+    color: #269cf3;
+    text-align: center;
+    font-size: bold;
+}
+
 .sapMILIDiv {
-    -webkit-box-flex: 9; 
-    flex: 0 0 auto !important ;
-     text-align: right!important;
+    -webkit-box-flex: 9;
+    flex: 0 0 auto !important;
+    text-align: right!important;
     margin: 0 0 0 -1rem !important;
 }
 
-.pancard{
-	margin-top:15px;
-	font-style:italic;
-}
-.emailmobile{
-	font-style:italic;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
-    
-}
-.detailrequire{
-	border:1px solid grey;
-
-}
-.addresspremises{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
-}
-.boxpad{
-	padding:10px;
-}
-.buildflat{
-	margin-top:10px;
-}
-.typepremises{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+.pancard {
+    margin-top: 15px;
+    font-style: italic;
 }
 
-.premises{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+.emailmobile {
+    font-style: italic;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.coresponding{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.detailrequire {
+    border: 1px solid grey;
 }
+
+.addresspremises {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.boxpad {
+    padding: 15px;
+}
+
+.buildflat {
+    margin-top: 10px;
+}
+
+.typepremises {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.premises {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.coresponding {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
 .sapMLabel {
     color: #666666;
     font-size: 1.200rem !important;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     display: inline-block;
     text-overflow: ellipsis;
@@ -915,41 +933,49 @@
     white-space: nowrap;
     cursor: text;
 }
-.ebilling{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.ebilling {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.powerreq{
-	color:#269cf3;
-	text-align:center;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.powerreq {
+    color: #269cf3;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.supplyvol{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.supplyvol {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.choosemtr{
-	color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.choosemtr {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.supcategory{
-    color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.supcategory {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.loaddetails{
-	color:#269cf3;
-	text-align:center;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.loaddetails {
+    color: #269cf3;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.switchcenter{
-	text-align:center;
+
+.switchcenter {
+    text-align: center;
 }
+
 .switchcenter {
     vertical-align: top;
     -webkit-appearance: none;
@@ -959,7 +985,7 @@
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     box-sizing: border-box;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
     height: 2.500rem;
     min-width: 2.500rem;
@@ -973,50 +999,55 @@
     color: #fff!important;
     text-shadow: 0 0 0.125rem #ffffff;
 }
+
 .switchcenter .sapMBtnInner {
-	 background-image: none;
-     background-color: #269cf3!important;
-     border-color: #ababab;
-     border:none!important;
-     color:#fff!important;
-     
+    background-image: none;
+    background-color: #269cf3!important;
+    border-color: #ababab;
+    border: none!important;
+    color: #fff!important;
 }
+
 .switchcenter:hover {
     background-image: none;
     background-color: #269cf3!important;
-    border:none!important;
-    color:#fff!important;
-   
+    border: none!important;
+    color: #fff!important;
 }
+
 .table {
     width: 100%;
     max-width: 100%;
     margin-bottom: 20px;
     border: 1px solid #b7b5b5!important;
 }
-.mytable{
-	margin-top:20px;
-}
-.insidetable{
-	    background: #716f6f;
-        color: white;
+
+.mytable {
+    margin-top: 20px;
 }
 
-.above{
-    color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+.insidetable {
+    background: #716f6f;
+    color: white;
 }
-.licence{
-    color:#269cf3;
-	text-align:center;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.above {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.lec{
-    color:#269cf3;
-	border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+
+.licence {
+    color: #269cf3;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lec {
+    color: #269cf3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .sapMBtnIcon {
@@ -1030,6 +1061,7 @@
     max-height: 2.375rem;
     color: #ffffff !important;
 }
+
 
 /*mobile view */
 
@@ -1071,12 +1103,12 @@
     .pay_tile {
         margin-bottom: 15px;
     }
-    
     .ben_initiatives .row {
-    	display:block;
+        display: block;
     }
-    
-    .ben_initiatives .row .col-xs-12 { margin: 10px 0; }
+    .ben_initiatives .row .col-xs-12 {
+        margin: 10px 0;
+    }
 }
 
 
