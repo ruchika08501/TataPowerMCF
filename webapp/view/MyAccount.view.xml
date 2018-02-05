@@ -50,46 +50,46 @@
 								</html:div>
 							</html:div>
 							<html:div class="col-xs-12 col-sm-12 col-md-5 profiletiles">
-								<html:div class="righttiles">
+								<html:div class="row righttiles">
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout onept" press="press">
 											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/reg_e_services.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout twopt" press="press">
 											<TileContent footer="Register for E-Bill" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/reg_email.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout threept" press="press">
 											<TileContent footer="Change Password" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/change_passd.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
 										<GenericTile class="tileLayout fourpt" press="press">
 											<TileContent footer="My Account Statement" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/my_billing.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
 										<GenericTile class="tileLayout fivept" press="press">
 											<TileContent footer="Online Payment Receipt" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/online_pmt_recp.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
 										<GenericTile class="tileLayout sixpt" press="press">
 											<TileContent footer="View/Pay Bill Online" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/eod_business.png" alt="Example picture of speakers"/>
+												<Image class="myimg" src="images/view_n_paybill_online.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
@@ -147,7 +147,7 @@
 																<content>
 																	<html:div class="row">
 																		<html:div class="col-xs-4 col-sm-12 text-center">
-																			<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																			<html:image src="images/plese_share_feedback.png" alt="speakers" class="img-repsonsive"></html:image>
 																		</html:div>
 																		<html:div class="col-xs-8 col-sm-12">
 																			<html:p>Please share your
