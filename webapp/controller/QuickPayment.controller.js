@@ -23,7 +23,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseCont
 		},
 
 		handleButtonPress: function(evt) {
-			alert(evt.oSource.mProperties.text);
+		/*	alert(evt.oSource.mProperties.text);*/
 
 			var oFrame1 = this.getView().byId("pnl_01");
 			var oFrame2 = this.getView().byId("pnl_02");
