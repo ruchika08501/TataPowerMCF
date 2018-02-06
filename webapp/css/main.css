@@ -1168,6 +1168,11 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         width: 100% !important;
         height: auto !important;
     }
+    
+    .chg_tile { margin-top: 10px; }
+    
+    .bill_payment .tileLayout,
+    .your_bill .tileLayout { padding: 5px 0 !important; }
 }
 
 

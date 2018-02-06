@@ -1,21 +1,26 @@
-sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseController",
+sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/MessageToast"
 
-], function(Controller, MessageToast,BaseController, JSONModel) {
+], function(Controller, MessageToast, BaseController, JSONModel) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.nav.controller.QuickPayment", {
-	onDisplayNotFound : function (oEvent) {
+		onDisplayNotFound: function(oEvent) {
 			// display the "notFound" target without changing the hash
 			this.getRouter().getTargets().display("notFound", {
-				fromTarget : "home"
+				fromTarget: "home"
 			});
 		},
-	getRouter : function () {
+		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		},
+		mobileDropdown: function() {
+			var oFrametest = this.getView().byId("pnl_toggletab");
+			$("#" + oFrametest.sId + "").hide();
+		},
 		onInit: function(evt) {
+			this.mobileDropdown();
 			// set explored app's demo model on this sample
 			var oModel = new sap.ui.model.json.JSONModel("json/Tree.json");
 			this.getView().setModel(oModel);
@@ -23,11 +28,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseCont
 		},
 
 		handleButtonPress: function(evt) {
-<<<<<<< HEAD
-			
-=======
-		/*	alert(evt.oSource.mProperties.text);*/
->>>>>>> 72e28336f5eeb1212b1b9b103caed15a2236affc
 
 			var oFrame1 = this.getView().byId("pnl_01");
 			var oFrame2 = this.getView().byId("pnl_02");
@@ -232,18 +232,19 @@ sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseCont
 
 		},
 		onBeforeRendering: function() {
+			this.mobileDropdown();
 			this.clear();
 		},
-       onHomePress : function (oEvent){
+		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
-		}
-,
+		},
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
 		 * @memberOf sap.ui.core.demo.nav.view.PaymentHistory
 		 */
 		onAfterRendering: function() {
+			this.mobileDropdown();
 			this.clear();
 		},
 
@@ -252,7 +253,12 @@ sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/demo/nav/controller/BaseCont
 		 * @memberOf sap.ui.core.demo.nav.view.PaymentHistory
 		 */
 		onExit: function() {
+			this.mobileDropdown();
 			this.clear();
+		},
+		goDown: function() {
+			var oFrametest = this.getView().byId("pnl_toggletab");
+			$("#" + oFrametest.sId + "").slideToggle("slow");
 		}
 
 	});
