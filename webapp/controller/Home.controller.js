@@ -13,8 +13,8 @@ sap.ui.define([
 		},
 
 		onInit: function() {
-
 			$("#__panel0").hide();
+
 		},
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
@@ -33,7 +33,6 @@ sap.ui.define([
 		 */
 		onAfterRendering: function() {
 			$("#__panel0").hide();
-
 		},
 
 		/**
@@ -42,31 +41,26 @@ sap.ui.define([
 		 */
 		onExit: function() {
 			$("#__panel0").hide();
-
 		},
 
 		onNavToMyAccount: function(oEvent) {
-
 			this.getRouter().navTo("MyAccount");
-
 		},
 		onNavToQuickBill: function(oEvent) {
-
 			this.getRouter().navTo("PaymentHistory");
-
 		},
 		onNavToPaybill: function(oEvent) {
-
 			this.getRouter().navTo("QuickPayment");
-
 		},
 		onHomePress: function(oEvent) {
-
 			this.getRouter().navTo("home");
-
 		},
 		onNavToEmployeeOverview: function(oEvent) {
 			this.getRouter().navTo("employeeOverview");
+		},
+		goDown: function(oEvent) {
+			var oFrametest = this.getView().byId("pnl_toggletab");
+			$("#"+oFrametest.sId+"").slideToggle("slow");
 		}
 
 	});
