@@ -23,13 +23,13 @@
 							</html:div>
 							<html:div class="col-md-9">
 								<Panel id="pnl_01">
-					               <html:div>
+									<html:div>
 										<html:div class=" col-md-4">
 											<html:h3>Procedure And Guidelines</html:h3>
 											<html:div class="panel panel-default">
 												<html:div class="panel-body pdfviewer">
 													<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-														<html:image src="images/pdf_icn.png" alt="tata_logo" ></html:image>
+														<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 													</html:a>
 												</html:div>
 												<html:div class="panel-footer">Procedure and Guidelines</html:div>
@@ -38,7 +38,7 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_02">
-							<html:div class="container-fluid">
+									<html:div class="container-fluid">
 										<html:div class="go-green_intro">
 											<html:div class="intro_head">
 												<html:h4>Contact</html:h4>
@@ -94,10 +94,9 @@
 											</html:div>
 										</html:div>
 									</html:div>
-										
 								</Panel>
 								<Panel id="pnl_03">
-								<html:div>
+									<html:div>
 										<html:div class=" col-md-8">
 											<html:h3>Aplication Forms</html:h3>
 											<html:div class="panel panel-default">
@@ -109,7 +108,7 @@
 															</html:a>
 														</html:div>
 														<html:div class=" col-md-2">
-															<html:i class="fa fa-angle-right" style="font-size:38px;color:#333333"></html:i>
+															<html:i class="fa fa-angle-right" style="font-size:30px;color:#aba6a6;"></html:i>
 														</html:div>
 													</html:div>
 												</html:div>
@@ -131,7 +130,7 @@
 													<html:div class="panel panel-default">
 														<html:div class="panel-body pdfviewer">
 															<html:a href="pdf/LN.03.01-Application form 04.pdf" target="_blank">
-															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+																<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 															</html:a>
 														</html:div>
 														<html:div class="panel-footer">
@@ -144,7 +143,7 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_04">
-								<html:div>
+									<html:div>
 										<html:h4>FAQs</html:h4>
 										<html:h5 align="center" style="color:#208bda;font-weight:boldany">Frequently Ask Question On New Power Supply</html:h5>
 										<Panel expandable="true" expanded="false" headerText="Panel with a header text" width="auto" class="sapUiResponsiveMargin">
@@ -237,8 +236,7 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_06">
-								
-										<html:h5>Apply Online</html:h5>
+									<html:h5>Apply Online</html:h5>
 									<html:div class="apply">
 										<html:div class="row">
 											<html:div class=" col-md-2 tata1">
@@ -267,7 +265,7 @@
 													</InputListItem>
 												</html:div>
 												<html:div class="col-md-4">
-													<Input id="nameInput" type="Text" class="sapUiSmallMarginBottom" placeholder="First Name"/>
+													<Input id="nameInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="First Name"/>
 												</html:div>
 												<html:div class="col-md-3">
 													<Input id="middleInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Middle Name"/>
@@ -308,8 +306,8 @@
 											</html:div>
 											<html:div class="row buildflat">
 												<html:div class="col-md-4">
-													<Label text="Flat/Gala/shop No/ office No *" labelFor="input-a"/>
-													<Input id="flatInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
+													<Input id="flatInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-8">
 													<Label text="Building Name/Plot No" labelFor="input-a"/>
@@ -322,8 +320,8 @@
 													<Input id="societyInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Lane/Street *" labelFor="input-a"/>
-													<Input id="laneInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Lane/Street" labelFor="input-a"/>
+													<Input id="laneInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
@@ -332,8 +330,8 @@
 													<Input id="subuInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="City *" labelFor="input-a"/>
-													<Input id="cityInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="City" labelFor="input-a"/>
+													<Input id="cityInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
@@ -342,8 +340,8 @@
 													<Input id="postInput" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Landmark *" labelFor="input-a"/>
-													<Input id="landInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Landmark" labelFor="input-a"/>
+													<Input id="landInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row typepremises">
@@ -386,8 +384,8 @@
 											</html:div>
 											<html:div class="row buildflat">
 												<html:div class="col-md-4">
-													<Label text="Flat/Gala/shop No/ office No *" labelFor="input-a"/>
-													<Input id="aflatInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Flat/Gala/shop No/ office No" labelFor="input-a"/>
+													<Input id="aflatInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-8">
 													<Label text="Building Name/Plot No" labelFor="input-a"/>
@@ -400,8 +398,8 @@
 													<Input id="asocietyInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Lane/Street *" labelFor="input-a"/>
-													<Input id="alaneInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Lane/Street" labelFor="input-a"/>
+													<Input id="alaneInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
@@ -410,8 +408,8 @@
 													<Input id="asubuInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="City *" labelFor="input-a"/>
-													<Input id="acityInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="City" labelFor="input-a"/>
+													<Input id="acityInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
@@ -420,8 +418,8 @@
 													<Input id="apostInput" type="Number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Landmark *" labelFor="input-a"/>
-													<Input id="alandInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Landmark" labelFor="input-a"/>
+													<Input id="alandInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row ebilling">
@@ -617,62 +615,62 @@
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">
-													<Label text="Name *" labelFor="input-a"/>
-													<Input id="lecnameInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Name" labelFor="input-a"/>
+													<Input id="lecnameInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Licenced Number *" labelFor="input-a"/>
-													<Input id="seciInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Licenced Number" labelFor="input-a"/>
+													<Input id="seciInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-4">
-													<Label text="Flat/Gala/Shop No/Office No *" labelFor="input-a"/>
-													<Input id="galaInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Flat/Gala/Shop No/Office No" labelFor="input-a"/>
+													<Input id="galaInput" type="Text" required="true" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-8">
-													<Label text="Building Name/Plot No *" labelFor="input-a"/>
-													<Input id="bnameInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Building Name/Plot No" labelFor="input-a"/>
+													<Input id="bnameInput" type="Text" required="true" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">
-													<Label text="Society *" labelFor="input-a"/>
-													<Input id="socInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Society" labelFor="input-a"/>
+													<Input id="socInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Lane/Street *" labelFor="input-a"/>
-													<Input id="streeInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
-												</html:div>
-											</html:div>
-											<html:div class="row">
-												<html:div class="col-md-6">
-													<Label text="Sububan *" labelFor="input-a"/>
-													<Input id="banInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
-												</html:div>
-												<html:div class="col-md-6">
-													<Label text="City *" labelFor="input-a"/>
-													<Input id="placInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Lane/Street" labelFor="input-a"/>
+													<Input id="streeInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">
-													<Label text="Postal Code*" labelFor="input-a"/>
-													<Input id="psInput" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Sububan" labelFor="input-a"/>
+													<Input id="banInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Landmark *" labelFor="input-a"/>
-													<Input id="lmInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="City" labelFor="input-a"/>
+													<Input id="placInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">
-													<Label text="Email ID *" labelFor="input-a"/>
-													<Input id="emInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Postal Code" labelFor="input-a"/>
+													<Input id="psInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Mobile Number *" labelFor="input-a"/>
-													<Input id="mnInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Landmark" labelFor="input-a"/>
+													<Input id="lmInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-md-6">
+													<Label text="Email" labelFor="input-a"/>
+		                                     	<Input id="inputemail" required="true"/>
+												</html:div>
+												<html:div class="col-md-6">
+													<Label text="Mobile Number" labelFor="input-a"/>
+													<Input id="mnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
@@ -695,7 +693,6 @@
 											</html:div>
 										</html:div>
 									</html:div>
-									
 								</Panel>
 								<Panel id="pnl_07">
 									<html:div class="container-fluid">
@@ -949,7 +946,6 @@
 										</html:div>
 									</html:div>
 								</Panel>
-								
 							</html:div>
 						</html:div>
 					</html:div>
