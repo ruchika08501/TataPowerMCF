@@ -210,263 +210,265 @@
 						</html:div>
 					</html:div>
 					<html:div class="middlebanner">
-						<Image class="bannerdown" src="images/interests2.png" alt="light"/>
-					</html:div>
-					<html:div class=" row cube">
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/calc.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Calculator</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
+						<html:div>
+							<Image class="bannerdown" src="images/interests2.png" alt="light"/>
 						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">FAQs</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/grievncs.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Grievances</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/digital_services.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Digital Service</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/app_forms.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Application Forms</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/paymnt_opt.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Payment Option</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/green_c.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Green Corner</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/kn_cntr.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Knowledge Center</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class="col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/reg_info.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Regulatory Information</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/trained.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Trained Wireman</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Calculator</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/video_g.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Video Gallery</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/ads_camp.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Latest Ad Campaigns</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/newslttr.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">Newsletter</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
-						</html:div>
-						<html:div class=" col-xs-6 col-xs-offset-3 col-sm-4 col-md-2 cubetube">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
-								<TileContent>
-									<content>
-										<html:div class="innerpic">
-											<html:image src="images/news_fryou.png" alt="speakers " class="innertileimg"></html:image>
-											<html:h4 class="innertext">News For You</html:h4>
-											<html:a>
-												<html:h6 class="innertext2">Know More
-													<html:b style="color:red">></html:b>
-												</html:h6>
-											</html:a>
-										</html:div>
-									</content>
-								</TileContent>
-							</GenericTile>
+						<html:div class=" row cube">
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/calc.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Calculator</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">FAQs</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/grievncs.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Grievances</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/digital_services.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Digital Service</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/app_forms.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Application Forms</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/paymnt_opt.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Payment Option</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/green_c.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Green Corner</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/kn_cntr.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Knowledge Center</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/reg_info.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Regulatory Information</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/trained.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Trained Wireman</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Calculator</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/video_g.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Video Gallery</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/ads_camp.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Latest Ad Campaigns</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/newslttr.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">Newsletter</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-xs-offset-3 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="press">
+									<TileContent>
+										<content>
+											<html:div class="innerpic">
+												<html:image src="images/news_fryou.png" alt="speakers " class="innertileimg"></html:image>
+												<html:h4 class="innertext">News For You</html:h4>
+												<html:a>
+													<html:h6 class="innertext2">Know More
+														<html:b style="color:red">></html:b>
+													</html:h6>
+												</html:a>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
 						</html:div>
 					</html:div>
 					<core:Fragment fragmentName="sap.ui.demo.nav.view.Footer" type="XML"/>
