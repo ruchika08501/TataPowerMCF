@@ -1260,4 +1260,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
+    
+    .sapMPageEnableScrolling {
+    	position: static !important;
+    	overflow: auto !important;
+    }
 }
