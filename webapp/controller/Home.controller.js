@@ -13,8 +13,9 @@ sap.ui.define([
 		},
 
 		onInit: function() {
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 
-			$("#__panel0").hide();
 		},
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
@@ -22,8 +23,8 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onBeforeRendering: function() {
-
-			$("#__panel0").hide();
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		/**
@@ -32,8 +33,8 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onAfterRendering: function() {
-			$("#__panel0").hide();
-
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		/**
@@ -41,29 +42,21 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onExit: function() {
-			$("#__panel0").hide();
-
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		onNavToMyAccount: function(oEvent) {
-
 			this.getRouter().navTo("MyAccount");
-
 		},
 		onNavToQuickBill: function(oEvent) {
-
 			this.getRouter().navTo("PaymentHistory");
-
 		},
 		onNavToPaybill: function(oEvent) {
-
 			this.getRouter().navTo("QuickPayment");
-
 		},
 		onHomePress: function(oEvent) {
-
 			this.getRouter().navTo("home");
-
 		},
 		onNavToEmployeeOverview: function(oEvent) {
 			this.getRouter().navTo("employeeOverview");

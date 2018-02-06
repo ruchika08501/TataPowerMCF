@@ -65,7 +65,7 @@
 											</TileContent>
 										</GenericTile>
 									</html:div>
-									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
+									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile chg_tile">
 										<GenericTile class="tileLayout threept" press="press">
 											<TileContent footer="Change Password" class="sapUiSmallMargin">
 												<Image class="myimg" src="images/change_passd.png" alt="Example picture of speakers"/>
