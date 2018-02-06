@@ -13,7 +13,8 @@ sap.ui.define([
 		},
 
 		onInit: function() {
-			$("#__panel0").hide();
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 
 		},
 		/**
@@ -22,8 +23,8 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onBeforeRendering: function() {
-
-			$("#__panel0").hide();
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		/**
@@ -32,7 +33,8 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onAfterRendering: function() {
-			$("#__panel0").hide();
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		/**
@@ -40,7 +42,8 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onExit: function() {
-			$("#__panel0").hide();
+			this.mobileDropdown();
+			//$("#__panel0").hide();
 		},
 
 		onNavToMyAccount: function(oEvent) {
@@ -57,10 +60,6 @@ sap.ui.define([
 		},
 		onNavToEmployeeOverview: function(oEvent) {
 			this.getRouter().navTo("employeeOverview");
-		},
-		goDown: function(oEvent) {
-			var oFrametest = this.getView().byId("pnl_toggletab");
-			$("#"+oFrametest.sId+"").slideToggle("slow");
 		}
 
 	});
