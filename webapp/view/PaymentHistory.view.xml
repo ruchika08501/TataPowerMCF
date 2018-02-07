@@ -7,34 +7,22 @@
 					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid">
-						<html:div class="quick_bill_payment">
-							<html:div class="quick_bill_payment_head">
-								<html:h3 class="text-center">
-									<html:image src="images/online_bill.png" alt="speakers" style="margin-right:10px"></html:image>quick bill payment</html:h3>
-							</html:div>
-						</html:div>
 						<html:div class="counter-sec">
 							<html:div class="container-fluid">
 								<html:div class="row">
 									<html:div class="col-sm-6 counters">
-										<html:div class="row">
-											<html:div class="col-xs-4 col-sm-4 text-center">
-												<html:span>Consumer Number</html:span>
-												<html:h4>1234</html:h4>
-											</html:div>
-											<html:div class="col-xs-4 col-sm-4 text-center acc_no">
-												<html:span>Consumer Name</html:span>
-												<html:h4>Siddhesh</html:h4>
-											</html:div>
-											<html:div class="col-xs-4 col-sm-4 text-center">
-												<html:span>Bill Amount</html:span>
-												<html:h4>1234</html:h4>
-											</html:div>
-										</html:div>
+										<html:h3>
+											<html:image src="images/online_bill.png" alt="speakers" style="margin-right:10px"></html:image>quick bill payment
+										</html:h3>
 									</html:div>
 									<html:div class="col-sm-6">
 										<html:div class="row">
-											<html:div class="col-sm-4 col-sm-offset-8 btn_proceed">
+											<html:div class="col-sm-4 col-sm-offset-4">
+												<html:h5 class="bill_amt_head">
+													Bill Amount $ <html:span>1234</html:span>
+												</html:h5>
+											</html:div>
+											<html:div class="col-sm-4 btn_proceed">
 												<Button text="Proceed" press="onPress" ariaDescribedBy="defaultButtonDescription genericButtonDescription">
 													<layoutData>
 														<FlexItemData growFactor="1"/>
