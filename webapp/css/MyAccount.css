@@ -35,10 +35,14 @@
     border-right: 1px solid #fff;
     color: #fff;
 }
-
+.proftextx{
+	text-align: center;
+}
 .proftext3 {
     text-align: center;
     color: #fff;
+     border-right: 1px solid #fff;
+     padding-left:5px;
 }
 
 .contacttext {
