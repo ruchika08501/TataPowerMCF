@@ -10,7 +10,7 @@
 						<html:div class="counter-sec">
 							<html:div class="container-fluid">
 								<html:div class="row">
-									<html:div class="col-sm-6 counters">
+									<html:div class="col-sm-6">
 										<html:h3>
 											<html:image src="images/online_bill.png" alt="speakers" style="margin-right:10px"></html:image>quick bill payment
 										</html:h3>
