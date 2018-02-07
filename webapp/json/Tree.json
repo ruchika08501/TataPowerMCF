@@ -100,31 +100,31 @@
 
 	]
 }, {
-	"text": "Apply for Open Access",
+	"text": "form1",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Track Request Status",
+	"text": "form2",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Online Applications",
+	"text": "form3",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Apply for Reconnection",
+	"text": "form4",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Apply for Advance Bill Payment",
+	"text": "form5",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Apply for Reconnection",
+	"text": "form6",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }, {
-	"text": "Register Now and Get Rewarded",
+	"text": "form7",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }]
