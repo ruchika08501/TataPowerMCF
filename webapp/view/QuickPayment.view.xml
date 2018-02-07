@@ -943,25 +943,47 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_10">
-									<html:h1>section a</html:h1>	
-									</Panel>
-								<Panel id="pnl_11">
-										<html:h1>section b</html:h1>
-										</Panel>
-								<Panel id="pnl_12">
-									<html:h1>section c</html:h1>	
+									<html:h1>section a</html:h1>
 								</Panel>
-								<Panel id="pnl_13">	
-								<html:h1>section d</html:h1>
+								<Panel id="pnl_11">
+									<html:h1>section b</html:h1>
+								</Panel>
+								<Panel id="pnl_12">
+									<html:h1>section c</html:h1>
+								</Panel>
+								<Panel id="pnl_13">
+									<html:h1>section d</html:h1>
 								</Panel>
 								<Panel id="pnl_14">
 									<html:h1>section e</html:h1>
 								</Panel>
-								<Panel id="pnl_15">	
-								<html:h1>section f</html:h1>
+								<Panel id="pnl_15">
+									<html:h1>section f</html:h1>
 								</Panel>
-								<Panel id="pnl_16">	
-								<html:h1>section g</html:h1>
+								<Panel id="pnl_16">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Feedback</html:h4>
+											</html:div>
+											<html:div class="feddback_desc">
+												<html:p>
+													For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd(TPDDL), the consumers may please mark their mail to
+													<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+													OR at TPDDL website with link
+													<html:a href="http://www.tatapower-ddl.com/" title="TPDDL Wwebsite" target="_blank">http://www.tatapower-ddl.com/</html:a>. to enable timely
+													resolution.TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer
+													satisfaction. regulations and customer satisfaction.
+												</html:p>
+												<html:h5 class="feed_note">
+													Please enter all related information for us to help you better
+												</html:h5>
+												<html:div class="feedback_form">
+													
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 							</html:div>
 						</html:div>

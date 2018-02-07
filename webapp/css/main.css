@@ -1136,6 +1136,23 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     height: 100% !important;
 }
 
+/*form7 - feedback form*/
+
+.feddback_desc p {
+	padding: 15px 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.feddback_desc p a {
+	color: #1470cc;
+	text-decoration: none;
+}
+
+.feed_note { color: #9c9c9c; }
+
+.feedback_form { border: 1px solid #ddd; }
 
 /*mobile view */
 
