@@ -87,10 +87,6 @@
     background: linear-gradient(to right, #ff6b9b 0%, #ec407a 100%) !important;
 }
 
-.righttile {
-    padding: 0 4px;
-}
-
 .middlebox {
     margin: 30px -15px;
     background: #335b7a;

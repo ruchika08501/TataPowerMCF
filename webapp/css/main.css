@@ -531,8 +531,6 @@
     margin: 0 0 0 -1rem !important;
 }
 
-
-
 .sapMBtnIcon {
     font-size: 1.375rem;
     line-height: 2.375rem;
@@ -542,29 +540,41 @@
     padding: 0;
     vertical-align: top;
     max-height: 2.375rem;
-    color: #fafdff !important;
 }
+
+.sapMBtn {
+    height: auto !important;
+}
+
+
 /*payment history*/
 
 .payFlex {
     display: flex;
 }
 
-.quick_bill_payment_head h3 {
+.counter-sec h3 {
     margin: 0;
-    padding: 20px 0;
-    background: linear-gradient(to right, #f78d0a 0%, #fec107 100%)!important;
+    padding: 15px 0;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 .counter-sec {
-    background: #335b7a;
+    background: linear-gradient(to right, #f78d0a 0%, #fec107 100%)!important;
 }
 
-.counter-sec .counters {
-    padding: 8px;
+.bill_amt_head {
+    margin: 0;
+    color: #651414;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.bill_amt_head span {
+    font-size: 20px;
 }
 
 .acc_no {
@@ -595,7 +605,7 @@
 .btn_proceed .sapMBtn {
     width: 100%;
     height: auto;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .btn_proceed .sapMBtn:focus>.sapMFocusable {
@@ -733,7 +743,6 @@
 .prog_consumers h5 {
     padding: 15px 0;
     margin: 0;
-    text-align: center;
     color: #3495e9;
     font-weight: 600;
     font-size: 16px;
@@ -1117,6 +1126,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     max-height: 2.375rem;
 }
 
+.righttiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.righttile .tileLayout {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 
 /*mobile view */
 
@@ -1164,15 +1183,17 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .ben_initiatives .row .col-xs-12 {
         margin: 10px 0;
     }
-    .righttile .tileLayout {
-        width: 100% !important;
-        height: auto !important;
+   
+    .chg_tile {
+        margin-top: 10px;
     }
-    
-    .chg_tile { margin-top: 10px; }
-    
     .bill_payment .tileLayout,
-    .your_bill .tileLayout { padding: 5px 0 !important; }
+    .your_bill .tileLayout {
+        padding: 5px 0 !important;
+    }
+    .bill_amt_head {
+        text-align: center;
+    }
 }
 
 
@@ -1213,17 +1234,6 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .pay_tile {
         width: 20%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .righttiles {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .righttile .tileLayout {
-        width: 100% !important;
-        height: 100% !important;
     }
 }
 
