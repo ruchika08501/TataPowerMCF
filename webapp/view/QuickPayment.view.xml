@@ -942,6 +942,27 @@
 										</html:div>
 									</html:div>
 								</Panel>
+								<Panel id="pnl_10">
+									<html:h1>section a</html:h1>	
+									</Panel>
+								<Panel id="pnl_11">
+										<html:h1>section b</html:h1>
+										</Panel>
+								<Panel id="pnl_12">
+									<html:h1>section c</html:h1>	
+								</Panel>
+								<Panel id="pnl_13">	
+								<html:h1>section d</html:h1>
+								</Panel>
+								<Panel id="pnl_14">
+									<html:h1>section e</html:h1>
+								</Panel>
+								<Panel id="pnl_15">	
+								<html:h1>section f</html:h1>
+								</Panel>
+								<Panel id="pnl_16">	
+								<html:h1>section g</html:h1>
+								</Panel>
 							</html:div>
 						</html:div>
 					</html:div>
