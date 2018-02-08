@@ -1288,3 +1288,21 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         width: 20%;
     }
 }
+
+/* Form1 register power failure*/
+.rpg{
+	text-align:center;
+	border-bottom:0.5px solid grey;
+}
+.rpfbtn{
+	padding-left: 4.75rem !important;
+    padding-right: 4.75rem !important;
+    margin-top:10px !important;
+}
+
+.sapMPanelContent {
+    padding: 1rem;
+    box-sizing: border-box;
+     overflow:hidden!important; 
+    white-space: normal;
+}
