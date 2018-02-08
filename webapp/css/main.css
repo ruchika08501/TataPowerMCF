@@ -1295,9 +1295,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 	border-bottom:0.5px solid grey;
 }
 .rpfbtn{
-	padding-left: 4.75rem !important;
-    padding-right: 4.75rem !important;
-    margin-top:10px !important;
+	padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    margin-top:25px !important;
 }
 
 .sapMPanelContent {
@@ -1305,4 +1305,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     box-sizing: border-box;
      overflow:hidden!important; 
     white-space: normal;
+}
+.registerpf{
+    border: 1px solid #d4cece;
+    padding: 20px;
+    background: #f5f3f3;
 }
