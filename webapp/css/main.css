@@ -1154,6 +1154,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .feedback_form { border: 1px solid #ddd; }
 
+.mandatory {
+	padding: 15px 0;
+	color: #ff0100;
+	text-align: center;
+}
+
 /*mobile view */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

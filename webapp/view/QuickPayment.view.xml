@@ -979,7 +979,7 @@
 													Please enter all related information for us to help you better
 												</html:h5>
 												<html:div class="feedback_form">
-													
+													<html:h5 class="mandatory"><html:em>*Indicates Mandatory Fields</html:em></html:h5>
 												</html:div>
 											</html:div>
 										</html:div>
