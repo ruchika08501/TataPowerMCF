@@ -1,5 +1,5 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="sap.ui.demo.nav.controller.QuickPayment" xmlns:l="sap.ui.layout"
-	xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml">
+	xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:u="sap.ui.unified">
 	<App>
 		<pages>
 			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
@@ -954,23 +954,24 @@
 												<html:div class="col-md-6">
 													<html:div class="row">
 														<html:div class="col-md-9">
-															<Label text="Consumer Number" labelFor="input-a"/>
+															<Label text="Consumer Number" labelFor="cnInput"/>
 															<Input id="cnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 														</html:div>
 														<html:div class="col-md-3">
-															<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPress" ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
+															<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPress"
+																ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
 														</html:div>
 													</html:div>
 												</html:div>
 												<html:div class="col-md-6">
-													<Label text="Consumer Name" labelFor="input-a"/>
+													<Label text="Consumer Name" labelFor="ncInput"/>
 													<Input id="ncInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 											</html:div>
 											<html:div class="row">
 												<html:div class="col-md-6">
-													<Label text="Mobile Number" labelFor="input-a"/>
-													<Input id="mobnumberInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+													<Label text="Mobile Number" labelFor="mobnumberInput"/>
+													<Input id="mobnumberInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
 												<html:div class="col-md-6">
 													<Label text="Email ID" labelFor="input-a"/>
@@ -980,29 +981,217 @@
 											<html:div class="row">
 												<html:div class="col-md-12">
 													<Label text="Problem Decription" labelFor="input-a"/>
-													<TextArea placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
+													<TextArea placeholder="Enter Text" growing="true" growingMaxLines="9" width="100%"/>
 												</html:div>
 												<html:div class="col-md-12">
-													<Label text="Nearest Landmark" labelFor="input-a"/>
+													<Label text="Nearest Landmark" labelFor="nlInput"/>
 													<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 												</html:div>
-													<html:div class="col-md-12 text-center">
-											<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												<html:div class="col-md-12 text-center">
+													<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div >
 										</html:div>
-											</html:div>
-											
-										</html:div>
-									
 									</html:div>
 								</Panel>
 								<Panel id="pnl_11">
-									<html:h1>section b</html:h1>
+									<html:h4>Wireman Training Programme</html:h4>
+									<html:h6>Please Enter all related information for us to help you better</html:h6>
+									<html:div class="wire">
+										<html:div class="row">
+											<html:div class="col-md-7">
+												<Label text="Consumer Name" labelFor="sumInput"/>
+												<Input id="sumInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-5">
+												<Label text="Consumer Number" labelFor="msumInput"/>
+												<Input id="msumInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-md-7">
+												<Label text="Name of the Wireman" labelFor="sumerInput"/>
+												<Input id="sumerInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-5">
+												<Label text="Contact Number/Wireman contact number:" labelFor="wconInput"/>
+												<Input id="wconInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-md-4">
+												<Label text="PWD Licence No" labelFor="wpwdInput"/>
+												<Input id="wpwdInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-4">
+												<Label text="Enter Image varification Code:" labelFor="wmInput"/>
+												<Input id="wmInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-4">
+												<Label text="image:" labelFor="msumerInput"/>
+												<Input id="wInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-2 col-md-offset-4">
+												<Button text="SAVE" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+											<html:div class="col-md-2">
+												<Button text="CANCEL" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_12">
-									<html:h1>section c</html:h1>
+									<html:div class="treeimg">
+										<html:image src="images/ebill_green_img.png" alt="be_green_banner" class="img-responsive tree"></html:image>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-8 col-md-offset-2 treepara">
+											<html:p>Every 3000 sheets of paper cost us a tree. At this rate, it won't be long that all trees will completely disappear. So let's do what
+												it takes to preserve the environment. Help save trees by registering for e-bill and get your bills in your inbox instead of regular hard
+												copies.
+											</html:p>
+										</html:div>
+									</html:div>
+									<html:div class="ebiregister">
+										<html:p>FILL YOUR DETAILS BELOW TO REGISTER FOR E-BILL</html:p>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-4 col-md-offset-4">
+											<Label text="Consumer Number" labelFor="cnntreeInput"/>
+											<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-4 col-md-offset-4">
+											<Label text="Consumer Number" labelFor="cnntreeInput"/>
+											<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-4 col-md-offset-4">
+											<Label text="Consumer Name" labelFor="cnntreeInput"/>
+											<Input id="cnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-4 col-md-offset-4">
+											<Label text="Email" labelFor="cnntreeInput"/>
+											<Input id="cnntreInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-4 col-md-offset-4">
+											<Label text="Mobile Number" labelFor="cnntreeInput"/>
+											<Input id="cnnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-8 col-md-offset-2">
+											<RadioButton groupName="GroupB"
+												text="I agree to save trees and contribute toward nature by opening for e-bill and stop reciving paper bills" selected="true"/>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="col-md-12">
+											<Panel expandable="true" expanded="false" headerText="Term and Condition" width="auto" class="sapUiResponsiveMargin">
+												<content>
+													<Text
+														text="*Incentive would be credited in the bill at the rate of 1% of bill amount (excl taxes) of the last generated bill up to a maximum of Rs.50/-. * This is a onetime incentive for first time registartion only. "/>
+												</content>
+											</Panel>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_13">
-									<html:h1>section d</html:h1>
+									<html:h5 align="center">Lead Management System</html:h5>
+									<html:h6 align="center">Create New Lead</html:h6>
+									<html:div class="col-md-2 col-md-offset-5 leadmgt">
+										<html:p class="leadcreationp">LEAD CREATION</html:p>
+									</html:div>
+									<html:hr/>
+									<html:div class="row">
+										<html:div class="col-md-6">
+											<html:div class="row">
+												<html:div class="col-md-12">
+														<html:i class="fa fa-user-o newfa" style="font-size: 15px;color:#147bff"></html:i>
+													<Label text="Lead Champion" labelFor="leadchapInput"/>
+													<Input id="leadchapInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>
+												<html:div class="col-md-12">
+													<html:i class="fa fa-phone newfa"></html:i>
+													<Label text="Your Contact Number" labelFor="leadchapmsInput"/>
+													<Input id="leadchapmsInput" required="true" type="number" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>
+												<html:div class="col-md-12">
+												<html:i class="fa fa-pencil newfa"></html:i>
+													<Label text="Address" labelFor="leadchapmsInput"/>
+													<TextArea placeholder="Enter Text" growing="true" growingMaxLines="10" width="100%"/>
+												</html:div>
+												<html:div class="col-md-12">
+													<html:i class="fa fa-globe newfa"></html:i>
+													<Label text="Latitude and Longitude" labelFor="leareInput"/>
+													<html:div class="row">
+														<html:div class="col-md-6">
+															<Input id="leareInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+														</html:div>
+														<html:div class="col-md-6">
+															<Input id="leadrrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-md-12">
+														<html:i class="fa fa-map-marker newfa"></html:i>
+													<Label text="Nearest Landmark" labelFor="leadchapmsInput"/>
+													<Input id="nearInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>
+												<html:div class="col-md-12">
+													<html:i class="fa fa-picture-o newfa"></html:i>
+														<Label text="Photograph of the Site" labelFor="Input"/>
+														<html:div>
+													<u:FileUploader id="fileUploader"  name="myFileUpload" uploadUrl="upload/" tooltip="Upload your file to the local server"
+														uploadComplete="handleUploadComplete"/>
+													<Button text="Upload File" class="switchcenter" press="handleUploadPress"/>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:div class="row">
+												<html:div class="col-md-12">
+												<html:i class="fa fa-file-code-o newfa"  ></html:i>
+													<Label  text="Name of the Developer" labelFor="leadchapInput"/>
+													<Input id="ndInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>
+												<html:div class="col-md-12">
+											        <html:i class="fa fa-database newfa"> </html:i>	
+													<Label text="Name of the Project" labelFor="leadchapmsInput"/>
+													<Input id="npInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>	
+													<html:h5 class="centerinfodev">Contact Information Devloper Project</html:h5>
+													<html:div class="col-md-12">
+													<html:i class="fa fa-user-o newfa"> </html:i>	
+													<Label text="Contact Person" labelFor="leadchapmsInput"/>
+													<Input id="cppcpInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>	
+													<html:div class="col-md-12">
+															<html:i class="fa fa-phone newfa"></html:i>
+													<Label text="Phone number of site official(if available)" labelFor="leadchapmsInput"/>
+													<Input id="cpplInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+												</html:div>	
+												<html:div class="col-md-12">
+													<html:i class="fa fa-commenting-o newfa" ></html:i>
+													<Label text="Comments(if any)" labelFor="Input"/>
+													<TextArea placeholder="Enter Text" growing="true" growingMaxLines="10" width="100%"/>
+												</html:div>	
+												<html:div class="col-md-12">
+												<Label text="Indicate Mandatory fields" labelFor="leadchapmsInput"/>
+												 </html:div>
+										  </html:div>	
+										</html:div>
+											<html:div class="col-md-12 text-center">
+													<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_14">
 									<html:h1>section e</html:h1>

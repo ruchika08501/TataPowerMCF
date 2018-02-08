@@ -1183,7 +1183,6 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .ben_initiatives .row .col-xs-12 {
         margin: 10px 0;
     }
-   
     .chg_tile {
         margin-top: 10px;
     }
@@ -1289,25 +1288,102 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
 }
 
+
 /* Form1 register power failure*/
-.rpg{
-	text-align:center;
-	border-bottom:0.5px solid grey;
+
+.rpg {
+    text-align: center;
+    border-bottom: 0.5px solid grey;
 }
-.rpfbtn{
-	padding-left: 2.5rem !important;
+
+.rpfbtn {
+    padding-left: 2.5rem !important;
     padding-right: 2.5rem !important;
-    margin-top:25px !important;
+    margin-top: 25px !important;
 }
 
 .sapMPanelContent {
     padding: 1rem;
     box-sizing: border-box;
-     overflow:hidden!important; 
+    overflow: hidden!important;
     white-space: normal;
 }
-.registerpf{
+
+.registerpf {
     border: 1px solid #d4cece;
     padding: 20px;
     background: #f5f3f3;
+}
+
+.wire {
+    border: 1px solid #fffefe;
+    padding: 20px;
+    background: #d3e7fd;
+}
+
+.treeimg {
+    text-align: center;
+}
+
+.tree {
+    display: inline-block!important;
+}
+
+.treepara p {
+    color: #116511;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+}
+
+.ebiregister {
+    text-align: center;
+}
+
+.ebiregister p {
+    color: #147bff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.leadmgt {
+    position:relative;
+    background-color:#147bff;
+    padding:15px !important;
+    width:18% !important;
+    text-align:center;
+   
+}
+.leadmg{
+	 border-bottom:1px solid grey;
+}
+hr {
+    margin-top: 94px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 0.5px solid #d4d0d0;
+}
+.leadmgt:after {
+    content:'';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 33px #147bff;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+.leadcreationp{
+	color:#fff;
+	font-size: 14px;
+}
+.centerinfodev{
+	color:#3cec4b;
+	text-align:center;
+}
+.newfa{
+	font-size:14px;
+	color:#147bff;
+	vertical-align: top;
 }
