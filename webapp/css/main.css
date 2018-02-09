@@ -1679,7 +1679,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 .leadmgt {
     position:relative;
-    background-color:#147bff;
+    background-color:#3d87e6;
     padding:15px !important;
     width:18% !important;
     text-align:center;
@@ -1702,7 +1702,7 @@ hr {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 33px #147bff;
+    border-top: solid 33px #3d87e6;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }

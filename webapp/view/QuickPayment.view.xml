@@ -986,10 +986,10 @@
 												<Label text="Nearest Landmark" labelFor="input-a"/>
 												<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 											</html:div>
-											<html:div class="col-md-12 text-center">
-												<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											<html:div class="col-md-2 col-md-offset-5 text-center">
+				<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 											</html:div>
-											>>>>>>> 41b9d90028b7112b37e6ea98eb0cb5f4ac8080db
+										
 										</html:div>
 									</html:div>
 								</Panel>
@@ -1187,9 +1187,9 @@
 												</html:div>
 											</html:div>
 										</html:div>
-										<html:div class="col-md-12 text-center">
-											<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-										</html:div>
+										<html:div class="col-md-2 col-md-offset-5 text-center">
+				<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
 									</html:div>
 								</Panel>
 								<Panel id="pnl_14">
