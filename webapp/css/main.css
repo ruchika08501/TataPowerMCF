@@ -1600,7 +1600,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     text-transform: capitalize;
 }
 
-.chng_row { padding: 10px 0; }
+.chng_row {
+    padding: 10px 0;
+}
 
 .acc_change_password p {
     padding: 10px 0;
@@ -1608,6 +1610,24 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     color: #959598;
     font-size: 14px;
 }
+
+.view_table .sapMTB {
+    height: auto !important;
+    padding: 0 !important;
+}
+
+.view_table .sapMTB .sapMTitle {
+    font-size: 18px !important;
+    padding: 20px 0;
+}
+
+.view_table .sapMListTbl > thead > tr > th {
+	padding: 15px !important;
+	background: #888686 !important;
+	color: #fff !important;
+}
+
+.view_table .sapMListTbl > thead > tr > th .sapMText { color: #fff !important; }
 
 
 /*mobile view */

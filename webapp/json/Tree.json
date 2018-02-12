@@ -151,4 +151,12 @@
 	"text": "change_password",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
+},{
+	"text": "online_payment_receipt",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+},{
+	"text": "view_pay_bill",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
 }]
