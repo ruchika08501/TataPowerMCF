@@ -45,6 +45,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame14 = this.getView().byId("pnl_14");
 			var oFrame15 = this.getView().byId("pnl_15");
 			var oFrame16 = this.getView().byId("pnl_16");
+			var oFrame17 = this.getView().byId("pnl_17");
+			var oFrame18 = this.getView().byId("pnl_18");
+			var oFrame19 = this.getView().byId("pnl_19");
+			var oFrame20 = this.getView().byId("pnl_20");
 
 			if ("Procedure and Guidelines" == evt.oSource.mProperties.text) {
 
@@ -64,6 +68,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 			}
 			if ("Estimation of Security Deposit" == evt.oSource.mProperties.text) {
 
@@ -83,6 +91,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("Application Forms (3)" == evt.oSource.mProperties.text) {
@@ -103,6 +115,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("FAQs" == evt.oSource.mProperties.text) {
@@ -123,6 +139,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("Standard Drawings" == evt.oSource.mProperties.text) {
@@ -143,6 +163,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 			}
 			if ("Apply Online" == evt.oSource.mProperties.text) {
 
@@ -162,6 +186,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("Apply Online - 100kW" == evt.oSource.mProperties.text) {
@@ -182,6 +210,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 			}
 			if ("Check your online reference number" == evt.oSource.mProperties.text) {
 
@@ -201,6 +233,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("Changeover Connection" == evt.oSource.mProperties.text) {
@@ -221,6 +257,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 			}
 			if ("form1" == evt.oSource.mProperties.text) {
 
@@ -233,7 +273,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame6.sId + "").hide();
 				$("#" + oFrame7.sId + "").hide();
 				$("#" + oFrame8.sId + "").hide();
-
 				$("#" + oFrame10.sId + "").show();
 				$("#" + oFrame11.sId + "").hide();
 				$("#" + oFrame12.sId + "").hide();
@@ -241,6 +280,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form2" == evt.oSource.mProperties.text) {
@@ -261,6 +304,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form3" == evt.oSource.mProperties.text) {
@@ -281,6 +328,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form4" == evt.oSource.mProperties.text) {
@@ -301,6 +352,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form5" == evt.oSource.mProperties.text) {
@@ -321,6 +376,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").show();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form6" == evt.oSource.mProperties.text) {
@@ -341,6 +400,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").show();
 				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
 			}
 			if ("form7" == evt.oSource.mProperties.text) {
@@ -361,7 +424,107 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame14.sId + "").hide();
 				$("#" + oFrame15.sId + "").hide();
 				$("#" + oFrame16.sId + "").show();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
 
+			}
+			if ("form8" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").show();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+
+			}
+			if ("about" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").show();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+
+			}
+
+			if ("track_request_status" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").show();
+				$("#" + oFrame20.sId + "").hide();
+			}
+
+			if ("eob_apply_online" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").show();
 			}
 
 		},
@@ -384,6 +547,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame14 = this.getView().byId("pnl_14");
 			var oFrame15 = this.getView().byId("pnl_15");
 			var oFrame16 = this.getView().byId("pnl_16");
+			var oFrame17 = this.getView().byId("pnl_17");
+			var oFrame18 = this.getView().byId("pnl_18");
+			var oFrame19 = this.getView().byId("pnl_19");
+			var oFrame20 = this.getView().byId("pnl_20");
 
 			$("#" + oFrame1.sId + "").hide();
 			$("#" + oFrame2.sId + "").hide();
@@ -401,7 +568,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			$("#" + oFrame14.sId + "").hide();
 			$("#" + oFrame15.sId + "").hide();
 			$("#" + oFrame16.sId + "").hide();
-
+			$("#" + oFrame17.sId + "").hide();
+			$("#" + oFrame18.sId + "").hide();
+			$("#" + oFrame19.sId + "").hide();
+			$("#" + oFrame20.sId + "").hide();
 		},
 		onBeforeRendering: function() {
 			this.mobileDropdown();

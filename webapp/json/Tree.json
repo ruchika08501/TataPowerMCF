@@ -127,4 +127,20 @@
 	"text": "form7",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
+},{
+	"text": "form8",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+},{
+	"text": "about",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+},{
+	"text": "track_request_status",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+},{
+	"text": "eob_apply_online",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
 }]
