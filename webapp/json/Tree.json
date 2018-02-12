@@ -143,4 +143,8 @@
 	"text": "eob_apply_online",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
+},{
+	"text": "check_distribution_transfer",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
 }]

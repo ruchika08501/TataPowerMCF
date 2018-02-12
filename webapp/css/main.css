@@ -1563,7 +1563,34 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font-size: 14px;
 }
 
-.eob_new_con span { font-size: 13px; }
+.chk_instruction h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.chk_instruction ol {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.chk_instruction ol li {
+    padding: 5px 10px;
+}
+
+.eob_new_con span {
+    font-size: 13px;
+}
+
+.chk_instruction p {
+	padding: 10px 0;
+    color: #f00;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.chk_instruction p a { color: #3b9df0; }
+
 
 /*mobile view */
 
@@ -1677,8 +1704,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
-    
-    .eob_new_con .col-sm-2 { padding: 10px 15px; }
+    .eob_new_con .col-sm-2 {
+        padding: 10px 15px;
+    }
 }
 
 
@@ -1731,8 +1759,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
-    
-    .eob_new_con .col-sm-2 { padding: 10px 15px; }
+    .eob_new_con .col-sm-2 {
+        padding: 10px 15px;
+    }
 }
 
 
