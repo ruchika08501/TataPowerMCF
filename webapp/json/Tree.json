@@ -147,4 +147,8 @@
 	"text": "check_distribution_transfer",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
+},{
+	"text": "change_password",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
 }]

@@ -1583,13 +1583,31 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .chk_instruction p {
-	padding: 10px 0;
+    padding: 10px 0;
     color: #f00;
     font-weight: bold;
     font-size: 13px;
 }
 
-.chk_instruction p a { color: #3b9df0; }
+.chk_instruction p a {
+    color: #3b9df0;
+}
+
+.acc_change_password h4 {
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    text-transform: capitalize;
+}
+
+.chng_row { padding: 10px 0; }
+
+.acc_change_password p {
+    padding: 10px 0;
+    margin: 0;
+    color: #959598;
+    font-size: 14px;
+}
 
 
 /*mobile view */

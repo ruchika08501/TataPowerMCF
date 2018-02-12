@@ -50,6 +50,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame19 = this.getView().byId("pnl_19");
 			var oFrame20 = this.getView().byId("pnl_20");
 			var oFrame21 = this.getView().byId("pnl_21");
+			var oFrame23 = this.getView().byId("pnl_23");
 
 			if ("Procedure and Guidelines" == evt.oSource.mProperties.text) {
 
@@ -74,6 +75,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
 			if ("Estimation of Security Deposit" == evt.oSource.mProperties.text) {
 
@@ -98,6 +100,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("Application Forms (3)" == evt.oSource.mProperties.text) {
@@ -123,6 +126,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("FAQs" == evt.oSource.mProperties.text) {
@@ -148,6 +152,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("Standard Drawings" == evt.oSource.mProperties.text) {
@@ -173,6 +178,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
 			if ("Apply Online" == evt.oSource.mProperties.text) {
 
@@ -197,6 +203,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("Apply Online - 100kW" == evt.oSource.mProperties.text) {
@@ -222,6 +229,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
 			if ("Check your online reference number" == evt.oSource.mProperties.text) {
 
@@ -246,6 +254,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("Changeover Connection" == evt.oSource.mProperties.text) {
@@ -271,6 +280,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
 			if ("form1" == evt.oSource.mProperties.text) {
 
@@ -295,6 +305,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form2" == evt.oSource.mProperties.text) {
@@ -320,6 +331,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form3" == evt.oSource.mProperties.text) {
@@ -345,6 +357,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form4" == evt.oSource.mProperties.text) {
@@ -370,6 +383,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form5" == evt.oSource.mProperties.text) {
@@ -395,6 +409,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form6" == evt.oSource.mProperties.text) {
@@ -420,6 +435,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form7" == evt.oSource.mProperties.text) {
@@ -445,6 +461,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("form8" == evt.oSource.mProperties.text) {
@@ -470,6 +487,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 			if ("about" == evt.oSource.mProperties.text) {
@@ -495,6 +513,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 
 			}
 
@@ -521,6 +540,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").show();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
 
 			if ("eob_apply_online" == evt.oSource.mProperties.text) {
@@ -546,8 +566,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").show();
 				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
 			}
-			
+
 			if ("check_distribution_transfer" == evt.oSource.mProperties.text) {
 
 				$("#" + oFrame1.sId + "").hide();
@@ -571,6 +592,33 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame19.sId + "").hide();
 				$("#" + oFrame20.sId + "").hide();
 				$("#" + oFrame21.sId + "").show();
+				$("#" + oFrame23.sId + "").hide();
+			}
+
+			if ("change_password" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").show();
 			}
 
 		},
@@ -598,6 +646,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame19 = this.getView().byId("pnl_19");
 			var oFrame20 = this.getView().byId("pnl_20");
 			var oFrame21 = this.getView().byId("pnl_21");
+			var oFrame23 = this.getView().byId("pnl_23");
 
 			$("#" + oFrame1.sId + "").hide();
 			$("#" + oFrame2.sId + "").hide();
@@ -620,6 +669,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			$("#" + oFrame19.sId + "").hide();
 			$("#" + oFrame20.sId + "").hide();
 			$("#" + oFrame21.sId + "").hide();
+			$("#" + oFrame23.sId + "").hide();
 		},
 		onBeforeRendering: function() {
 			this.mobileDropdown();
