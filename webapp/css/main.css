@@ -1632,6 +1632,27 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 
+/*ease of doing business*/
+
+.blue_bullet_list {
+	padding: 0;
+    list-style-image: url(../images/blue_dot.png);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.blue_bullet_list li { padding: 5px 0; }
+
+.blue_bullet_list li .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.blue_bullet_list li ul { margin: 10px 0; }
+
+.eodb_list_head { padding: 10px; }
+
+
 /*mobile view */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
