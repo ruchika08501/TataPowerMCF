@@ -99,34 +99,6 @@
 		}
 	]
 }, {
-	"text": "form1",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form2",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form3",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form4",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form5",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form6",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
-	"text": "form7",
-	"ref": "sap-icon://customer-financial-fact-sheet",
-	"press1": "nodesfunction"
-}, {
 	"text": "latest adds",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
@@ -188,6 +160,38 @@
 	"press1": "nodesfunction"
 }, {
 	"text": "view_pay_bill",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app1",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app2",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app3",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app4",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app5",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app6",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app7",
+	"ref": "sap-icon://customer-financial-fact-sheet",
+	"press1": "nodesfunction"
+}, {
+	"text": "app8",
 	"ref": "sap-icon://customer-financial-fact-sheet",
 	"press1": "nodesfunction"
 }]

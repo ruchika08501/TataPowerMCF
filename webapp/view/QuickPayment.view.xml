@@ -2175,6 +2175,14 @@
 										</html:div>
 									</html:div>
 								</Panel>
+									<Panel id="pnl_26">	<html:h4>app1</html:h4>	</Panel>
+										<Panel id="pnl_27"><html:h4>app2</html:h4>	</Panel>
+											<Panel id="pnl_28"><html:h4>app3</html:h4>	</Panel>
+												<Panel id="pnl_29">	<html:h4>app4</html:h4></Panel>
+													<Panel id="pnl_30"><html:h4>app4</html:h4>	</Panel>
+														<Panel id="pnl_31"><html:h4>app5</html:h4>	</Panel>
+															<Panel id="pnl_32"><html:h4>app6</html:h4>	</Panel>
+																<Panel id="pnl_33">	<html:h4>app7</html:h4></Panel>
 							</html:div>
 						</html:div>
 					</html:div>
