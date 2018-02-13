@@ -697,13 +697,15 @@
 
 .bill_payment .tileLayout,
 .your_bill .tileLayout {
-	width: 100% !important;
-	height: 50px !important;
+    width: 100% !important;
+    height: 50px !important;
     padding: 13px 0;
 }
 
 .bill_payment .sapMGTContent,
-.your_bill .sapMGTContent { height: auto !important; }
+.your_bill .sapMGTContent {
+    height: auto !important;
+}
 
 .bill_payment .tileLayout .sapMGTHdrContent,
 .your_bill .tileLayout .sapMGTHdrContent {
@@ -1374,10 +1376,13 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 /*form7 - feedback form*/
 
-.feddback_desc p {
+.feddback_desc p,
+.bill_cal_desc p,
+.bill_note p,
+.about_desc p {
     padding: 15px 0;
     margin: 0;
-    font-weight: bold;
+    color: #959598;
     font-size: 12px;
 }
 
@@ -1411,47 +1416,220 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .share_ur_feed h4 {
-	padding: 20px 0;
-	margin: 0;
+    padding: 20px 0;
+    margin: 0;
 }
 
 .ques_no h5 {
-	color: #1774cf;
-	font-size: 15px;
+    color: #1774cf;
+    font-size: 15px;
 }
 
-.ques_no h5 span { color: #f00; }
+.ques_no h5 span {
+    color: #f00;
+}
+
 
 /*form6 - share feedback form*/
-.sapMPanelContent { padding: 0 15px !important; }
 
-.share_feedbk { margin: 0 -15px; }
+.sapMPanelContent {
+    padding: 0 15px !important;
+}
 
-.share_feedbk .counters { padding: 0; }
+.share_feedbk {
+    margin: 0 -15px;
+}
 
-.share_feedbk .your_bill { margin-top: 0; }
+.share_feedbk .counters {
+    padding: 0;
+}
 
-.share_ur_feed .form_row { padding: 15px 0; }
+.share_feedbk .your_bill {
+    margin-top: 0;
+}
 
-.quesn { 
-	padding: 15px; 
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+.share_ur_feed .form_row {
+    padding: 15px 0;
+}
+
+.quesn {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .feed_img {
-	width: 35px;
-	height: auto;
-	padding: 5px 10px;
-	display: inline-block;
+    width: 35px;
+    height: auto;
+    padding: 5px 10px;
+    display: inline-block;
 }
 
 .feed_img img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
-/*.feed_submit { width: 100% !important; }*/
+
+/*form8 - bill calculator*/
+
+.bill_cal_opt,
+.about_read_more,
+.track_request,
+.eob_new_con {
+    padding: 15px;
+    background: #d3e7fd;
+}
+
+.bill_cal_opt .sapMActionSelect {
+    width: 100%;
+    display: block;
+}
+
+.bill_cal_opt .form_row {
+    padding: 15px 0;
+}
+
+.about_desc p {
+    padding: 10px 0;
+}
+
+.about_read_more p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.read_more_link {
+    padding: 5px 10px;
+}
+
+.read_more_link a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1773ce;
+}
+
+.track_request {
+    padding: 50px 15px;
+    margin: 25px 0;
+}
+
+.track_request .sapMLabel,
+.eob_apply .sapMLabel {
+    padding: 5px 0;
+    margin: 0 !important;
+}
+
+.track_request .sapMInputDivWrapper,
+.eob_apply .sapMInputDivWrapper {
+    height: 3.5rem !important;
+}
+
+.track_request .sapMBtnInner,
+.eob_apply .sapMBtnInner,
+.eob_new_con .sapMBtnInner {
+    height: auto !important;
+}
+
+.track_request .sapMBtnContent bdi,
+.eob_apply .sapMBtnContent bdi,
+.eob_new_con .sapMBtnContent bdi {
+    font-size: 14px;
+    text-shadow: none;
+    padding: 5px 0;
+    height: auto;
+    display: inline-block;
+}
+
+.track_request .sapMLabel bdi,
+.eob_apply .sapMLabel bdi {
+    font-size: 16px;
+    color: #1773cf;
+}
+
+.eob_apply {
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.eob_new_con {
+    margin: 20px 0;
+}
+
+.eob_new_con h5 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.chk_instruction h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.chk_instruction ol {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.chk_instruction ol li {
+    padding: 5px 10px;
+}
+
+.eob_new_con span {
+    font-size: 13px;
+}
+
+.chk_instruction p {
+    padding: 10px 0;
+    color: #f00;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.chk_instruction p a {
+    color: #3b9df0;
+}
+
+.acc_change_password h4 {
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    text-transform: capitalize;
+}
+
+.chng_row {
+    padding: 10px 0;
+}
+
+.acc_change_password p {
+    padding: 10px 0;
+    margin: 0;
+    color: #959598;
+    font-size: 14px;
+}
+
+.view_table .sapMTB {
+    height: auto !important;
+    padding: 0 !important;
+}
+
+.view_table .sapMTB .sapMTitle {
+    font-size: 18px !important;
+    padding: 20px 0;
+}
+
+.view_table .sapMListTbl > thead > tr > th {
+    padding: 15px !important;
+    background: #888686 !important;
+    color: #fff !important;
+}
+
+.view_table .sapMListTbl > thead > tr > th .sapMText {
+    color: #fff !important;
+}
 
 
 /*mobile view */
@@ -1566,6 +1744,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
+    .eob_new_con .col-sm-2 {
+        padding: 10px 15px;
+    }
 }
 
 
@@ -1618,16 +1799,18 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
-    .latestaddrow{
-	display:flex;
-	
-}
-.latestcolum{
-	height:100% !important;
-}
-.moblink{
-	margin-top:10px;
-}
+    .latestaddrow {
+        display: flex;
+    }
+    .latestcolum {
+        height: 100% !important;
+    }
+    .moblink {
+        margin-top: 10px;
+    }
+    .eob_new_con .col-sm-2 {
+        padding: 10px 15px;
+    }
 }
 
 
@@ -1687,25 +1870,28 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font-weight: bold;
     font-size: 12px;
 }
+
 .leadmgt {
-    position:relative;
-    background-color:#3d87e6;
-    padding:15px !important;
-    width:18% !important;
-    text-align:center;
-   
+    position: relative;
+    background-color: #3d87e6;
+    padding: 15px !important;
+    width: 18% !important;
+    text-align: center;
 }
-.leadmg{
-	 border-bottom:1px solid grey;
+
+.leadmg {
+    border-bottom: 1px solid grey;
 }
+
 hr {
     margin-top: 94px;
     margin-bottom: 20px;
     border: 0;
     border-top: 0.5px solid #d4d0d0;
 }
+
 .leadmgt:after {
-    content:'';
+    content: '';
     position: absolute;
     top: 60%;
     left: 50%;
@@ -1716,54 +1902,61 @@ hr {
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
-.leadcreationp{
-	color:#fff;
-	font-size: 14px;
+
+.leadcreationp {
+    color: #fff;
+    font-size: 14px;
 }
-.centerinfodev{
-	color:#3cec4b;
-	text-align:center;
+
+.centerinfodev {
+    color: #3cec4b;
+    text-align: center;
 }
-.newfa{
-	font-size:14px;
-	color:#147bff;
-	vertical-align: top;
+
+.solarroof {
+    background: #d3e7fd;
+    padding: 10px;
 }
-.solarroof{
-	background:#d3e7fd;
-	padding:10px;
+
+.consumernum {
+    color: #0d72dc;
 }
-.consumernum{
-	color:#0d72dc;
-}
-.solmeter{
-	margin-top: 20px;
+
+.solmeter {
+    margin-top: 20px;
     border: 0;
     border-top: 0.5px solid #d4d0d0;
 }
-.instructionform li{
-	list-style-type: lower-alpha;
-	font-size:12px;
-	padding-bottom: 10px;
-}
-.downloadlist{
-	color:#0070b1!important;
 
+.instructionform li {
+    list-style-type: lower-alpha;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
-.mobilelink{
-	color:#147bff!important;
-	
-}
-.mobilefa{
-	font-size:24px;
-	color:#147bff;
 
+.downloadlist {
+    color: #0070b1!important;
+}
+
+.mobilelink {
+    color: #147bff!important;
+}
+
+.mobilefa {
+    font-size: 24px;
+    color: #147bff;
 }
 
 .panel-footer {
     padding: 10px 15px;
-    background-color:transparent!important;
+    background-color: transparent!important;
     border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+
+.newfa {
+    font-size: 14px;
+    color: #147bff;
+    vertical-align: top;
 }

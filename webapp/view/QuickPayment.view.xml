@@ -1546,6 +1546,215 @@
 										</html:div>
 									</html:div>
 								</Panel>
+								<Panel id="pnl_17">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Bill Calculator</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="bill_cal_desc">
+											<html:div class="row">
+												<html:div class="col-sm-7">
+													<html:p>
+														Select your tariff category and enter your energy consumption to help us calculate your bill. If you desire to calculate your energy
+														consumption, please
+													</html:p>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="bill_cal_opt">
+											<html:div class="row">
+												<html:div class="col-sm-10 col-sm-offset-1">
+													<html:div class="row">
+														<html:div class="col-sm-4">
+															<Label text="Tarrif Category"/>
+															<ActionSelect id="select1" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+																<items>
+																	<core:Item key="{ProductId}" text="{Name}"/>
+																</items>
+															</ActionSelect>
+														</html:div>
+														<html:div class="col-sm-4">
+															<Label text="Tarrif Category"/>
+															<DatePicker id="DP6" displayFormat="short" change="handleChange"/>
+														</html:div>
+														<html:div class="col-sm-4">
+															<Label text="Type of Customer"/>
+															<ActionSelect id="select2" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+																<items>
+																	<core:Item key="{ProductId}" text="{Name}"/>
+																</items>
+															</ActionSelect>
+														</html:div>
+													</html:div>
+													<html:div class="row form_row">
+														<html:div class="col-md-2 col-md-offset-4">
+															<Button text="CALCULATE" press="onPress" class="switchcenter form-control"
+																ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														</html:div>
+														<html:div class="col-md-2">
+															<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="bill_note">
+											<html:div class="row">
+												<html:div class="col-sm-9">
+													<html:p>
+														Please Note: The billing amount generated is an estimated amount based on the type of customer selected by you. Your actual bill amount may
+														vary from this amount.
+													</html:p>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_18">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>About Tata Power Consumer Portal</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="about_desc">
+											<html:p>
+												Welcome to Tata Power Consumer Care Portal. We at Tata Power, have been constantly striving to innovate and provide services to exceed
+												Consumer expectations.
+											</html:p>
+											<html:p>
+												Through this portal, we are attempting to reach out to all our Consumers who will find it convenient to seek information and do meaningful
+												transactions. The design and content of this portal has been done keeping Consumers’ convenience and needs in mind. We hope you find it a
+												worthwhile experience and the navigation user friendly.
+											</html:p>
+											<html:p>
+												Please get yourself registered at once and experience the difference!
+											</html:p>
+											<html:p>
+												We value your suggestions. So, do not hesitate to give your candid feedback ! We look forward to hearing from you!
+											</html:p>
+										</html:div>
+										<html:div class="about_read_more">
+											<html:p>
+												Recognised as India’s largest private sector power utility, with a reputation for trustworthiness, built up over nearly nine decades, Tata
+												Power surges ahead into yet another year with plans of sustained growth, greater value to consumer and reliable power supply.
+											</html:p>
+											<html:p>
+												Led by a powerful vision, Tata Power pioneered the generation of electricity in India. It has now successfully served the Mumbai consumers
+												for over ninety years and has spread its footprints across the nation. Today, it is the country’s largest private player in the sector.
+												Apart from Mumbai and Delhi, the company has generation capacities in Jojobera, Jharkhand and Karnataka.
+											</html:p>
+											<html:div class="read_more_link">
+												<html:a href="https://www.tatapower.com/" title="Read More" target="_blank">Read More</html:a>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_19">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Track Request Status</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="track_request">
+											<html:div class="container-fluid">
+												<html:div class="row">
+													<html:div class="col-sm-4">
+														<Label text="Enter Request/Rlnfra Number" labelFor="req_num"/>
+													</html:div>
+													<html:div class="col-sm-5">
+														<Input type="Text" id="req_num" required="true"/>
+													</html:div>
+													<html:div class="col-sm-3">
+														<Button text="SHOW RESULTS" press="onPress" class="switchcenter form-control"
+															ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_20">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Apply Online</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="eob_new_con">
+										<html:div class="container-fluid">
+											<html:div class="row">
+												<html:div class="col-xs-12 col-sm-8">
+													<html:h5>Have you already Registered for New Connection ?</html:h5>
+													<html:span>If "YES" kindly enter the Registration Number. Else click "No" and Apply for New Connection</html:span>
+												</html:div>
+												<html:div class="col-xs-6 col-sm-2">
+													<Button text="YES" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+												<html:div class="col-xs-6 col-sm-2">
+													<Button text="NO" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="eob_apply">
+										<html:div class="container-fluid">
+											<html:div class="row">
+												<html:div class="col-sm-4">
+													<Label text="Your Registration ID" labelFor="reg_id"/>
+												</html:div>
+												<html:div class="col-sm-5">
+													<Input type="Text" id="reg_id" required="true"/>
+												</html:div>
+												<html:div class="col-sm-3">
+													<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_21">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Check Distribution Transfer Capacity</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="track_request">
+										<html:div class="container-fluid">
+											<html:div class="row">
+												<html:div class="col-sm-4">
+													<Label text="Enter Consumer Number" labelFor=""/>
+												</html:div>
+												<html:div class="col-sm-5">
+													<Input type="Text" id=""/>
+												</html:div>
+												<html:div class="col-sm-3">
+													<Button text="DISPLAY" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="chk_instruction">
+										<html:div class="container-fluid">
+											<html:h5>Instructions</html:h5>
+											<html:ol type="a">
+												<html:li>The system is available for all LT consumers directly connected to Tata Power network.</html:li>
+												<html:li>LT changover consumers connected to other wires licensee network will not be able to get the transformer capacity online. Such
+													applications will be processed through wires licensee.</html:li>
+												<html:li>For all HT consumers, this system is not applicable</html:li>
+											</html:ol>
+											<html:p>*If you have any queries, please write to :
+												<html:a href="mailto:solarnetmetering@tatapower.com" title="Mail Us">solarnetmetering@tatapower.com</html:a>
+											</html:p>
+										</html:div>
+									</html:div>
+								</Panel>
 								<Panel id="pnl_22">
 									<html:h4 align="center">Latest Adds</html:h4>
 									<html:div class="latest">
@@ -1590,31 +1799,380 @@
 													<html:div class="panel-footer">Choose Tata Power</html:div>
 												</html:div>
 											</html:div>
-											
 										</html:div>
 										<html:div class="row moblink">
 											<html:div class=" col-xs-12 col-sm-6 col-md-6">
-													<html:div class="row">
+												<html:div class="row">
 													<html:div class=" col-md-1">
-												<html:i class="fa fa-apple mobilefa" aria-hidden="true"></html:i>
+														<html:i class="fa fa-apple mobilefa" aria-hidden="true"></html:i>
+													</html:div>
+													<html:div class=" col-md-11">
+														<Link class="mobilelink" text="TATAPOWER Mobile App Link For IOS" target="_blank"
+															href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8"/>
+													</html:div>
 												</html:div>
-												<html:div class=" col-md-11">
-												<Link class="mobilelink" text="TATAPOWER Mobile App Link For IOS" target="_blank" href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8"/>	
-												</html:div>
-											</html:div>
 											</html:div>
 											<html:div class=" col-xs-12 col-sm-6 col-md-6 ">
-													<html:div class="row">
+												<html:div class="row">
 													<html:div class=" col-md-1">
-											<html:i class="fa fa-android mobilefa" aria-hidden="true"></html:i>
+														<html:i class="fa fa-android mobilefa" aria-hidden="true"></html:i>
+													</html:div>
+													<html:div class=" col-md-11">
+														<Link class="mobilelink" text="TATAPOWER Mobile App Link For Android" target="_blank" href="http://www.sap.com"/>
+													</html:div>
 												</html:div>
-												<html:div class=" col-md-11">
-											<Link class="mobilelink" text="TATAPOWER Mobile App Link For Android" target="_blank" href="http://www.sap.com"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_23">
+									<html:div class="container-fluid">
+										<html:div class="row middlebox share_feedbk">
+											<html:div class="content">
+												<html:div class="row">
+													<html:div class="col-sm-7 col-md-6">
+														<html:div class="row">
+															<html:div class="col-sm-6">
+																<html:div class="row bill_payment">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>quick bill payment</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+															<html:div class="col-sm-6">
+																<html:div class="row your_bill">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>pay your bill here</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+													<html:div class="col-sm-5 col-md-6 counters">
+														<html:div class="row">
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Consumer Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+																<html:span>Account Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Meter Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+														</html:div>
+													</html:div>
 												</html:div>
 											</html:div>
-												
+										</html:div>
+										<html:div class="acc_change_password">
+											<html:div class="row">
+												<html:h4>change password</html:h4>
+												<html:p>
+													<html:em>If you'd registered in the portal earlier and do not remember the password, please key in your consumer no. and the password will
+														be sent to your email id as well as mobile number registered with us.</html:em>
+												</html:p>
+												<html:p>
+													<html:em>Please get your New Consumer Number from What's New section and enter here</html:em>
+												</html:p>
 											</html:div>
+											<html:div class="row">
+												<html:div class="col-xs-12">
+													<html:div class="row chng_row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<Label text="Consumer Number" labelFor="ncon"/>
+															<Input type="Number" id="ncon" required="true"/>
+														</html:div>
+													</html:div>
+													<html:div class="row chng_row">
+														<html:div class="col-sm-4 col-sm-offset-4">
+															<html:div class="row">
+																<html:div class="col-sm-6">
+																	<Button text="GENERATE PASSWORD" press="onPress" class="switchcenter form-control"
+																		ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																</html:div>
+																<html:div class="col-sm-6">
+																	<Button text="CANCEL" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
 											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_24">
+									<html:div class="container-fluid">
+										<html:div class="row middlebox share_feedbk">
+											<html:div class="content">
+												<html:div class="row">
+													<html:div class="col-sm-7 col-md-6">
+														<html:div class="row">
+															<html:div class="col-sm-6">
+																<html:div class="row bill_payment">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>quick bill payment</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+															<html:div class="col-sm-6">
+																<html:div class="row your_bill">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>pay your bill here</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+													<html:div class="col-sm-5 col-md-6 counters">
+														<html:div class="row">
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Consumer Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+																<html:span>Account Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Meter Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="row view_table">
+											<Table id="table1" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+												<headerToolbar>
+													<Toolbar>
+														<content>
+															<Title text="Online Payment Receipt" level="H2"/>
+														</content>
+													</Toolbar>
+												</headerToolbar>
+												<columns>
+													<Column minScreenWidth="Desktop">
+														<Text text="Bill Number"/>
+													</Column>
+													<Column minScreenWidth="Desktop" demandPopin="true">
+														<Text text="Status"/>
+													</Column>
+													<Column minScreenWidth="Desktop" demandPopin="true">
+														<Text text="Amount"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Payment Date"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Payment Time"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Payment Mode"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Transaction"/>
+													</Column>
+													<Column minScreenWidth="Desktop">
+														<Text text="PDF Generate"/>
+													</Column>
+												</columns>
+												<items>
+													<ColumnListItem>
+														<cells>
+															<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+															<Text text="{SupplierName}"/>
+															<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+															<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+																state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+															<ObjectNumber
+																number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+																unit="{CurrencyCode}"/>
+														</cells>
+													</ColumnListItem>
+												</items>
+											</Table>
+										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_25">
+									<html:div class="container-fluid">
+										<html:div class="row middlebox share_feedbk">
+											<html:div class="content">
+												<html:div class="row">
+													<html:div class="col-sm-7 col-md-6">
+														<html:div class="row">
+															<html:div class="col-sm-6">
+																<html:div class="row bill_payment">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>quick bill payment</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+															<html:div class="col-sm-6">
+																<html:div class="row your_bill">
+																	<html:div class="col-xs-12">
+																		<GenericTile class="tileLayout" press="press">
+																			<TileContent>
+																				<content>
+																					<html:div class="row">
+																						<html:div class="col-xs-3">
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																						</html:div>
+																						<html:div class="col-xs-9">
+																							<html:span>pay your bill here</html:span>
+																						</html:div>
+																					</html:div>
+																				</content>
+																			</TileContent>
+																		</GenericTile>
+																	</html:div>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+													<html:div class="col-sm-5 col-md-6 counters">
+														<html:div class="row">
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Consumer Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+																<html:span>Account Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+															<html:div class="col-xs-4 col-sm-4 text-center">
+																<html:span>Meter Number</html:span>
+																<html:h4>1234</html:h4>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="row view_table">
+											<Table id="table2" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+												<headerToolbar>
+													<Toolbar>
+														<content>
+															<Title text="View &amp; Pay Bill Online" level="H2"/>
+														</content>
+													</Toolbar>
+												</headerToolbar>
+												<columns>
+													<Column minScreenWidth="Desktop">
+														<Text text="Bill Number"/>
+													</Column>
+													<Column minScreenWidth="Desktop" demandPopin="true">
+														<Text text="Bill Date"/>
+													</Column>
+													<Column minScreenWidth="Desktop" demandPopin="true">
+														<Text text="Discount"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Payment Date"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Net Bill Amount"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Due Date"/>
+													</Column>
+													<Column minScreenWidth="Tablet" demandPopin="true">
+														<Text text="Bill Amount"/>
+													</Column>
+													<Column minScreenWidth="Desktop">
+														<Text text="View PDF"/>
+													</Column>
+													<Column minScreenWidth="Desktop">
+														<Text text="Pay"/>
+													</Column>
+												</columns>
+												<items>
+													<ColumnListItem>
+														<cells>
+															<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+															<Text text="{SupplierName}"/>
+															<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+															<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+																state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+															<ObjectNumber
+																number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+																unit="{CurrencyCode}"/>
+														</cells>
+													</ColumnListItem>
+												</items>
+											</Table>
+										</html:div>
 									</html:div>
 								</Panel>
 							</html:div>
