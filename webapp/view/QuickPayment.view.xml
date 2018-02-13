@@ -987,9 +987,8 @@
 												<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 											</html:div>
 											<html:div class="col-md-2 col-md-offset-5 text-center">
-				<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 											</html:div>
-										
 										</html:div>
 									</html:div>
 								</Panel>
@@ -1188,12 +1187,55 @@
 											</html:div>
 										</html:div>
 										<html:div class="col-md-2 col-md-offset-5 text-center">
-				<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-											</html:div>
+											<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+										</html:div>
 									</html:div>
 								</Panel>
 								<Panel id="pnl_14">
-									<html:h1>section e</html:h1>
+									<html:h5>Apply for Solar Roof Top Net Metering</html:h5>
+									<html:h6>To Apply For Solar Net metering Click on "Apply"</html:h6>
+									<html:h6>If you have Already applied and want to upload documents</html:h6>
+									<html:div class="solarroof">
+										<html:div class="row">
+											<html:div class="col-sm-3">
+												<RadioButton groupName="ques1" text="Apply"/>
+											</html:div>
+											<html:div class="col-sm-9">
+												<RadioButton groupName="ques1" text="Upload Document"/>
+											</html:div>
+											<html:div class="col-md-2">
+												<html:h6 class="consumernum">Consumer Number</html:h6>
+											</html:div>
+											<html:div class="col-md-6">
+												<Input id="solarInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-2">
+												<Button text="SUBMIT" press="onPress" class="switchcenter" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:hr class="solmeter"/>
+									<html:div class="col-md-12">
+										<html:h5>Instructions To Fill The Form</html:h5>
+										<html:ol class="instructionform">
+											<html:li>Confirm your consumer number for which you want to apply for Roof Top Solar Net Metering.</html:li>
+											<html:li>Fill the online application form. All fields marked with * are mandatory.</html:li>
+											<html:li>You can save the filled in application form in "Draft" mode and modify it later. To save the form in draft mode click on "Save In Draft".
+											</html:li>
+											<html:li>If you have filled the entire form correctly and want to save, take print out of the form and "upload" require documents click on
+												"Final Save &amp; Continue".</html:li>
+											<html:li>Download the Filled-in application form (PDF Format). Take prtint out of the downloaded form. Authorized signatory should sign the
+												form at the required places.</html:li>
+											<html:li>Upload all necessary documents along with application form. List of necessary documents click on "Document List".
+												<Link class="downloadlist" text="Document List" press="handleLinkPress"/>
+											</html:li>
+											<html:li>Ensure that single PDF is attached for each document.</html:li>
+											<html:li>After uploadig all the documents click on "Submit", to complete the online application process.</html:li>
+											<html:li>
+												We will reply you on your registered E-Mail ID for further Net Metering process.</html:li>
+											<html:li>If you have any query, please write to "solarnetmetering@tatapower.com"</html:li>
+										</html:ol>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_15">
 									<html:div class="container-fluid">
@@ -1502,6 +1544,77 @@
 												</html:div>
 											</html:div>
 										</html:div>
+									</html:div>
+								</Panel>
+								<Panel id="pnl_22">
+									<html:h4 align="center">Latest Adds</html:h4>
+									<html:div class="latest">
+										<html:div class="row latestaddrow">
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">We have chosen TataPower.And you?(Hindi)</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">We have chosen TataPower.And you?(Marathi)</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 col-sm-6 col-md-3">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">Choose Tata Power</html:div>
+												</html:div>
+											</html:div>
+											
+										</html:div>
+										<html:div class="row moblink">
+											<html:div class=" col-xs-12 col-sm-6 col-md-6">
+													<html:div class="row">
+													<html:div class=" col-md-1">
+												<html:i class="fa fa-apple mobilefa" aria-hidden="true"></html:i>
+												</html:div>
+												<html:div class=" col-md-11">
+												<Link class="mobilelink" text="TATAPOWER Mobile App Link For IOS" target="_blank" href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8"/>	
+												</html:div>
+											</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-6 ">
+													<html:div class="row">
+													<html:div class=" col-md-1">
+											<html:i class="fa fa-android mobilefa" aria-hidden="true"></html:i>
+												</html:div>
+												<html:div class=" col-md-11">
+											<Link class="mobilelink" text="TATAPOWER Mobile App Link For Android" target="_blank" href="http://www.sap.com"/>
+												</html:div>
+											</html:div>
+												
+											</html:div>
+											</html:div>
 									</html:div>
 								</Panel>
 							</html:div>

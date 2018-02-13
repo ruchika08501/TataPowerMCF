@@ -1618,6 +1618,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .pay_tile {
         width: 20%;
     }
+    .latestaddrow{
+	display:flex;
+	
+}
+.latestcolum{
+	height:100% !important;
+}
+.moblink{
+	margin-top:10px;
+}
 }
 
 
@@ -1718,4 +1728,42 @@ hr {
 	font-size:14px;
 	color:#147bff;
 	vertical-align: top;
+}
+.solarroof{
+	background:#d3e7fd;
+	padding:10px;
+}
+.consumernum{
+	color:#0d72dc;
+}
+.solmeter{
+	margin-top: 20px;
+    border: 0;
+    border-top: 0.5px solid #d4d0d0;
+}
+.instructionform li{
+	list-style-type: lower-alpha;
+	font-size:12px;
+	padding-bottom: 10px;
+}
+.downloadlist{
+	color:#0070b1!important;
+
+}
+.mobilelink{
+	color:#147bff!important;
+	
+}
+.mobilefa{
+	font-size:24px;
+	color:#147bff;
+
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color:transparent!important;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }

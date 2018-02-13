@@ -59,7 +59,7 @@
 				"viewPath": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
-				"transition": "slide",
+				"transition": "Flip",
 				"bypassed": {
 					"target": "notFound"
 				}
@@ -96,6 +96,11 @@
 				"pattern": "PaymentHistory",
 				"name": "PaymentHistory",
 				"target": "PaymentHistory"
+			},
+			{
+				"pattern": "onlineform",
+				"name": "onlineform",
+				"target": "onlineform"
 			}
 			],
 			"targets": {
@@ -137,6 +142,12 @@
 					"viewName": "QuickPayment",
 					"viewLevel" : 6
 				},
+					"onlineform": {
+					"viewPath": "sap.ui.demo.nav.view",
+					"viewName": "onlineform",
+					"viewLevel" : 7
+				},
+				
 				"resumeTabHobbies": {
 					"parent": "employeeResume",
 					"viewPath": "sap.ui.demo.nav.view.employee",

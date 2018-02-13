@@ -60,6 +60,9 @@ sap.ui.define([
 		},
 		onNavToEmployeeOverview: function(oEvent) {
 			this.getRouter().navTo("employeeOverview");
+		},
+		onlineform: function(oEvent) {
+			this.getRouter().navTo("onlineform");
 		}
 
 	});

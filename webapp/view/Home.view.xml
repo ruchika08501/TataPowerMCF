@@ -73,7 +73,7 @@
 					</html:div>
 					<html:div class="row dividetiles">
 						<html:div class=" col-xs-12 col-sm-6 col-md-3 smalltile">
-							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="press">
+							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="onlineform">
 								<TileContent>
 									<content>
 										<html:div class="row">

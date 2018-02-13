@@ -1,0 +1,51 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.demo.nav.controller.onlineform"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+						<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="sap.ui.demo.nav.view.HeaderMenu" type="XML"/>
+					<html:h5 align="center">Online Applications</html:h5>
+				<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title"
+		subheader="Subtitle" press="press">
+		<TileContent unit="EUR" footer="Current Quarter">
+			<ImageContent src="sap-icon://home-share" />
+		</TileContent>
+	</GenericTile>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
