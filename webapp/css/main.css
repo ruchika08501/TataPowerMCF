@@ -932,9 +932,10 @@
 }
 
 .intro_desc h5 {
-    padding: 15px 0;
+    padding: 20px 0;
     margin: 0;
     color: #1c7a1a;
+    font-size: 18px;
 }
 
 .inti_list {
@@ -1529,13 +1530,15 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .track_request .sapMBtnInner,
 .eob_apply .sapMBtnInner,
-.eob_new_con .sapMBtnInner {
+.eob_new_con .sapMBtnInner,
+.audit_reg .sapMBtnInner {
     height: auto !important;
 }
 
 .track_request .sapMBtnContent bdi,
 .eob_apply .sapMBtnContent bdi,
-.eob_new_con .sapMBtnContent bdi {
+.eob_new_con .sapMBtnContent bdi,
+.audit_reg .sapMBtnContent bdi {
     font-size: 14px;
     text-shadow: none;
     padding: 5px 0;
@@ -1635,22 +1638,53 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 /*ease of doing business*/
 
 .blue_bullet_list {
-	padding: 0;
+    padding: 0;
     list-style-image: url(../images/blue_dot.png);
     font-weight: bold;
     font-size: 12px;
 }
 
-.blue_bullet_list li { padding: 5px 0; }
-
-.blue_bullet_list li .row {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.blue_bullet_list li {
+    padding: 5px 0;
 }
 
-.blue_bullet_list li ul { margin: 10px 0; }
+.blue_bullet_list li .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-.eodb_list_head { padding: 10px; }
+.blue_bullet_list li ul {
+    margin: 10px 0;
+}
+
+.eodb_list_head {
+    padding: 10px;
+}
+
+.audit_prog p {
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.split_ac_link p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.split_ac_link p a {
+    color: #3b9cef;
+}
+
+.read_more_energy p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.view_more_energy {
+    padding: 10px 0;
+}
 
 
 /*mobile view */
@@ -1728,6 +1762,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 
 /*i- pad and tab-view  view */
+
+@media screen and (min-width: 768px) {
+    .sdlc_row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sdlc_row img { display: inline-block; }
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .smalltile {
