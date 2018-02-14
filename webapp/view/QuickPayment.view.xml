@@ -2243,7 +2243,7 @@
 									</html:div>
 									<html:h5 align="center">BEST REGARDS</html:h5>
 									<html:h5 class="teamtata">Team TATA Power</html:h5>
-									<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to<Link text="ccag@tatapower-ddl.com" press="handleLinkPress" class="penplink" />
+									<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to<Link text="ccag@tatapower-ddl.com" press="handleLinkPress" class="penplink"/>
 									</html:p>
 									<html:p class="penleader">OR at TPDDL website with link
 										<Link text="http://www.tatapower-ddl.com/" press="handleLinkPress" class="penplink"/>
@@ -2252,7 +2252,6 @@
 									<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>
 								</Panel>
 								<Panel id="pnl_27">
-							
 									<html:h4 align="center">Latest Adds</html:h4>
 									<html:div class="Newsletter">
 										<html:div class="row latestaddrow">
@@ -2265,88 +2264,7 @@
 													</html:div>
 													<html:div class="panel-footer">
 														<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, April 2017</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-													<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, April 2017</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-															<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, April 2017</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-															<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, April 2017</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-												</html:div>
-												<html:div class="secondline">
-												<html:div class="row latestaddrow">
-												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-															<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, October 2013</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-											<html:div class="col-xs-12 col-sm-6 col-md-3 ">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-															<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, March 2013</html:h6>
-													</html:div>
-												</html:div>
-											</html:div>
-											<html:div class="col-xs-12 col-sm-6 col-md-3">
-												<html:div class="panel panel-default latestcolum">
-													<html:div class="panel-body pdfviewer">
-														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-															<html:image src="images/news.png" alt="tata_logo"></html:image>
-														</html:a>
-													</html:div>
-													<html:div class="panel-footer">
-															<html:h5>Synergy Newsletter</html:h5>
-													<html:h6>Issue 1, April 2017</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
 													</html:div>
 												</html:div>
 											</html:div>
@@ -2358,35 +2276,395 @@
 														</html:a>
 													</html:div>
 													<html:div class="panel-footer">
-															<html:h6>Synergy Newsletter</html:h6>
-													<html:h6>Issue 1, April 2017</html:h6>
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
 													</html:div>
 												</html:div>
 											</html:div>
 										</html:div>
+										<html:div class="secondline">
+											<html:div class="row latestaddrow">
+												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, October 2013</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, March 2013</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-xs-12 col-sm-6 col-md-3">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h5>Synergy Newsletter</html:h5>
+															<html:h6>Issue 1, April 2017</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, April 2017</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
 										</html:div>
-								     </html:div>
-											
-											
-							
+									</html:div>
 								</Panel>
 								<Panel id="pnl_28">
-									<html:h4>app3</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro audit_prog">
+											<html:div class="intro_head">
+												<html:h4>Super-Efficient Ceiling Fan</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Super-Efficient Ceiling Fan</html:h5>
+											</html:div>
+											<html:p class="text-center">(For Tata Power Residential Consumers Only)</html:p>
+											<html:p class="text-center">As you might be aware, we had rolled out the 5 Star DSM Energy Efficient Ceiling Fan Program earlier. It
+												received an overwhelming response from our consumers. Keeping pace with the advanced technology, we have upgraded our ceiling fan program to
+												the DSM Super-Efficient Ceiling Fan Program. This is the first DSM Super-Efficient Ceiling Fan program in India.</html:p>
+											<html:p class="text-center">Based on the BLDC Motor technology, the Ceiling Fans offered under this program are more energy efficient than 5
+												Star Ceiling Fans, thus helping you save more energy and money. Apart from that, these fans come with multiple user-friendly features (e.g.
+												A Smart Remote that has speed control, sleep and timer mode) to enhance your operational convenience. Thus, these products offer an
+												enjoyable, smart and energy-saving ceiling fan experience. Read on to know more about the product offered under this program.</html:p>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Salient Features of Super-Efficient (BLDC Technology Based) Ceiling Fan</html:h5>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-6 col-sm-offset-3">
+													<html:ul class="inti_list">
+														<html:li>Consumes only 28 W at the highest speed (about 1/3rd of an ordinary fan)</html:li>
+														<html:li>Highest Service value (Air Delivery/ Watt)</html:li>
+														<html:li>Humming Noise-free Working</html:li>
+														<html:li>Greater Operational Control through Remote</html:li>
+													</html:ul>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:image src="images/low_energy.gif" alt="low_energy" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="row sdlc_row">
+												<html:div class="col-sm-5">
+													<html:image src="images/bldc.png" alt="bldc" class="img-responsive"></html:image>
+												</html:div>
+												<html:div class="col-sm-7">
+													<html:div class="intro_desc">
+														<html:h5>What is the BLDC Technology?</html:h5>
+														<html:ul class="inti_list">
+															<html:li>Brush Less Direct Current Technology is the latest revolution in the fan industry (the way LED technology is for the lighting).</html:li>
+															<html:li>Use of the BLDC Motor is the most innovative feature of these ceiling fans.</html:li>
+															<html:li>Permanent magnets used in rotor are responsible for mass reduction in power consumption compared to windings used in the stator in
+																an ordinary induction fan.</html:li>
+															<html:li>BLDC Motor making the motor more rugged for long-term use.</html:li>
+															<html:li>Life of a BLDC fan is also expected to be much higher than ordinary fans.</html:li>
+														</html:ul>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Convenience offered by the Smart Remote</html:h5>
+											</html:div>
+											<html:p class="text-center">Apart from the regular speed control, you can use the Remote to control the fan operations by using sleep and timer mode.</html:p>
+											<html:div class="row">
+												<html:div class="col-sm-6 col-sm-offset-3">
+													<html:image src="images/remote.png" alt="remote" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:p class="text-center">All in all, these Super-efficient ceiling fans combine the extra energy savings along with comfortable and
+												convenience ceiling fan experience.</html:p>
+											<html:p class="text-center">We look forward to your participation in the Super-Efficient Ceiling Fan Program.</html:p>
+											<html:p class="text-center">To know more about the program and register for the same, please provide your consumer number below:</html:p>
+											<html:div class="row view_more_energy">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:div class="row">
+														<html:div class="col-sm-4">
+															<Label text="Consumer Number" labelFor="sdlccosm_num"/>
+														</html:div>
+														<html:div class="col-sm-5">
+															<Input type="Text" id="sdlccosm_num"/>
+														</html:div>
+														<html:div class="col-sm-3">
+															<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_29">
-									<html:h4>app4</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro audit_prog">
+											<html:div class="intro_head">
+												<html:h4>LED Tube Light</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">LED Tube Light New Purchase Programme</html:h5>
+											</html:div>
+											<html:p class="text-center">(For Tata Power Residential and Industrial/Commercial Consumers)</html:p>
+											<html:p class="text-center">Dear Consumer,</html:p>
+											<html:div class="row">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:p class="text-center">This Program is closed.</html:p>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-12 split_ac_link">
+												<html:p class="text-center">If any query, Please write to
+													<html:a href="mailto:dsmcell@tatapower.com" title="Mail Us">dsmcell@tatapower.com</html:a>
+												</html:p>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_30">
-									<html:h4>app4</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro audit_prog">
+											<html:div class="intro_head">
+												<html:h4>Energy Efficient Refrigerator New Purchase &amp; Exchange Programme</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Energy Efficient Refrigerator New Purchase &amp; Exchange Programme</html:h5>
+											</html:div>
+											<html:p class="text-center">(For Tata Power Residential Consumers only)</html:p>
+											<html:div class="row">
+												<html:div class="col-sm-10 col-sm-offset-1">
+													<html:p class="text-center">Refrigerator is the important but highly underrated appliance in residential energy consumption. By virtue of
+														its almost continuous operation throughout the year, it offers a great opportunity to save energy. Under our DSM initiative, we had rolled
+														out the Energy Efficient Refrigerator Program earlier. Buoyed by the tremendous response that we received, we have launched the next phase
+														of the program.</html:p>
+													<html:p class="text-center">BEE 5 Star rated refrigerators are made available up to a handsome discount of 40% on MRP. The new program
+														offers a wide range of consumer-friendly features like latest models, choice to visit the store or doorstep delivery and option of extended
+														warranty. Program has also been extended to include the new purchase option. So be energy savvy, participate in the program and avail the
+														benefit of this special offer.</html:p>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-12 read_more_energy">
+												<html:p class="text-center">Read on to know more about the program and registration:</html:p>
+											</html:div>
+										</html:div>
+										<html:div class="row view_more_energy">
+											<html:div class="col-sm-8 col-sm-offset-2">
+												<html:div class="row">
+													<html:div class="col-sm-4">
+														<Label text="Consumer Number" labelFor="ecosm_num"/>
+													</html:div>
+													<html:div class="col-sm-5">
+														<Input type="Text" id="ecosm_num"/>
+													</html:div>
+													<html:div class="col-sm-3">
+														<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_31">
-									<html:h4>app5</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro audit_prog">
+											<html:div class="intro_head">
+												<html:h4>5-Star Split AC Exchange Programme</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">5-Star Split AC Exchange Programme</html:h5>
+											</html:div>
+											<html:p class="text-center">(For Tata Power Residential and Industrial/Commercial Consumers)</html:p>
+											<html:p class="text-center">Dear Consumer,</html:p>
+											<html:div class="row">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:p class="text-center">Thank you for your interest in our 5-Star Split AC Exchange Program. We have received an overwhelming response
+														for it. As the full approved quantity is booked by consumers, the new registration of this program is closed now. Please keep watching this
+														space for further announcement.</html:p>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-12 split_ac_link">
+												<html:p class="text-center">Please write to
+													<html:a href="mailto:dsmcell@tatapower.com" title="Mail Us">dsmcell@tatapower.com</html:a>
+													for any queries.</html:p>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_32">
-									<html:h4>app6</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro audit_prog">
+											<html:div class="intro_head">
+												<html:h4>Energy Audit Programme</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Enerdy Audit Programme</html:h5>
+											</html:div>
+											<html:p class="text-center">(For Commercial and Industrial Customers only)</html:p>
+											<html:p class="text-center">Now you get to save money where it counts the most! Opt for our Energy Audit programme that helps you identify
+												energy saving opportunities at your own premises.</html:p>
+											<html:p class="text-center">Every facility is unique in nature of operation and energy consumption. And only an energy audit specialist can
+												identify inefficiencies in your equipments and provide you with customized recommendations for achieving energy savings.
+											</html:p>
+											<html:p class="text-center">Specialist Energy Audit Firms (approved by BEE) will conduct energy audit of your premises only at 25% cost!</html:p>\
+											<html:p class="text-center">So, take the first step in controlling your energy consumption. Register for our Energy Audit Programme at
+												discounted rates and track those energy guzzlers today!</html:p>
+											<html:p class="text-center">Yes, I am a Tata Power Commercial/Industrial Customer. I am interested to carry out energy audit in my premises
+												under Tata Power programme. Please send me the details of your programme.</html:p>
+										</html:div>
+										<html:div class="row">
+											<html:div class="col-sm-2 col-sm-offset-5 audit_reg">
+												<Button text="REGISTER" press="onPress" class="switchcenter form-control"
+													ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_33">
-									<html:h4>app8</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Ease of Doing Business (EODB)</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="eodb_desc">
+											<html:ul class="blue_bullet_list">
+												<html:li>190 Economies around the world are ranked by the World Bank on ten parameters wherein, ‘Getting Electricity’ is also one of the parameters.</html:li>
+												<html:li>
+													Some of the parameters considered in evaluating ‘Getting Electricity’ for an electricity connection which impact a 140KW / 150 KVA
+													connection on 415V supply are as follows:
+													<html:ul class="inti_list">
+														<html:li>Time taken to get electricity connection.</html:li>
+														<html:li>Cost required for getting a new connection.</html:li>
+														<html:li>Procedure required to be completed for getting new connection.</html:li>
+														<html:li>Reliability of Electricity supply.</html:li>
+													</html:ul>
+												</html:li>
+												<html:li>
+													The concerted efforts of Ministry of Power, Central Electricity Authority, Government of Maharashtra and the DISCOMS in Delhi and Mumbai,
+													have contributed in raising India’s rank in ‘Getting Electricity’ from 137th rank in 2015 to 26th rank in 2017 (Fig(i)).
+													<html:div class="row">
+														<html:div class="col-sm-6 col-sm-offset-3">
+															<html:image src="images/graph.png" alt="graph" class="img-responsive"></html:image>
+														</html:div>
+													</html:div>
+												</html:li>
+												<html:li>Many reforms have been undertaken to improve the rankings</html:li>
+											</html:ul>
+											<html:h4 class="eodb_list_head">Central Electricity Authority:</html:h4>
+											<html:ul class="blue_bullet_list">
+												<html:li>Installation of transformers on Pole Mounted Substations up to 500KVA, earlier the provision is only for 250 KVA transformers.</html:li>
+												<html:li>Electrical Inspection Clearance Authority given to DISCOM for installations up to 11 KV.</html:li>
+											</html:ul>
+											<html:h4 class="eodb_list_head">Maharashtra Electricity Regulatory Commission:</html:h4>
+											<html:ul class="blue_bullet_list">
+												<html:li>Normative Service Connection Charges.</html:li>
+												<html:li>Energization within 15 days for new electricity connections requests received through online mode.</html:li>
+												<html:li>Number of documents required for obtaining a new electricity connections reduced to 2 nos. along with application form.</html:li>
+											</html:ul>
+											<html:h4 class="eodb_list_head">Government of Maharashtra:</html:h4>
+											<html:ul class="blue_bullet_list">
+												<html:li>
+													Online facility provided to the consumer for
+													<html:ul class="inti_list">
+														<html:li>Registration of New Electricity Connections.</html:li>
+														<html:li>Uploading of Documents.</html:li>
+														<html:li>Payments of Estimate Charges.</html:li>
+													</html:ul>
+												</html:li>
+												<html:li>
+													Procedure for obtaining a New Connection have been reduced to 3:
+													<html:div class="row">
+														<html:div class="col-sm-6">
+															<html:image src="images/steps.png" alt="steps" class="img-responsive"></html:image>
+														</html:div>
+													</html:div>
+												</html:li>
+												<html:li>
+													Implementation of Outage Management System, and Supervisory Control and Data Acquisition system (SCADA) for improved reliability. Tata Power
+													Reliability Indices for FY 17 are as follows:
+													<html:ul class="inti_list">
+														<html:li>SAIFI</html:li>
+														<html:li>SAIDI</html:li>
+													</html:ul>
+												</html:li>
+												<html:li>Status tracking against Notifications</html:li>
+											</html:ul>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_34">
 									<html:h4>app9</html:h4>
@@ -2424,7 +2702,6 @@
 								<Panel id="pnl_45">
 									<html:h4>app20</html:h4>
 								</Panel>
-							
 							</html:div>
 						</html:div>
 					</html:div>
