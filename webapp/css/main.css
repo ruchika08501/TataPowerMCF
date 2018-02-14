@@ -1686,6 +1686,49 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px 0;
 }
 
+.new_cust_head h5 {
+    color: #3981c5;
+}
+
+.new_cust_type {
+    padding: 50px 0;
+}
+
+.pwr_sply_frm h4 {
+    padding: 15px 0;
+    margin: 0;
+    color: #2280d9;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.pwr_sply_desc {
+    padding: 15px 0;
+}
+
+.pwr_sply_desc p {
+    font-size: 14px;
+}
+
+.pwr_sply_app_num h5 {
+    color: #2280d9;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.rdm_num .sapMLabel {
+    width: 100%;
+    border: 2px solid #40a3f4;
+    padding: 15px;
+    text-align: center !important;
+}
+
+.rdm_num .sapMLabel bdi {
+	color: #2280d9;
+	font-weight: bold;
+}
+
+.btn_continue { padding-top: 15px; }
 
 /*mobile view */
 
@@ -1769,8 +1812,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         justify-content: center;
         align-items: center;
     }
-    
-    .sdlc_row img { display: inline-block; }
+    .sdlc_row img {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -1869,7 +1913,6 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .latestcolum {
         height: 100% !important;
-        
     }
     .moblink {
         margin-top: 10px;
@@ -1877,8 +1920,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .eob_new_con .col-sm-2 {
         padding: 10px 15px;
     }
-    .secondline{
-    	margin-top:20px;
+    .secondline {
+        margin-top: 20px;
     }
 }
 
@@ -2029,40 +2072,45 @@ hr {
     color: #147bff;
     vertical-align: top;
 }
-.senleader{
-	font-size:15px;
-	text-align:center;
+
+.senleader {
+    font-size: 15px;
+    text-align: center;
 }
-.seniorleader{
-	background:#d3ddf3;
-	padding:10px;
+
+.seniorleader {
+    background: #d3ddf3;
+    padding: 10px;
 }
-.senled{
-	font-size:11px;
-	
+
+.senled {
+    font-size: 11px;
 }
-.write{
-	margin-top:10px !important;
+
+.write {
+    margin-top: 10px !important;
 }
-.mdname{
-	color:#0797ef;
-	
+
+.mdname {
+    color: #0797ef;
 }
-.textimgvalue{
-	text-align:center;
+
+.textimgvalue {
+    text-align: center;
     padding-top: 40px;
-	}
-.teamtata{
-	color:#0797ef;
-	text-align:center;
-}	
-
-.penleader{
-	font-size:13px;
-	text-align:center;
 }
-.penplink{
-	color: #0070b1!important;
-	font-size:13px!important;
 
+.teamtata {
+    color: #0797ef;
+    text-align: center;
+}
+
+.penleader {
+    font-size: 13px;
+    text-align: center;
+}
+
+.penplink {
+    color: #0070b1!important;
+    font-size: 13px!important;
 }

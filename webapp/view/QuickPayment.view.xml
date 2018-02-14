@@ -2693,7 +2693,20 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_34">
-									<html:h4>app9</html:h4>
+									<html:div class="row">
+										<html:div class="col-xs-12 col-sm-6 col-md-3">
+											<ImageContent class="pro_img_cont" src="images/read_bill.png" description="Profile image" press="press"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-6 col-md-3">
+											<ImageContent class="pro_img_cont" src="images/charge.png" description="Profile image" press="press"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-6 col-md-3">
+											<ImageContent class="pro_img_cont" src="images/factory.png" description="Profile image" press="press"></ImageContent>
+										</html:div>
+										<html:div class="col-xs-12 col-sm-6 col-md-3">
+											<ImageContent class="pro_img_cont" src="images/safety_01.png" description="Profile image" press="press"></ImageContent>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_35">
 									<html:h4>app10</html:h4>
@@ -2723,10 +2736,57 @@
 									<html:h4>app18</html:h4>
 								</Panel>
 								<Panel id="pnl_44">
-									<html:h4>app19</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Application Forms</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="pwr_sply_frm">
+											<html:h4 class="text-center">power supply application form</html:h4>
+											<html:div class="pwr_sply_desc">
+												<html:p class="text-center">Kindly make a note of the system generated Application Number and take a print of this page.</html:p>
+												<html:p class="text-center">It is mandatory to attach the print out of this page with your application form during the submission of your form.</html:p>
+											</html:div>
+										</html:div>
+										<html:div class="pwr_sply_app_num">
+											<html:h5 class="text-center">your application number</html:h5>
+											<html:div class="row">
+												<html:div class="col-sm-2 col-sm-offset-5">
+													<html:div class="rdm_num">
+														<Label text="WTPCA24052"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row btn_continue">
+												<html:div class="col-sm-2 col-sm-offset-5 audit_reg">
+													<Button text="CONTUNUE" press="onPress" class="switchcenter form-control"
+														ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_45">
-									<html:h4>app20</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="new_cust_type">
+											<html:div class="row">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:div class="row">
+														<html:div class="col-xs-12 col-sm-4">
+															<ImageContent class="pro_img_cont" src="images/residential.png" description="residential" press="press"></ImageContent>
+														</html:div>
+														<html:div class="col-xs-12 col-sm-4">
+															<ImageContent class="pro_img_cont" src="images/commercial.png" description="commercial" press="press"></ImageContent>
+														</html:div>
+														<html:div class="col-xs-12 col-sm-4">
+															<ImageContent class="pro_img_cont" src="images/industrial.png" description="industrial" press="press"></ImageContent>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 							</html:div>
 						</html:div>
