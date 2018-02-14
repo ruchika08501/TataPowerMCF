@@ -2422,6 +2422,32 @@
 													</html:div>
 												</html:div>
 											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-6 intro_desc">
+													<html:h5>Timer Mode</html:h5>
+													<html:ul class="inti_list">
+														<html:li>Automatically stops after the programmed hour.</html:li>
+														<html:li>Use this feature when you don't need fan after 1, 2, 3, 6 or 9 hours.</html:li>
+														<html:li>Saves energy, increases comfort level.</html:li>
+													</html:ul>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:image src="images/Timer_Mode.gif" alt="Timer_Mode" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-6 intro_desc">
+													<html:h5>Sleep Mode</html:h5>
+													<html:ul class="inti_list">
+														<html:li>Fans speed keep on reducing gradually.</html:li>
+														<html:li>During the night increase your comfort level by switching to this mode.</html:li>
+														<html:li>Saves energy smartly.</html:li>
+													</html:ul>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:image src="images/Sleep_Mode.gif" alt="Sleep_Mode" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
 											<html:div class="intro_desc">
 												<html:h5 class="text-center">Convenience offered by the Smart Remote</html:h5>
 											</html:div>
