@@ -1860,7 +1860,7 @@
 																				<content>
 																					<html:div class="row">
 																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
 																						</html:div>
 																						<html:div class="col-xs-9">
 																							<html:span>pay your bill here</html:span>
@@ -1945,7 +1945,7 @@
 																				<content>
 																					<html:div class="row">
 																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-responsive"></html:image>
 																						</html:div>
 																						<html:div class="col-xs-9">
 																							<html:span>quick bill payment</html:span>
@@ -1965,7 +1965,7 @@
 																				<content>
 																					<html:div class="row">
 																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
 																						</html:div>
 																						<html:div class="col-xs-9">
 																							<html:span>pay your bill here</html:span>
@@ -2066,7 +2066,7 @@
 																				<content>
 																					<html:div class="row">
 																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
+																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-responsive"></html:image>
 																						</html:div>
 																						<html:div class="col-xs-9">
 																							<html:span>quick bill payment</html:span>
@@ -2086,7 +2086,7 @@
 																				<content>
 																					<html:div class="row">
 																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-responsive"></html:image>
 																						</html:div>
 																						<html:div class="col-xs-9">
 																							<html:span>pay your bill here</html:span>
