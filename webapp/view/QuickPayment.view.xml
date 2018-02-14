@@ -2176,10 +2176,195 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_26">
-									<html:h4>app1</html:h4>
+									<html:p class="senleader">Dear Friend,</html:p>
+									<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
+										with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>
+									<html:div class="row">
+										<html:div class="col-md-6">
+											<html:div class="seniorleader">
+												<html:div class="row ">
+													<html:div class="col-md-4">
+														<html:image src="images/coo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+													</html:div>
+													<html:div class="col-md-8">
+														<html:p class="senled">
+															<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+															Our endeavor is to deliver “uninterrupted power supply” to all the customers.It will be heartening to know your experiences or suggestions
+															to help us get better. Please feel free to provide us your valuable feedback or suggestions. We are committed to serving our customers to
+															the best of our ability.
+															<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+														</html:p>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-md-6 ">
+													<html:h5>Mr. Ashok S. Sethi</html:h5>
+													<html:p class="mdname">COO &amp; Executive Director</html:p>
+												</html:div>
+												<html:div class="col-md-3 col-md-offset-3">
+													<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:div class="seniorleader">
+												<html:div class="row">
+													<html:div class="col-md-4">
+														<html:image src="images/ceo.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+													</html:div>
+													<html:div class="col-md-8">
+														<html:p class="senled">
+															<html:image src="images/speech_top.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+															I acknowledge that you have a choice of a service provider.I can assure you that we are committed to serving our customers
+															seamlessly.However, in case your experience is otherwise or you have suggestion for us to serve you better, kindly write to me, directly. I
+															will always cherish your feedback, suggestion or inputs for improvements. Please accept my thanks and gratitude for visiting our web-link
+															and spending your valuable time in engaging with us.
+															<html:image src="images/speech_bottom.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+														</html:p>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-md-6 ">
+													<html:h5>Mr. Anil Sardana</html:h5>
+													<html:p class="mdname">CEO &amp; Managing Director</html:p>
+												</html:div>
+												<html:div class="col-md-3 col-md-offset-3">
+													<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+									<html:p class="senleader">Please feel free to write to them. We are committed to address all your concerns to your fullest</html:p>
+									<html:p class="senleader">satisfaction and put your feedback into action.</html:p>
+									<html:div class="textimgvalue">
+										<html:image src="images/feedback.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
+									</html:div>
+									<html:h5 align="center">BEST REGARDS</html:h5>
+									<html:h5 class="teamtata">Team TATA Power</html:h5>
+									<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to<Link text="ccag@tatapower-ddl.com" press="handleLinkPress" class="penplink"/>
+									</html:p>
+									<html:p class="penleader">OR at TPDDL website with link
+										<Link text="http://www.tatapower-ddl.com/" press="handleLinkPress" class="penplink"/>
+										to enable timely resolution.
+									</html:p>
+									<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>
 								</Panel>
 								<Panel id="pnl_27">
-									<html:h4>app2</html:h4>
+									<html:h4 align="center">Latest Adds</html:h4>
+									<html:div class="Newsletter">
+										<html:div class="row latestaddrow">
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+												<html:div class="panel panel-default latestcolum">
+													<html:div class="panel-body pdfviewer">
+														<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+															<html:image src="images/news.png" alt="tata_logo"></html:image>
+														</html:a>
+													</html:div>
+													<html:div class="panel-footer">
+														<html:h6>Synergy Newsletter</html:h6>
+														<html:h6>Issue 1, April 2017</html:h6>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+										<html:div class="secondline">
+											<html:div class="row latestaddrow">
+												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, October 2013</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, March 2013</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-xs-12 col-sm-6 col-md-3">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h5>Synergy Newsletter</html:h5>
+															<html:h6>Issue 1, April 2017</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+													<html:div class="panel panel-default latestcolum">
+														<html:div class="panel-body pdfviewer">
+															<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+																<html:image src="images/news.png" alt="tata_logo"></html:image>
+															</html:a>
+														</html:div>
+														<html:div class="panel-footer">
+															<html:h6>Synergy Newsletter</html:h6>
+															<html:h6>Issue 1, April 2017</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_28">
 									<html:div class="container-fluid">
@@ -2480,6 +2665,42 @@
 											</html:ul>
 										</html:div>
 									</html:div>
+								</Panel>
+								<Panel id="pnl_34">
+									<html:h4>app9</html:h4>
+								</Panel>
+								<Panel id="pnl_35">
+									<html:h4>app10</html:h4>
+								</Panel>
+								<Panel id="pnl_36">
+									<html:h4>app11</html:h4>
+								</Panel>
+								<Panel id="pnl_37">
+									<html:h4>app12</html:h4>
+								</Panel>
+								<Panel id="pnl_38">
+									<html:h4>app13</html:h4>
+								</Panel>
+								<Panel id="pnl_39">
+									<html:h4>app14</html:h4>
+								</Panel>
+								<Panel id="pnl_40">
+									<html:h4>app15</html:h4>
+								</Panel>
+								<Panel id="pnl_41">
+									<html:h4>app16</html:h4>
+								</Panel>
+								<Panel id="pnl_42">
+									<html:h4>app17</html:h4>
+								</Panel>
+								<Panel id="pnl_43">
+									<html:h4>app18</html:h4>
+								</Panel>
+								<Panel id="pnl_44">
+									<html:h4>app19</html:h4>
+								</Panel>
+								<Panel id="pnl_45">
+									<html:h4>app20</html:h4>
 								</Panel>
 							</html:div>
 						</html:div>

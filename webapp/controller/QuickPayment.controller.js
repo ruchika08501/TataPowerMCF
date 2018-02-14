@@ -62,6 +62,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame31 = this.getView().byId("pnl_31");
 			var oFrame32 = this.getView().byId("pnl_32");
 			var oFrame33 = this.getView().byId("pnl_33");
+			var oFrame34 = this.getView().byId("pnl_34");
+			var oFrame35 = this.getView().byId("pnl_35");
+			var oFrame36 = this.getView().byId("pnl_36");
+			var oFrame37 = this.getView().byId("pnl_37");
+			var oFrame38 = this.getView().byId("pnl_38");
+			var oFrame39 = this.getView().byId("pnl_39");
+			var oFrame40 = this.getView().byId("pnl_40");
+			var oFrame41 = this.getView().byId("pnl_41");
+			var oFrame42 = this.getView().byId("pnl_42");
+			var oFrame43 = this.getView().byId("pnl_43");
+			var oFrame44 = this.getView().byId("pnl_44");
+			var oFrame45 = this.getView().byId("pnl_45");
 
 			if ("Procedure and Guidelines" == evt.oSource.mProperties.text) {
 
@@ -98,7 +110,20 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
+			
 			if ("Estimation of Security Deposit" == evt.oSource.mProperties.text) {
 
 				$("#" + oFrame1.sId + "").hide();
@@ -134,6 +159,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("Application Forms (3)" == evt.oSource.mProperties.text) {
@@ -171,6 +208,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("FAQs" == evt.oSource.mProperties.text) {
@@ -208,6 +257,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("Standard Drawings" == evt.oSource.mProperties.text) {
@@ -245,6 +306,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("Apply Online" == evt.oSource.mProperties.text) {
 
@@ -281,6 +354,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("Apply Online - 100kW" == evt.oSource.mProperties.text) {
@@ -318,6 +403,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("Check your online reference number" == evt.oSource.mProperties.text) {
 
@@ -354,6 +451,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("Changeover Connection" == evt.oSource.mProperties.text) {
@@ -391,6 +500,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("form1" == evt.oSource.mProperties.text) {
 
@@ -426,6 +547,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form2" == evt.oSource.mProperties.text) {
@@ -463,6 +596,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form3" == evt.oSource.mProperties.text) {
@@ -500,6 +645,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form4" == evt.oSource.mProperties.text) {
@@ -537,6 +694,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form5" == evt.oSource.mProperties.text) {
@@ -574,6 +743,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form6" == evt.oSource.mProperties.text) {
@@ -611,6 +792,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form7" == evt.oSource.mProperties.text) {
@@ -643,6 +836,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("latest adds" == evt.oSource.mProperties.text) {
@@ -680,6 +885,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("form8" == evt.oSource.mProperties.text) {
@@ -717,6 +934,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 			if ("about" == evt.oSource.mProperties.text) {
@@ -754,6 +983,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 
 			}
 
@@ -792,6 +1033,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
 			if ("eob_apply_online" == evt.oSource.mProperties.text) {
@@ -829,6 +1082,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
 			if ("check_distribution_transfer" == evt.oSource.mProperties.text) {
@@ -866,6 +1131,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
 			if ("change_password" == evt.oSource.mProperties.text) {
@@ -903,6 +1180,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
 			if ("online_payment_receipt" == evt.oSource.mProperties.text) {
@@ -940,6 +1229,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
 			if ("view_pay_bill" == evt.oSource.mProperties.text) {
@@ -977,6 +1278,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app1" == evt.oSource.mProperties.text) {
 
@@ -1013,6 +1326,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app2" == evt.oSource.mProperties.text) {
 
@@ -1049,6 +1374,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app3" == evt.oSource.mProperties.text) {
 
@@ -1085,6 +1422,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app4" == evt.oSource.mProperties.text) {
 
@@ -1121,6 +1470,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app5" == evt.oSource.mProperties.text) {
 
@@ -1157,6 +1518,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app6" == evt.oSource.mProperties.text) {
 
@@ -1193,6 +1566,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").show();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app7" == evt.oSource.mProperties.text) {
 
@@ -1229,6 +1614,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").show();
 				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 			if ("app8" == evt.oSource.mProperties.text) {
 
@@ -1265,8 +1662,597 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 				$("#" + oFrame31.sId + "").hide();
 				$("#" + oFrame32.sId + "").hide();
 				$("#" + oFrame33.sId + "").show();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app9" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").show();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app10" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").show();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app11" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").show();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app12" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").show();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app13" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").show();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app14" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").show();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app15" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").show();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app16" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").show();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app17" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").show();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
+			}
+			if ("app18" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").show();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").hide();
 			}
 
+			if ("app19" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").show();
+				$("#" + oFrame45.sId + "").hide();
+			}
+
+			if ("app20" == evt.oSource.mProperties.text) {
+
+				$("#" + oFrame1.sId + "").hide();
+				$("#" + oFrame2.sId + "").hide();
+				$("#" + oFrame3.sId + "").hide();
+				$("#" + oFrame9.sId + "").hide();
+				$("#" + oFrame4.sId + "").hide();
+				$("#" + oFrame5.sId + "").hide();
+				$("#" + oFrame6.sId + "").hide();
+				$("#" + oFrame7.sId + "").hide();
+				$("#" + oFrame8.sId + "").hide();
+				$("#" + oFrame10.sId + "").hide();
+				$("#" + oFrame11.sId + "").hide();
+				$("#" + oFrame12.sId + "").hide();
+				$("#" + oFrame13.sId + "").hide();
+				$("#" + oFrame14.sId + "").hide();
+				$("#" + oFrame15.sId + "").hide();
+				$("#" + oFrame16.sId + "").hide();
+				$("#" + oFrame22.sId + "").hide();
+				$("#" + oFrame17.sId + "").hide();
+				$("#" + oFrame18.sId + "").hide();
+				$("#" + oFrame19.sId + "").hide();
+				$("#" + oFrame20.sId + "").hide();
+				$("#" + oFrame21.sId + "").hide();
+				$("#" + oFrame23.sId + "").hide();
+				$("#" + oFrame24.sId + "").hide();
+				$("#" + oFrame25.sId + "").hide();
+				$("#" + oFrame26.sId + "").hide();
+				$("#" + oFrame27.sId + "").hide();
+				$("#" + oFrame28.sId + "").hide();
+				$("#" + oFrame29.sId + "").hide();
+				$("#" + oFrame30.sId + "").hide();
+				$("#" + oFrame31.sId + "").hide();
+				$("#" + oFrame32.sId + "").hide();
+				$("#" + oFrame33.sId + "").hide();
+				$("#" + oFrame34.sId + "").hide();
+				$("#" + oFrame35.sId + "").hide();
+				$("#" + oFrame36.sId + "").hide();
+				$("#" + oFrame37.sId + "").hide();
+				$("#" + oFrame38.sId + "").hide();
+				$("#" + oFrame39.sId + "").hide();
+				$("#" + oFrame40.sId + "").hide();
+				$("#" + oFrame41.sId + "").hide();
+				$("#" + oFrame42.sId + "").hide();
+				$("#" + oFrame43.sId + "").hide();
+				$("#" + oFrame44.sId + "").hide();
+				$("#" + oFrame45.sId + "").show();
+			}
 		},
 
 		clear: function() {
@@ -1304,6 +2290,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			var oFrame31 = this.getView().byId("pnl_31");
 			var oFrame32 = this.getView().byId("pnl_32");
 			var oFrame33 = this.getView().byId("pnl_33");
+			var oFrame34 = this.getView().byId("pnl_34");
+			var oFrame35 = this.getView().byId("pnl_35");
+			var oFrame36 = this.getView().byId("pnl_36");
+			var oFrame37 = this.getView().byId("pnl_37");
+			var oFrame38 = this.getView().byId("pnl_38");
+			var oFrame39 = this.getView().byId("pnl_39");
+			var oFrame40 = this.getView().byId("pnl_40");
+			var oFrame41 = this.getView().byId("pnl_41");
+			var oFrame42 = this.getView().byId("pnl_42");
+			var oFrame43 = this.getView().byId("pnl_43");
+			var oFrame44 = this.getView().byId("pnl_44");
+			var oFrame45 = this.getView().byId("pnl_45");
 
 			$("#" + oFrame1.sId + "").hide();
 			$("#" + oFrame2.sId + "").hide();
@@ -1338,6 +2336,18 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/demo/nav/controller/BaseCon
 			$("#" + oFrame31.sId + "").hide();
 			$("#" + oFrame32.sId + "").hide();
 			$("#" + oFrame33.sId + "").hide();
+			$("#" + oFrame34.sId + "").hide();
+			$("#" + oFrame35.sId + "").hide();
+			$("#" + oFrame36.sId + "").hide();
+			$("#" + oFrame37.sId + "").hide();
+			$("#" + oFrame38.sId + "").hide();
+			$("#" + oFrame39.sId + "").hide();
+			$("#" + oFrame40.sId + "").hide();
+			$("#" + oFrame41.sId + "").hide();
+			$("#" + oFrame42.sId + "").hide();
+			$("#" + oFrame43.sId + "").hide();
+			$("#" + oFrame44.sId + "").hide();
+			$("#" + oFrame45.sId + "").hide();
 		},
 		onBeforeRendering: function() {
 			this.mobileDropdown();
