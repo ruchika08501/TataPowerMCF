@@ -1804,12 +1804,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .latestcolum {
         height: 100% !important;
+        
     }
     .moblink {
         margin-top: 10px;
     }
     .eob_new_con .col-sm-2 {
         padding: 10px 15px;
+    }
+    .secondline{
+    	margin-top:20px;
     }
 }
 
@@ -1959,4 +1963,41 @@ hr {
     font-size: 14px;
     color: #147bff;
     vertical-align: top;
+}
+.senleader{
+	font-size:15px;
+	text-align:center;
+}
+.seniorleader{
+	background:#d3ddf3;
+	padding:10px;
+}
+.senled{
+	font-size:11px;
+	
+}
+.write{
+	margin-top:10px !important;
+}
+.mdname{
+	color:#0797ef;
+	
+}
+.textimgvalue{
+	text-align:center;
+    padding-top: 40px;
+	}
+.teamtata{
+	color:#0797ef;
+	text-align:center;
+}	
+
+.penleader{
+	font-size:13px;
+	text-align:center;
+}
+.penplink{
+	color: #0070b1!important;
+	font-size:13px!important;
+
 }
