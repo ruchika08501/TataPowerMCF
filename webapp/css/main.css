@@ -1712,19 +1712,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .pwr_sply_app_num h5 {
     color: #2280d9;
-    font-size: 13px;
+    font-size: 18px;
     text-transform: capitalize;
 }
 
 .rdm_num .sapMLabel {
     width: 100%;
     border: 2px solid #40a3f4;
-    padding: 15px;
+    padding: 20px;
     text-align: center !important;
 }
 
 .rdm_num .sapMLabel bdi {
 	color: #2280d9;
+	font-size: 18px;
 	font-weight: bold;
 }
 

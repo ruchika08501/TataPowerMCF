@@ -2752,14 +2752,14 @@
 										<html:div class="pwr_sply_app_num">
 											<html:h5 class="text-center">your application number</html:h5>
 											<html:div class="row">
-												<html:div class="col-sm-2 col-sm-offset-5">
+												<html:div class="col-sm-4 col-sm-offset-4">
 													<html:div class="rdm_num">
 														<Label text="WTPCA24052"/>
 													</html:div>
 												</html:div>
 											</html:div>
 											<html:div class="row btn_continue">
-												<html:div class="col-sm-2 col-sm-offset-5 audit_reg">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
 													<Button text="CONTUNUE" press="onPress" class="switchcenter form-control"
 														ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 												</html:div>
