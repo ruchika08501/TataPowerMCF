@@ -2214,6 +2214,11 @@
 													</html:ul>
 												</html:div>
 											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-8 col-sm-offset-2">
+													<html:image src="images/low_energy.gif" alt="low_energy" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
 											<html:div class="row sdlc_row">
 												<html:div class="col-sm-5">
 													<html:image src="images/bldc.png" alt="bldc" class="img-responsive"></html:image>
