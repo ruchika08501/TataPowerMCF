@@ -1731,6 +1731,44 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .btn_continue { padding-top: 15px; }
 
+.new_con_apply p {
+	font-size: 14px;
+}
+
+.new_con_apply h5 { color: #2280d9; }
+
+.new_con_apply .sapMInput,
+.new_con_apply .sapMInputDivWrapper { height: auto !important; }
+
+.new_con_apply .sapMInputDivWrapper .sapMInputBaseInner {
+	height: 45px;
+	font-size: 15px;
+}
+
+.new_con_apply_row { padding: 10px 0; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB { width: auto !important; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB:focus { outline: none !important; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBOut {
+	height: 2rem;
+    width: 2rem;
+    margin: 5px;
+}
+
+.new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBInn {
+	width: 10px;
+	height: 10px;
+}
+
+.new_con_apply .sapMRbHasLabel .sapMLabel { max-width: 100%; }
+
+.new_con_apply .sapMRbHasLabel .sapMLabel bdi {
+	color: #2280d9;
+	font-size: 18px;
+}
+
 /*mobile view */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

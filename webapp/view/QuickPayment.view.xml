@@ -2733,7 +2733,40 @@
 									<html:h4>app17</html:h4>
 								</Panel>
 								<Panel id="pnl_43">
-									<html:h4>app18</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Apply Online</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="new_con_apply pwr_sply_frm">
+											<html:h4 class="text-center">Have you already Registered For New Connection?</html:h4>
+											<html:p class="text-center">If "YES" kindly enter the Registration Number and click on submit. Else click "No" and Apply for New Connection.</html:p>
+											<html:div class="row new_con_apply_row">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+													<html:div class="row">
+														<html:div class="col-xs-6">
+															<RadioButton groupName="al_reg" text="Yes" selected="true"/>
+														</html:div>
+														<html:div class="col-xs-6">
+															<RadioButton groupName="al_reg" text="No"/>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row new_con_apply_row">
+												<html:div class="col-sm-6 col-sm-offset-3">
+													<html:h5 class="text-center">Your Registration ID</html:h5>
+													<Input type="Text" id="newcon_reg"/>
+												</html:div>
+											</html:div>
+											<html:div class="row btn_continue new_con_apply_row">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+													<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_44">
 									<html:div class="container-fluid">
