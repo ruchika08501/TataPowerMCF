@@ -1769,6 +1769,37 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 	font-size: 18px;
 }
 
+.green_explore_lst {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.green_explore_lst h5 { font-weight: bold; }
+.green_explore_lst p { font-size: 12px; }
+
+.green_explore_lst .row { display:flex; }
+
+.green_explore_lst img { height: 100%; }
+
+.green_knw_more .sapMLnk {
+	color: #000 !important;
+	font-weight: bold;
+	font-size: 12px !important;
+}
+
+.green_knw_more .sapMLnk:after {
+	content: '';
+	padding: 0 5px;
+	margin:0 10px;
+	background: url(../images/next.png) no-repeat;
+	vertical-align: middle;
+}
+
+.green_knw_more .sapMLnk:hover { text-decoration: none !important; }
+
+.green_explore .col-sm-6 { margin: 15px 0; }
+
 /*mobile view */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
