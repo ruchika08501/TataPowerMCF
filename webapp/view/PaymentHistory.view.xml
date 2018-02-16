@@ -18,9 +18,9 @@
 									<html:div class="col-sm-6">
 										<html:div class="row">
 											<html:div class="col-sm-4 col-sm-offset-4">
-												<html:h5 class="bill_amt_head">
-													Bill Amount $ <html:span>1234</html:span>
-												</html:h5>
+												<!--<html:h5 class="bill_amt_head">-->
+												<!--	Bill Amount $ <html:span>1234</html:span>-->
+												<!--</html:h5>-->
 											</html:div>
 											<html:div class="col-sm-4 btn_proceed">
 												<Button text="Proceed" press="onPress" ariaDescribedBy="defaultButtonDescription genericButtonDescription">

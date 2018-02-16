@@ -1724,81 +1724,168 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .rdm_num .sapMLabel bdi {
-	color: #2280d9;
-	font-size: 18px;
-	font-weight: bold;
+    color: #2280d9;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.btn_continue { padding-top: 15px; }
+.btn_continue {
+    padding-top: 15px;
+}
 
 .new_con_apply p {
-	font-size: 14px;
+    font-size: 14px;
 }
 
-.new_con_apply h5 { color: #2280d9; }
+.new_con_apply h5 {
+    color: #2280d9;
+}
 
 .new_con_apply .sapMInput,
-.new_con_apply .sapMInputDivWrapper { height: auto !important; }
-
-.new_con_apply .sapMInputDivWrapper .sapMInputBaseInner {
-	height: 45px;
-	font-size: 15px;
+.new_con_apply .sapMInputDivWrapper {
+    height: auto !important;
 }
 
-.new_con_apply_row { padding: 10px 0; }
+.new_con_apply .sapMInputDivWrapper .sapMInputBaseInner {
+    height: 45px;
+    font-size: 15px;
+}
 
-.new_con_apply .sapMRbHasLabel .sapMRbB { width: auto !important; }
+.new_con_apply_row {
+    padding: 10px 0;
+}
 
-.new_con_apply .sapMRbHasLabel .sapMRbB:focus { outline: none !important; }
+.new_con_apply .sapMRbHasLabel .sapMRbB {
+    width: auto !important;
+}
+
+.new_con_apply .sapMRbHasLabel .sapMRbB:focus {
+    outline: none !important;
+}
 
 .new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBOut {
-	height: 2rem;
+    height: 2rem;
     width: 2rem;
     margin: 5px;
 }
 
 .new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBInn {
-	width: 10px;
-	height: 10px;
+    width: 10px;
+    height: 10px;
 }
 
-.new_con_apply .sapMRbHasLabel .sapMLabel { max-width: 100%; }
+.new_con_apply .sapMRbHasLabel .sapMLabel {
+    max-width: 100%;
+}
 
 .new_con_apply .sapMRbHasLabel .sapMLabel bdi {
-	color: #2280d9;
-	font-size: 18px;
+    color: #2280d9;
+    font-size: 18px;
 }
 
 .green_explore_lst {
-	padding: 10px;
-	border: 1px solid #ddd;
-	border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
-.green_explore_lst h5 { font-weight: bold; }
-.green_explore_lst p { font-size: 12px; }
+.green_explore_lst h5 {
+    font-weight: bold;
+}
 
-.green_explore_lst .row { display:flex; }
+.green_explore_lst p {
+    font-size: 12px;
+}
 
-.green_explore_lst img { height: 100%; }
+.green_explore_lst .row {
+    display: flex;
+}
+
+.green_explore_lst img {
+    height: 100%;
+}
 
 .green_knw_more .sapMLnk {
-	color: #000 !important;
-	font-weight: bold;
-	font-size: 12px !important;
+    color: #000 !important;
+    font-weight: bold;
+    font-size: 12px !important;
 }
 
 .green_knw_more .sapMLnk:after {
-	content: '';
-	padding: 0 5px;
-	margin:0 10px;
-	background: url(../images/next.png) no-repeat;
-	vertical-align: middle;
+    content: '';
+    padding: 0 5px;
+    margin: 0 10px;
+    background: url(../images/next.png) no-repeat;
+    vertical-align: middle;
 }
 
-.green_knw_more .sapMLnk:hover { text-decoration: none !important; }
+.green_knw_more .sapMLnk:hover {
+    text-decoration: none !important;
+}
 
-.green_explore .col-sm-6 { margin: 15px 0; }
+.green_explore .col-sm-6 {
+    margin: 15px 0;
+}
+
+.ass_officer_num {
+    padding: 10px 25px;
+    background: #d3e7fd;
+    margin: 15px 0;
+}
+
+.cont_tel {
+    color: #2381da;
+    font-size: 15px;
+}
+
+.cont_tel_num {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ass_officer_num_rw2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pwr_dist_spl_chart h4 {
+    color: #2f8fe4;
+}
+
+.pwr_dist_spl_chart .nav-stacked {
+    border: none;
+}
+
+.pwr_dist_spl_chart .nav-stacked li {
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 2px 0px #ddd;
+    margin: 10px 0;
+}
+
+.pwr_dist_spl_chart .nav-stacked li a {
+    padding: 15px;
+    margin: 0 !important;
+    color: #000 !important;
+    border: none !important;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.pwr_dist_spl_chart .nav-stacked li a img { display: inline-block; }
+
+.pwr_dist_spl_chart .nav-stacked li a:hover {
+    border: none !important;
+    background: none !important;
+    text-decoration: none !important;
+}
+
+.pwr_dist_spl_chart .nav-stacked li a .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*mobile view */
 
@@ -1871,6 +1958,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .share_feedback .tileLayout p span {
         display: inline;
     }
+    .ass_officer h4 {
+        font-size: 15px;
+    }
 }
 
 
@@ -1884,6 +1974,11 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .sdlc_row img {
         display: inline-block;
+    }
+    .ass_officer_num_rw1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
