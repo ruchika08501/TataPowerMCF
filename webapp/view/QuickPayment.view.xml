@@ -2422,6 +2422,32 @@
 													</html:div>
 												</html:div>
 											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-6 intro_desc">
+													<html:h5>Timer Mode</html:h5>
+													<html:ul class="inti_list">
+														<html:li>Automatically stops after the programmed hour.</html:li>
+														<html:li>Use this feature when you don't need fan after 1, 2, 3, 6 or 9 hours.</html:li>
+														<html:li>Saves energy, increases comfort level.</html:li>
+													</html:ul>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:image src="images/Timer_Mode.gif" alt="Timer_Mode" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="row">
+												<html:div class="col-sm-6 intro_desc">
+													<html:h5>Sleep Mode</html:h5>
+													<html:ul class="inti_list">
+														<html:li>Fans speed keep on reducing gradually.</html:li>
+														<html:li>During the night increase your comfort level by switching to this mode.</html:li>
+														<html:li>Saves energy smartly.</html:li>
+													</html:ul>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:image src="images/Sleep_Mode.gif" alt="Sleep_Mode" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
 											<html:div class="intro_desc">
 												<html:h5 class="text-center">Convenience offered by the Smart Remote</html:h5>
 											</html:div>
@@ -2902,16 +2928,274 @@
 									<html:h4>app15</html:h4>
 								</Panel>
 								<Panel id="pnl_41">
-									<html:h4>app16</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Conserve</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="green_explore">
+											<html:div class="row">
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/energy_eff.png" alt="energy_eff" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Energy Efficient Devices</html:h5>
+																<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/saving_tips.png" alt="saving_tips" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Energy Saving Tips</html:h5>
+																<html:p>Mumbai is the one Indian city that has always enjoyed ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/guidelines.png" alt="guidelines" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Power Consumption Guidelines</html:h5>
+																<html:p>Monthly energy consumption ready reckoner ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/reduce_bill.png" alt="reduce_bill" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Reducing your Bill</html:h5>
+																<html:p>Energy conservation and reducing bills should become a mantra ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/energy_calc.png" alt="energy_calc" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Energy Calculator</html:h5>
+																<html:p>Calculate your consumption, Kwh (Units) ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/bill_calc.png" alt="bill_calc" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Bill Calculator</html:h5>
+																<html:p>Calculate your bill ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_42">
-									<html:h4>app17</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Explore</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="green_explore">
+											<html:div class="row">
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/demand_site.png" alt="demand_site" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Demand Side Management</html:h5>
+																<html:p>Demand-side management (DSM) refers to cooperative activities...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/energy_cons.png" alt="energy_cons" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Energy Conservation</html:h5>
+																<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/green_build.png" alt="green_build" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Green Buildings</html:h5>
+																<html:p>Green Buildings represent eco-friendly, energy ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/climate_change.png" alt="climate_change" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Combat Climate Change</html:h5>
+																<html:p>Tata Power is part of a group of 46 leading international companies</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+												<html:div class="col-sm-6">
+													<html:div class="green_explore_lst">
+														<html:div class="row">
+															<html:div class="col-xs-4">
+																<html:image src="images/club_energy.png" alt="club_energy" class="img-responsive"></html:image>
+															</html:div>
+															<html:div class="col-xs-8">
+																<html:h5>Tata Power Club Energy</html:h5>
+																<html:p>With the increasing demand for ENERGY, effective management ...</html:p>
+																<html:div class="green_knw_more text-right">
+																	<Link text="Know More" press="handleLinkPress"/>
+																</html:div>
+															</html:div>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_43">
-									<html:h4>app18</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Apply Online</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="new_con_apply pwr_sply_frm">
+											<html:h4 class="text-center">Have you already Registered For New Connection?</html:h4>
+											<html:p class="text-center">If "YES" kindly enter the Registration Number and click on submit. Else click "No" and Apply for New Connection.</html:p>
+											<html:div class="row new_con_apply_row">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+													<html:div class="row">
+														<html:div class="col-xs-6">
+															<RadioButton groupName="al_reg" text="Yes" selected="true"/>
+														</html:div>
+														<html:div class="col-xs-6">
+															<RadioButton groupName="al_reg" text="No"/>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row new_con_apply_row">
+												<html:div class="col-sm-6 col-sm-offset-3">
+													<html:h5 class="text-center">Your Registration ID</html:h5>
+													<Input type="Text" id="newcon_reg"/>
+												</html:div>
+											</html:div>
+											<html:div class="row btn_continue new_con_apply_row">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+													<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_44">
-									<html:h4>app19</html:h4>
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Application Forms</html:h4>
+											</html:div>
+										</html:div>
+										<html:div class="pwr_sply_frm">
+											<html:h4 class="text-center">power supply application form</html:h4>
+											<html:div class="pwr_sply_desc">
+												<html:p class="text-center">Kindly make a note of the system generated Application Number and take a print of this page.</html:p>
+												<html:p class="text-center">It is mandatory to attach the print out of this page with your application form during the submission of your form.</html:p>
+											</html:div>
+										</html:div>
+										<html:div class="pwr_sply_app_num">
+											<html:h5 class="text-center">your application number</html:h5>
+											<html:div class="row">
+												<html:div class="col-sm-4 col-sm-offset-4">
+													<html:div class="rdm_num">
+														<Label text="WTPCA24052"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="row btn_continue">
+												<html:div class="col-sm-4 col-sm-offset-4 audit_reg">
+													<Button text="CONTUNUE" press="onPress" class="switchcenter form-control"
+														ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_45">
 									<html:div class="container-fluid">

@@ -1686,6 +1686,119 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px 0;
 }
 
+.new_cust_head h5 {
+    color: #3981c5;
+}
+
+.new_cust_type {
+    padding: 50px 0;
+}
+
+.pwr_sply_frm h4 {
+    padding: 15px 0;
+    margin: 0;
+    color: #2280d9;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.pwr_sply_desc {
+    padding: 15px 0;
+}
+
+.pwr_sply_desc p {
+    font-size: 14px;
+}
+
+.pwr_sply_app_num h5 {
+    color: #2280d9;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.rdm_num .sapMLabel {
+    width: 100%;
+    border: 2px solid #40a3f4;
+    padding: 20px;
+    text-align: center !important;
+}
+
+.rdm_num .sapMLabel bdi {
+	color: #2280d9;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn_continue { padding-top: 15px; }
+
+.new_con_apply p {
+	font-size: 14px;
+}
+
+.new_con_apply h5 { color: #2280d9; }
+
+.new_con_apply .sapMInput,
+.new_con_apply .sapMInputDivWrapper { height: auto !important; }
+
+.new_con_apply .sapMInputDivWrapper .sapMInputBaseInner {
+	height: 45px;
+	font-size: 15px;
+}
+
+.new_con_apply_row { padding: 10px 0; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB { width: auto !important; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB:focus { outline: none !important; }
+
+.new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBOut {
+	height: 2rem;
+    width: 2rem;
+    margin: 5px;
+}
+
+.new_con_apply .sapMRbHasLabel .sapMRbB .sapMRbBInn {
+	width: 10px;
+	height: 10px;
+}
+
+.new_con_apply .sapMRbHasLabel .sapMLabel { max-width: 100%; }
+
+.new_con_apply .sapMRbHasLabel .sapMLabel bdi {
+	color: #2280d9;
+	font-size: 18px;
+}
+
+.green_explore_lst {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.green_explore_lst h5 { font-weight: bold; }
+.green_explore_lst p { font-size: 12px; }
+
+.green_explore_lst .row { display:flex; }
+
+.green_explore_lst img { height: 100%; }
+
+.green_knw_more .sapMLnk {
+	color: #000 !important;
+	font-weight: bold;
+	font-size: 12px !important;
+}
+
+.green_knw_more .sapMLnk:after {
+	content: '';
+	padding: 0 5px;
+	margin:0 10px;
+	background: url(../images/next.png) no-repeat;
+	vertical-align: middle;
+}
+
+.green_knw_more .sapMLnk:hover { text-decoration: none !important; }
+
+.green_explore .col-sm-6 { margin: 15px 0; }
 
 /*mobile view */
 
@@ -2057,7 +2170,7 @@ hr {
     padding-top: 40px;
 }
 
-.teamtata {
+.teamtata {`
     color: #0797ef;
     text-align: center;
 }
@@ -2234,4 +2347,19 @@ hr {
 }
 .pagelinkage{
 	padding:20px;
+}
+
+.teamtata {
+    color: #0797ef;
+    text-align: center;
+}
+
+.penleader {
+    font-size: 13px;
+    text-align: center;
+}
+
+.penplink {
+    color: #0070b1!important;
+    font-size: 13px!important;
 }
