@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /*landing page*/
 
 .headerMainPanel {
@@ -104,6 +106,7 @@
 .main_nav .sapMSB .sapMBtnInner {
     background: none;
     font-size: 13px;
+    font-family: "Open Sans";
 }
 
 #__field0-reset {
@@ -165,6 +168,8 @@
 .mobile_store li {
     padding: 10px 10px;
 }
+
+.user_prof { margin: 0; }
 
 .user_prof li {
     padding: 5px 10px;
@@ -375,7 +380,16 @@
 
 .cubetube .tileLayout {
     width: 100% !important;
-    margin: 5px 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 7px;
+}
+
+.cubetube .tileLayout .sapMFrameTypeAuto,
+.cubetube .tileLayout .sapMFrameTypeAuto .sapMTileCntContent {
+    height: auto !important;
+    padding: 0;
+    margin: 0;
 }
 
 .resposive_nav .navbar-nav {
@@ -699,7 +713,8 @@
 .your_bill .tileLayout {
     width: 100% !important;
     height: 50px !important;
-    padding: 13px 0;
+    padding: 11px 0;
+    font: normal 13px "Open Sans";
 }
 
 .bill_payment .sapMGTContent,
@@ -821,12 +836,12 @@
 
 .counters .col-sm-4 span {
     color: #79a2c1;
-    font-size: 15px;
+   font: normal 14px "Open Sans";
 }
 
 .counters .col-xs-4 span {
     color: #79a2c1;
-    font-size: 14px;
+    font: normal 13px "Open Sans";
 }
 
 .counters .col-sm-4 h4 {
@@ -835,7 +850,7 @@
 }
 
 .counters .col-xs-4 h4 {
-    font-size: 18px;
+    font: normal 18px "Open Sans";
     color: #fff;
 }
 
@@ -923,25 +938,29 @@
 
 /*be-green introduction*/
 
+.intro_head h4 {
+	padding: 10px 0;
+	font: normal 18px "Open Sans";
+}
+
 .intro_desc p,
 .dear_consumer p {
     padding: 15px 0;
     margin: 0;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 14px "Open Sans";
 }
 
 .intro_desc h5 {
     padding: 20px 0;
     margin: 0;
     color: #1c7a1a;
-    font-size: 18px;
+    font: bold 18px "Open Sans";
 }
 
 .inti_list {
     list-style-image: url('../images/list_blue.png');
     font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .inti_list li {
@@ -982,8 +1001,7 @@
     padding: 15px 0;
     margin: 0;
     color: #3495e9;
-    font-weight: 600;
-    font-size: 16px;
+    font: bold 18px "Open Sans";
 }
 
 .cons_opt {
@@ -1010,13 +1028,13 @@
     margin: 0;
     padding: 15px 0;
     color: #2d8de3;
-    font-size: 14px;
+    font: bold 18px "Open Sans";
 }
 
 .be_green_contact p {
     margin: 0;
     padding: 5px 0;
-    font-size: 15px;
+    font: bold 14px "Open Sans";
 }
 
 
@@ -1031,13 +1049,17 @@
     margin: 0;
     background: #3b9def21;
     color: #1c7a1a;
-    font-size: 14px;
+    font: bold 13px "Open Sans";
 }
 
 .load_shape .box {
     padding: 10px 15px;
     font-size: 12px;
 }
+
+.load_shape .box.col-sm-10 { font: normal 13px "Open Sans"; }
+
+.load_shape .box strong {  font: bold 14px "Open Sans"; }
 
 .ben_initiatives .row {
     display: flex;
@@ -1493,12 +1515,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .about_desc p {
     padding: 10px 0;
+    font: normal 13px "Open Sans";
 }
 
 .about_read_more p {
     padding: 10px;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .read_more_link {
@@ -1507,8 +1529,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .read_more_link a {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
     color: #1773ce;
 }
 
@@ -1539,7 +1560,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 .eob_apply .sapMBtnContent bdi,
 .eob_new_con .sapMBtnContent bdi,
 .audit_reg .sapMBtnContent bdi {
-    font-size: 14px;
+    font: bold 14px "Open Sans";
     text-shadow: none;
     padding: 5px 0;
     height: auto;
@@ -1548,7 +1569,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .track_request .sapMLabel bdi,
 .eob_apply .sapMLabel bdi {
-    font-size: 16px;
+   font: normal 16px "Open Sans";
     color: #1773cf;
 }
 
@@ -1562,19 +1583,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .eob_new_con h5 {
-    font-weight: bold;
-    font-size: 14px;
+   font: bold 14px "Open Sans";
 }
 
 .chk_instruction h5 {
-    font-weight: bold;
-    font-size: 15px;
+    font: bold 14px "Open Sans";
 }
 
 .chk_instruction ol {
     padding-left: 15px;
-    font-size: 13px;
-    font-weight: bold;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction ol li {
@@ -1582,24 +1600,25 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .eob_new_con span {
-    font-size: 13px;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction p {
     padding: 10px 0;
     color: #f00;
-    font-weight: bold;
-    font-size: 13px;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction p a {
     color: #3b9df0;
+    font: bold 13px "Open Sans";
 }
 
 .acc_change_password h4 {
     padding: 20px 0;
     margin: 0;
     border-bottom: 1px solid #ddd;
+    font: bold 18px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1611,7 +1630,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px 0;
     margin: 0;
     color: #959598;
-    font-size: 14px;
+    font: normal 14px "Open Sans";
 }
 
 .view_table .sapMTB {
@@ -1632,6 +1651,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .view_table .sapMListTbl > thead > tr > th .sapMText {
     color: #fff !important;
+    font: normal 12px "Open Sans";
 }
 
 
@@ -1646,6 +1666,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .blue_bullet_list li {
     padding: 5px 0;
+    font: bold 13px "Open Sans";
 }
 
 .blue_bullet_list li .row {
@@ -1663,22 +1684,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .audit_prog p {
     padding: 5px 0;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .split_ac_link p {
-    font-size: 14px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
 }
 
 .split_ac_link p a {
     color: #3b9cef;
+    font: bold 14px "Open Sans";
 }
 
 .read_more_energy p {
-    font-size: 15px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
     padding: 10px 0;
 }
 
@@ -1698,7 +1717,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 15px 0;
     margin: 0;
     color: #2280d9;
-    font-weight: bold;
+    font: bold 18px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1707,12 +1726,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .pwr_sply_desc p {
-    font-size: 14px;
+    font: normal 14px "Open Sans";
 }
 
 .pwr_sply_app_num h5 {
     color: #2280d9;
-    font-size: 18px;
+    font: bold 16px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1725,8 +1744,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .rdm_num .sapMLabel bdi {
     color: #2280d9;
-    font-size: 18px;
-    font-weight: bold;
+    font: bold 18px "Open Sans";
 }
 
 .btn_continue {
@@ -1734,11 +1752,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .new_con_apply p {
-    font-size: 14px;
+    font: normal 13px "Open Sans";
 }
 
 .new_con_apply h5 {
     color: #2280d9;
+    font: normal 16px "Open Sans";
 }
 
 .new_con_apply .sapMInput,
@@ -1780,7 +1799,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .new_con_apply .sapMRbHasLabel .sapMLabel bdi {
     color: #2280d9;
-    font-size: 18px;
+    font: bold 16px "Open Sans";
 }
 
 .green_explore_lst {
@@ -1790,11 +1809,11 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .green_explore_lst h5 {
-    font-weight: bold;
+    font: bold 14px "Open Sans";
 }
 
 .green_explore_lst p {
-    font-size: 12px;
+    font: normal 12px "Open Sans";
 }
 
 .green_explore_lst .row {
@@ -1807,8 +1826,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .green_knw_more .sapMLnk {
     color: #000 !important;
-    font-weight: bold;
-    font-size: 12px !important;
+    font: bold 12px "Open Sans" !important;
 }
 
 .green_knw_more .sapMLnk:after {
@@ -1827,6 +1845,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 15px 0;
 }
 
+.ass_officer h4 { font: normal 18px "Open Sans"; }
+
 .ass_officer_num {
     padding: 10px 25px;
     background: #d3e7fd;
@@ -1835,12 +1855,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .cont_tel {
     color: #2381da;
-    font-size: 15px;
+    font: normal 13px "Open Sans";
 }
 
 .cont_tel_num {
     font-weight: bold;
-    font-size: 20px;
+    font: bold 16px "Open Sans";
 }
 
 .ass_officer_num_rw2 {
@@ -1848,6 +1868,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     align-items: center;
     justify-content: center;
 }
+
+.ass_officer_num_rw1 h5 { font: normal 14px "Open Sans"; }
 
 .pwr_dist_spl_chart h4 {
     color: #2f8fe4;
@@ -1872,7 +1894,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font-size: 13px;
 }
 
-.pwr_dist_spl_chart .nav-stacked li a img { display: inline-block; }
+.pwr_dist_spl_chart .nav-stacked li a img {
+    display: inline-block;
+}
 
 .pwr_dist_spl_chart .nav-stacked li a:hover {
     border: none !important;
@@ -2032,13 +2056,18 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         position: relative;
     }
     .middlebanner .cube {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         bottom: 0;
         z-index: 100;
     }
     .cubetube {
-        width: 16.4%;
-        margin: 10px 1.8%;
+        width: 17.3%;
+        margin: 0px 15px 20px;
+        padding: 0;
     }
     .footer {
         background: linear-gradient(to bottom, #1470cc 50%, #42a5f6 100%);
@@ -2047,8 +2076,6 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         height: auto;
     }
     .cubetile {
-        width: 23rem!important;
-        height: 22rem!important;
         border-radius: 10px!important;
         box-shadow: 0px 4px 3px 0px #cccccc!important;
     }
@@ -2265,7 +2292,7 @@ hr {
     padding-top: 40px;
 }
 
-.teamtata {`
+.teamtata {
     color: #0797ef;
     text-align: center;
 }
@@ -2372,6 +2399,19 @@ hr {
     width: 20rem !important;
     text-shadow: 0 0 0.125rem #ffffff;
     font-size: 14px !important;
+    color: #333;
+}
+
+.sapMITBFilter .sapMITBText:hover {
+    line-height: 2.2375rem!important;
+    overflow: hidden;
+    padding: 6px 5px 12px 0px !important;
+    position: relative;
+    text-overflow: ellipsis;
+    width: 20rem !important;
+    text-shadow: 0 0 0.125rem #ffffff;
+    font-size: 14px !important;
+    color: #fff !important;
 }
 
 .sapMITBVertical,
@@ -2384,7 +2424,7 @@ hr {
 }
 
 .sapMITH {
-   box-shadow: inset 0 -0.25rem 0 -0.125rem #d1e0ee00!important;
+    box-shadow: inset 0 -0.25rem 0 -0.125rem #d1e0ee00!important;
     background-color: #eff4f900 !important;
     border-bottom: 0.125rem solid #eff4f900!important;
 }
@@ -2421,27 +2461,33 @@ hr {
 .sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
     padding-right: 0rem !important;
 }
-.newconnectiontxt{
-	border-bottom:1px solid #ddd;
+
+.newconnectiontxt {
+    border-bottom: 1px solid #ddd;
 }
+
 .sapMITBContent {
-     border:none!important; 
+    border: none!important;
 }
-.newconfa{
-	color:#189ce8;
-	font-size:14px;
+
+.newconfa {
+    color: #189ce8;
+    font-size: 14px;
 }
-.linknewcon{
-	color:#5f5b5b !important;
-	font-weight:bold;
-	padding-top:25px;
+
+.linknewcon {
+    color: #5f5b5b !important;
+    font-weight: bold;
+    padding-top: 25px;
 }
-.linknewcon:hover{
-	color:#189ce8!important;
-	font-weight:bold;
+
+.linknewcon:hover {
+    color: #189ce8!important;
+    font-weight: bold;
 }
-.pagelinkage{
-	padding:20px;
+
+.pagelinkage {
+    padding: 20px;
 }
 
 .teamtata {
