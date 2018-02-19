@@ -2265,6 +2265,185 @@ hr {
     padding-top: 40px;
 }
 
+.teamtata {`
+    color: #0797ef;
+    text-align: center;
+}
+
+.penleader {
+    font-size: 13px;
+    text-align: center;
+}
+
+.penplink {
+    color: #0070b1!important;
+    font-size: 13px!important;
+}
+
+.sapMSltWithArrow>.sapMSltLabel,
+.sapMSltWithArrow .sapMSelectListItemBase {
+    padding: 0 44rem 0 0.625rem!important;
+}
+
+.go {
+    padding-left: 3.75rem!important;
+    padding-right: 4.75rem!important;
+    margin: 24px!important;
+}
+
+.wiremanfind {
+    background: #d3e7fd;
+    padding: 20px;
+}
+
+.searchwireman {
+    border: 1px solid #ddd;
+    margin: 4px;
+}
+
+.telcrc {
+    width: 5%;
+    height: auto;
+    padding: 0px 2px 5px 0px;
+}
+
+.mailcrc {
+    color: #1c7af3;
+    font-size: 14px;
+}
+
+.mailcrc b {
+    padding-left: 10px;
+    color: #656060;
+    font-size: 14px;
+}
+
+.tecnum {
+    color: #1c7af3;
+    font-size: 14px;
+}
+
+.tecnum b {
+    padding-left: 10px;
+    color: #656060;
+    font-size: 14px;
+}
+
+.hocustomer {
+    background: #d3e7fd;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.contactinfo {
+    padding-top: 20px;
+}
+
+.sapMITBFilterIcon {
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+    -moz-border-radius: 3rem !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 13rem !important;
+    line-height: 2.75rem;
+    overflow: hidden;
+    width: 100% !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.sapMITBScrollContainer {
+    display: inline-block;
+    margin: 2px 0.75rem !important;
+    padding: 20px 0px !important;
+}
+
+.sapMITBFilter .sapMITBText {
+    line-height: 2.2375rem!important;
+    overflow: hidden;
+    padding: 6px 5px 12px 0px !important;
+    position: relative;
+    text-overflow: ellipsis;
+    width: 20rem !important;
+    text-shadow: 0 0 0.125rem #ffffff;
+    font-size: 14px !important;
+}
+
+.sapMITBVertical,
+.sapMITBVertical>.sapMITBTab {
+    height: auto!important;
+}
+
+.sapMITBTab {
+    width: 100%!important;
+}
+
+.sapMITH {
+   box-shadow: inset 0 -0.25rem 0 -0.125rem #d1e0ee00!important;
+    background-color: #eff4f900 !important;
+    border-bottom: 0.125rem solid #eff4f900!important;
+}
+
+.sapMITBFilter {
+    margin: 0px 1rem!important;
+}
+
+.sapUiMedia-Std-Desktop .sapMITB.sapUiResponsiveContentPadding .sapMITBArrowScrollRight {
+    padding: 8rem 0px !important;
+    right: 1.25rem !important;
+    font-size: 18px !important;
+}
+
+.sapUiMedia-Std-Desktop .sapMITB.sapUiResponsiveContentPadding .sapMITBArrowScrollLeft {
+    left: 1.25rem!important;
+    padding: 8rem 0px!important;
+    font-size: 18px !important;
+}
+
+.sapMITBFilterDefault {
+    color: #16a7f7;
+    background: none;
+    border: 1px solid #16a7f7;
+}
+
+.sapMITBFilterDefault:hover,
+.sapMITBSelected {
+    color: #fff;
+    background: #16a7f7 !important;
+    border: 2px solid #16a7f7 !important;
+}
+
+.sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
+    padding-right: 0rem !important;
+}
+.newconnectiontxt{
+	border-bottom:1px solid #ddd;
+}
+.sapMITBContent {
+     border:none!important; 
+}
+.newconfa{
+	color:#189ce8;
+	font-size:14px;
+}
+.linknewcon{
+	color:#5f5b5b !important;
+	font-weight:bold;
+	padding-top:25px;
+}
+.linknewcon:hover{
+	color:#189ce8!important;
+	font-weight:bold;
+}
+.pagelinkage{
+	padding:20px;
+}
+
 .teamtata {
     color: #0797ef;
     text-align: center;

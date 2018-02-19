@@ -2709,13 +2709,214 @@
 									</html:div>
 								</Panel>
 								<Panel id="pnl_35">
-									<html:h4>app10</html:h4>
+									<html:h4>Trained Wiremen</html:h4>
+									<html:h6>Please enter all related information For us to help you better.</html:h6>
+									<html:div class="row wiremanfind">
+										<html:div class="col-md-6">
+											<Label text="Select Area" labelFor=""/>
+											<ActionSelect>
+												<items>
+													<core:Item key="{ProductId}" text="Andheri"/>
+													<core:Item key="{ProductId}" text="Powai"/>
+													<core:Item key="{ProductId}" text="Vikroli"/>
+												</items>
+											</ActionSelect>
+										</html:div>
+										<html:div class="col-md-2">
+											<Button text="GO" press="onPress" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+										</html:div>
+										<html:div class="col-md-2">
+											<Button text="CENCEL" press="onPress" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+										</html:div>
+									</html:div>
+									<html:div class="row">
+										<html:div class="wiremenfinder">
+											<html:div class="col-md-6">
+												<html:div class="searchwireman">
+													<html:div class="row">
+														<html:div class="col-md-6">
+															<html:h6 align="right">Name Of Wireman:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>Pravakar Tanji Solkar</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">
+																licence:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>181156</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Mobile:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>985231132</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Adress:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Area:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:div class="searchwireman">
+													<html:div class="row">
+														<html:div class="col-md-6">
+															<html:h6 align="right">Name Of Wireman:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>Pravakar Tanji Solkar</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">
+																licence:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>181156</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Mobile:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>985231132</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Adress:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Area:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:div class="searchwireman">
+													<html:div class="row">
+														<html:div class="col-md-6">
+															<html:h6 align="right">Name Of Wireman:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>Pravakar Tanji Solkar</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">
+																licence:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>181156</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Mobile:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>985231132</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Adress:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Area:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:div class="searchwireman">
+													<html:div class="row">
+														<html:div class="col-md-6">
+															<html:h6 align="right">Name Of Wireman:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>Pravakar Tanji Solkar</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">
+																licence:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>181156</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Mobile:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>985231132</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Adress:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6 align="right">Area:</html:h6>
+														</html:div>
+														<html:div class="col-md-6">
+															<html:h6>ANDHERI(E)</html:h6>
+														</html:div>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_36">
-									<html:h4>app11</html:h4>
+									<html:div class="cusservice">
+										<html:h4>Hod Costumer Services</html:h4>
+									</html:div>
+									<html:div class="tpdcs">
+										<html:h5>Tata Power,Distribution Costomer Services,</html:h5>
+										<html:h5>Dharavi Reciving Station, Near Matunga Labaur Camp,</html:h5>
+										<html:h5>Matunga West, Mumbai-400019</html:h5>
+									</html:div>
+									<html:div class="contactinfo">
+										<html:h4>Contact</html:h4>
+									</html:div>
+									<html:div class="hocustomer">
+										<html:div class="row">
+											<html:div class="col-md-3">
+												<html:h4>Mr.Ranjit Ganguly</html:h4>
+												<html:h5>Head of Department</html:h5>
+											</html:div>
+											<html:div class="col-md-9">
+												<html:h4>Costumer Relation Centers</html:h4>
+												<html:div class="row">
+													<html:div class="col-md-6">
+														<html:image src="images/number_small.png" class="telcrc" alt="steps"><html:span class="tecnum">Telephone Number<html:b>+91-22-67172762</html:b></html:span></html:image>	
+													</html:div>
+													<html:div class="col-md-6">
+														<html:image src="images/crc.png" class="telcrc" alt="steps"><html:span class="mailcrc">Email ID<html:b>ranjit.ganguly@tatapower.com</html:b></html:span></html:image>	
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
 								</Panel>
 								<Panel id="pnl_37">
 									<html:h4>app12</html:h4>
+								
 								</Panel>
 								<Panel id="pnl_38">
 									<html:h4>app13</html:h4>
